@@ -1,0 +1,266 @@
+{
+  "material_id": 4,
+  "slug": "dong-tu-va-dong-tu-chinh",
+  "title_vi": "Động từ và động từ chính",
+  "stage": 3,
+  "nodes": [
+    "W2.1",
+    "W2.6"
+  ],
+  "video_url": null,
+  "blocks": [
+    {
+      "type": "text",
+      "body_vi": "Động từ chính là động từ chứa nội dung, tức là từ cho biết ai làm gì, hoặc ai đang ở trạng thái nào. Nó đứng được một mình, không cần từ nào khác đỡ. Động từ chính chia thành hai loại:",
+      "node": "W2.1",
+      "list": [
+        "động từ hành động: người đó chủ động làm, và hành động có lúc bắt đầu, lúc kết thúc. work (làm việc), eat (ăn), run (chạy)",
+        "động từ trạng thái: một tình trạng kéo dài, không ai chủ động làm ra nó. know (biết), like (thích), exist (tồn tại)"
+      ]
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W2.1-01",
+        "node": "W2.1",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Trong câu \"My little brother eats rice.\", từ nào là động từ chính?",
+        "options": [
+          {
+            "key": "A",
+            "text": "little",
+            "diagnosis_vi": "\"little\" cho biết em trai như thế nào, nên nó là tính từ, không phải động từ."
+          },
+          {
+            "key": "B",
+            "text": "eats",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "brother",
+            "diagnosis_vi": "\"brother\" gọi tên một người, nên nó là danh từ. Đây là người gây ra hành động ăn, chứ không phải chính hành động ăn."
+          },
+          {
+            "key": "D",
+            "text": "rice",
+            "diagnosis_vi": "\"rice\" gọi tên một vật thể, nên nó là danh từ. Đây là thứ bị ăn, chứ không phải chính hành động ăn."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Động từ chính là từ cho biết ai làm gì hoặc ai đang ở trạng thái nào. Danh từ gọi tên, tính từ miêu tả, còn động từ nói ra hành động hoặc trạng thái.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "text",
+      "body_vi": "Có một số điều cần biết về động từ chính:"
+    },
+    {
+      "type": "section",
+      "node": "W2.1",
+      "heading_vi": "Động từ hành động và động từ trạng thái",
+      "body_vi": "Động từ hành động nói ra điều người đó chủ động làm, có lúc bắt đầu và lúc kết thúc. Động từ trạng thái nói ra một tình trạng kéo dài, không ai chủ động làm ra nó. Động từ trạng thái thường thuộc năm nhóm dưới đây.",
+      "table": {
+        "columns_vi": [
+          "Loại",
+          "Ví dụ",
+          "Nghĩa"
+        ],
+        "rows": [
+          [
+            "hành động",
+            "work, eat, sleep, run, write",
+            "làm việc, ăn, ngủ, chạy, viết"
+          ],
+          [
+            "trạng thái: suy nghĩ",
+            "know, understand, remember",
+            "biết, hiểu, nhớ"
+          ],
+          [
+            "trạng thái: cảm xúc",
+            "love, hate, like, want",
+            "yêu, ghét, thích, muốn"
+          ],
+          [
+            "trạng thái: giác quan",
+            "see, hear, smell",
+            "thấy, nghe, ngửi thấy"
+          ],
+          [
+            "trạng thái: sở hữu",
+            "have, own",
+            "có, sở hữu"
+          ],
+          [
+            "trạng thái: tồn tại",
+            "exist, seem",
+            "tồn tại, có vẻ"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W2.1-02",
+        "node": "W2.1",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Động từ nào dưới đây chỉ trạng thái?",
+        "options": [
+          {
+            "key": "A",
+            "text": "swim",
+            "diagnosis_vi": "\"swim\" là động từ hành động. Người bơi chủ động làm, và có lúc bắt đầu bơi, lúc dừng lại."
+          },
+          {
+            "key": "B",
+            "text": "belong",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "cook",
+            "diagnosis_vi": "\"cook\" là động từ hành động. Người nấu chủ động làm, có lúc bắt đầu và lúc xong."
+          },
+          {
+            "key": "D",
+            "text": "jump",
+            "diagnosis_vi": "\"jump\" là động từ hành động. Người nhảy chủ động làm, và hành động đó diễn ra trong một khoảnh khắc."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Động từ hành động nói ra điều người đó chủ động làm. Động từ trạng thái nói ra một tình trạng kéo dài mà không ai chủ động làm ra. \"belong\" là thuộc về, thuộc nhóm sở hữu.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "W2.6",
+      "heading_vi": "Nội động từ và ngoại động từ",
+      "body_vi": "Nội động từ là động từ có thể đứng cuối câu. Ngược lại, ngoại động từ là động từ cần có danh từ đứng sau nó để đủ nghĩa.",
+      "table": {
+        "columns_vi": [
+          "Nội động từ",
+          "Ngoại động từ"
+        ],
+        "rows": [
+          [
+            "She sleeps. Cô ấy ngủ.",
+            "She likes coffee. Cô ấy thích cà phê."
+          ],
+          [
+            "He arrives. Anh ấy đến.",
+            "He wants a bike. Anh ấy muốn một chiếc xe."
+          ],
+          [
+            "The rain falls. Mưa rơi.",
+            "I need help. Tôi cần sự giúp đỡ."
+          ],
+          [
+            "The baby cries. Em bé khóc.",
+            "They buy a house. Họ mua một căn nhà."
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W2.6-01",
+        "node": "W2.6",
+        "l1_tag": "OBJ",
+        "type": "mcq",
+        "prompt_vi": "Câu nào dưới đây chưa đủ nghĩa?",
+        "options": [
+          {
+            "key": "A",
+            "text": "She swims.",
+            "diagnosis_vi": "\"swim\" là nội động từ, nó đứng cuối câu được. Câu này đã trọn vẹn."
+          },
+          {
+            "key": "B",
+            "text": "He laughs.",
+            "diagnosis_vi": "\"laugh\" là nội động từ, nó đứng cuối câu được. Câu này đã trọn vẹn."
+          },
+          {
+            "key": "C",
+            "text": "I enjoy.",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "D",
+            "text": "The sun rises.",
+            "diagnosis_vi": "\"rise\" là nội động từ, nó đứng cuối câu được. Câu này đã trọn vẹn."
+          }
+        ],
+        "answer": "C",
+        "rule_vi": "\"enjoy\" là ngoại động từ: thích thì phải thích một cái gì, nên nó không đứng cuối câu được. Nội động từ thì đứng cuối câu được.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W2.6-02",
+        "node": "W2.6",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Động từ nào dưới đây là ngoại động từ?",
+        "options": [
+          {
+            "key": "A",
+            "text": "smile",
+            "diagnosis_vi": "\"smile\" là nội động từ. \"She smiles.\" đã là một câu trọn vẹn, không cần danh từ nào đi sau."
+          },
+          {
+            "key": "B",
+            "text": "dance",
+            "diagnosis_vi": "\"dance\" là nội động từ. \"They dance.\" đã là một câu trọn vẹn."
+          },
+          {
+            "key": "C",
+            "text": "bring",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "D",
+            "text": "sneeze",
+            "diagnosis_vi": "\"sneeze\" là nội động từ. \"He sneezes.\" đã là một câu trọn vẹn."
+          }
+        ],
+        "answer": "C",
+        "rule_vi": "Ngoại động từ cần có danh từ đứng sau nó để đủ nghĩa. \"bring\" là mang, mà mang thì phải mang một cái gì.",
+        "fallback_vi": null
+      }
+    }
+  ],
+  "_internal": {
+    "note": "Everything under _internal is for the team only. The site never renders it.",
+    "taught_before": [
+      "Material #1 và #2: danh từ, các cách phân loại danh từ, số ít và số nhiều.",
+      "Material #3: tính từ, thứ tự tính từ và danh từ, hướng vào trong và hướng ra ngoài."
+    ],
+    "not_yet_taught_so_not_used": [
+      "chủ ngữ và tân ngữ (C5, material #5). Vì vậy W2.6 được dạy bằng cách nói \"cần một danh từ đi ngay sau\", và bài nói trước rằng danh từ đó có tên riêng học sau.",
+      "trợ động từ (W2.2, material #7), thì và thể (material #12 và #13). Mọi ví dụ ở đây đều là câu khẳng định hiện tại đơn, nên không cần trợ động từ nào.",
+      "đại từ (W1.5, material #6). Ví dụ có she, he, I, they nhưng bài không giải thích chúng."
+    ],
+    "sources": [
+      "Ngữ pháp Tiếng Anh 1.docx của Kiên, mục Động từ chính. Năm loại nội dung là của Kiên: vật lý, tâm lý, cảm xúc, giác quan, trạng thái.",
+      "Huddleston, R. và Pullum, G. K. (2002). The Cambridge Grammar of the English Language. Chương 3 và 4."
+    ],
+    "decisions": [
+      "Dùng đúng định nghĩa của Kiên: \"động từ chính là động từ chứa nội dung\", và \"đứng được một mình\" thay cho cách nói \"đứng độc lập trong cụm động từ\", vì cụm động từ chưa được dạy.",
+      "Đổi tên phần W2.6 thành \"Nội động từ và ngoại động từ\" ngày 19/09 theo Kiên: dùng thẳng thuật ngữ thay cho cách nói vòng.",
+      "Ba câu hỏi W2.1-02, W2.6-01 và W2.6-02 đều dùng động từ không có trong bảng ở trên, theo Kiên: bảng để học, câu hỏi để áp dụng.",
+      "Ngày 21/09 theo Kiên: chia động từ chính thành động từ hành động và động từ trạng thái, thay cho năm nhóm cũ trong file của Kiên. Trong năm nhóm cũ, see, hear, love, hate, know nằm ở nhóm hành động, nhưng trong tiếng Anh chúng là động từ trạng thái. Cách chia mới khớp với material #13, nơi động từ trạng thái không dùng được ở thể tiếp diễn.",
+      "Bỏ \"die\" khỏi nhóm trạng thái: chết là một hành động có thời điểm, không phải một tình trạng kéo dài.",
+      "Ngày 21/09 theo Kiên: thêm tag OBJ cho câu W2.6-01. Tiếng Việt bỏ tân ngữ được khi đã rõ nghĩa, như trả lời \"Tôi muốn\", còn tiếng Anh thì ngoại động từ bắt buộc phải có tân ngữ."
+    ],
+    "open_questions": []
+  }
+}

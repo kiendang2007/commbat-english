@@ -1,0 +1,309 @@
+{
+  "material_id": 7,
+  "slug": "tro-dong-tu",
+  "title_vi": "Trợ động từ",
+  "stage": 6,
+  "nodes": [
+    "W2.2"
+  ],
+  "video_url": null,
+  "blocks": [
+    {
+      "type": "text",
+      "body_vi": "Trợ động từ là động từ đứng trước động từ chính để bổ trợ nội dung cho nó. Bản thân trợ động từ không mang nội dung, nó chỉ mang bốn thông tin:",
+      "node": "W2.2",
+      "list": [
+        "thì: hành động xảy ra lúc nào",
+        "thể: hành động đang diễn ra, hay đã hoàn thành, hay nói chung",
+        "dạng: chủ ngữ là người làm, hay là người bị tác động",
+        "câu hỏi và phủ định: câu đang hỏi, hay đang nói không"
+      ]
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W2.2-01",
+        "node": "W2.2",
+        "l1_tag": "AUX",
+        "type": "mcq",
+        "prompt_vi": "Trong câu \"He will visit his grandmother.\", từ nào là trợ động từ?",
+        "options": [
+          {
+            "key": "A",
+            "text": "He",
+            "diagnosis_vi": "\"He\" là đại từ làm chủ ngữ, tức là người đi thăm. Nó không bổ trợ cho động từ nào."
+          },
+          {
+            "key": "B",
+            "text": "will",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "visit",
+            "diagnosis_vi": "\"visit\" là động từ chính, vì nó mang nội dung: chính hành động đi thăm. Trợ động từ là từ đứng trước nó."
+          },
+          {
+            "key": "D",
+            "text": "grandmother",
+            "diagnosis_vi": "\"grandmother\" là danh từ làm tân ngữ, tức là người được thăm."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Trong một câu, động từ chính là từ mang nội dung. Trợ động từ là từ đứng trước nó và không mang nội dung, chỉ mang thông tin về thì, thể, dạng, câu hỏi và phủ định.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "text",
+      "body_vi": "Có bốn trợ động từ, mỗi cái đi với một thể hoặc một thì riêng:"
+    },
+    {
+      "type": "section",
+      "node": "W2.2",
+      "heading_vi": "Bốn trợ động từ gắn với thì và thể",
+      "body_vi": "Mỗi thể và mỗi thì đi kèm một trợ động từ khác nhau. Bảng này là bản đồ của cả phần còn lại, mỗi ô sẽ có một bài riêng ở sau.",
+      "table": {
+        "columns_vi": [
+          "Trợ động từ",
+          "Đi với",
+          "Động từ chính đổi thành",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "do",
+            "thể đơn giản",
+            "V-0, động từ nguyên thể",
+            "She does not walk."
+          ],
+          [
+            "be",
+            "thể tiếp diễn",
+            "V-ing, động từ thêm -ing",
+            "She is walking."
+          ],
+          [
+            "have",
+            "thể hoàn thành",
+            "V-3, phân từ quá khứ",
+            "She has walked."
+          ],
+          [
+            "will",
+            "thì tương lai",
+            "V-0, động từ nguyên thể",
+            "She will walk."
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W2.2-02",
+        "node": "W2.2",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Trong câu \"They have finished their homework.\", trợ động từ nào đang được dùng và nó cho biết thể gì?",
+        "options": [
+          {
+            "key": "A",
+            "text": "have, thể hoàn thành",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "B",
+            "text": "have, thể tiếp diễn",
+            "diagnosis_vi": "Nhận đúng trợ động từ nhưng gán sai thể. \"have\" đi với thể hoàn thành. Thể tiếp diễn dùng be, và động từ chính khi đó là V-ing."
+          },
+          {
+            "key": "C",
+            "text": "finished, thể hoàn thành",
+            "diagnosis_vi": "\"finished\" là động từ chính ở dạng V-3, không phải trợ động từ. Trợ động từ là từ đứng trước nó."
+          },
+          {
+            "key": "D",
+            "text": "their, thể đơn giản",
+            "diagnosis_vi": "\"their\" là tính từ sở hữu, nó không phải động từ nào cả. Và thể đơn giản ở câu khẳng định không có trợ động từ."
+          }
+        ],
+        "answer": "A",
+        "rule_vi": "Trợ động từ cho biết thể: do là thể đơn giản, be là thể tiếp diễn, have là thể hoàn thành. Mỗi trợ động từ đi liền với một dạng của động từ chính, thành từng đôi cố định.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "W2.2",
+      "heading_vi": "Hai thì đơn không cần trợ động từ ở câu khẳng định",
+      "body_vi": "Quy tắc: Ở hiện tại đơn và quá khứ đơn, câu khẳng định không có trợ động từ nào cả. Ở mọi trường hợp còn lại, luôn phải có một trợ động từ. Riêng thể đơn giản, \"do\" chỉ xuất hiện ở câu phủ định và câu hỏi.",
+      "table": {
+        "columns_vi": [
+          "Câu",
+          "Có trợ động từ không",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "hiện tại đơn, khẳng định",
+            "không",
+            "She plays football."
+          ],
+          [
+            "hiện tại đơn, phủ định",
+            "có, dùng do",
+            "She does not play football."
+          ],
+          [
+            "hiện tại đơn, câu hỏi",
+            "có, dùng do",
+            "Does she play football?"
+          ],
+          [
+            "tiếp diễn, hoàn thành, tương lai",
+            "luôn luôn có",
+            "She is playing. She has played. She will play."
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W2.2-03",
+        "node": "W2.2",
+        "l1_tag": "AUX",
+        "type": "mcq",
+        "prompt_vi": "Câu nào dưới đây viết đúng?",
+        "options": [
+          {
+            "key": "A",
+            "text": "She does clean the room every day.",
+            "diagnosis_vi": "Thêm \"do\" vào một câu khẳng định hiện tại đơn. Câu này không sai ngữ pháp, nhưng thêm \"does\" vào đây là để nhấn mạnh, không phải cách nói bình thường. Câu bình thường không có trợ động từ."
+          },
+          {
+            "key": "B",
+            "text": "She cleans the room every day.",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "She not clean the room every day.",
+            "diagnosis_vi": "Bỏ trợ động từ trong câu phủ định. Tiếng Việt chỉ cần thêm \"không\" vào trước động từ, còn tiếng Anh bắt buộc phải có trợ động từ để \"not\" đứng sau. Câu đúng là \"She does not clean the room every day.\""
+          },
+          {
+            "key": "D",
+            "text": "She does cleans the room every day.",
+            "diagnosis_vi": "Chia động từ hai lần, một lần ở \"does\" và một lần ở \"cleans\". Đã chia ở trợ động từ thì động từ chính giữ nguyên V-0."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Ở hiện tại đơn và quá khứ đơn, câu khẳng định không có trợ động từ. \"do\" chỉ xuất hiện khi câu chuyển sang phủ định hoặc câu hỏi.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "funfact",
+      "node": "W2.2",
+      "heading_vi": "Vì sao chỉ chia động từ một lần?",
+      "body_vi": "Thông tin về thì chỉ cần nói ra một lần là đủ. Khi câu đã có trợ động từ, chính trợ động từ nhận nhiệm vụ mang thì, nên động từ chính được giải phóng và trở về dạng V-0. Nếu chia cả hai thì thông tin bị nói hai lần, giống như viết \"childrens\": đã đủ rồi mà vẫn thêm. Đây là lý do \"She does reads\" sai, và \"Did you went\" cũng sai."
+    },
+    {
+      "type": "section",
+      "node": "W2.2",
+      "heading_vi": "Ba trợ động từ do, be, have đổi dạng theo chủ ngữ và theo thời gian",
+      "body_vi": "Quy tắc: Một trợ động từ nằm trong thời gian khác nhau thì chia khác nhau. Ở thời quá khứ, trợ động từ phải chia theo quá khứ.",
+      "table": {
+        "columns_vi": [
+          "Trợ động từ",
+          "Quá khứ",
+          "Hiện tại",
+          "Tương lai"
+        ],
+        "rows": [
+          [
+            "do",
+            "did cho mọi chủ ngữ",
+            "does cho chủ ngữ số ít ngôi thứ ba, do cho chủ ngữ thuộc các loại khác",
+            "will do"
+          ],
+          [
+            "be",
+            "was cho chủ ngữ số ít, were cho chủ ngữ số nhiều",
+            "am cho I, is cho chủ ngữ số ít, are cho chủ ngữ số nhiều",
+            "will be"
+          ],
+          [
+            "have",
+            "had cho mọi chủ ngữ",
+            "has cho chủ ngữ số ít ngôi thứ ba, have cho chủ ngữ thuộc các loại khác",
+            "will have"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W2.2-04",
+        "node": "W2.2",
+        "l1_tag": "AUX",
+        "type": "mcq",
+        "prompt_vi": "Chọn dạng đúng: \"My sister ___ washing the dishes.\" (Chị tôi đang rửa bát.)",
+        "options": [
+          {
+            "key": "A",
+            "text": "am",
+            "diagnosis_vi": "\"am\" chỉ dùng cho chủ ngữ \"I\". Chủ ngữ ở đây là \"my sister\", ngôi thứ ba số ít."
+          },
+          {
+            "key": "B",
+            "text": "is",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "are",
+            "diagnosis_vi": "\"are\" dùng cho chủ ngữ số nhiều. \"My sister\" là một người, tức là số ít."
+          },
+          {
+            "key": "D",
+            "text": "be",
+            "diagnosis_vi": "\"be\" là dạng gốc, nó không đứng một mình sau chủ ngữ được. Phải chọn một trong ba dạng am, is, are."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Ba dạng hiện tại của \"be\" chia theo chủ ngữ: am cho I, is cho chủ ngữ số ít, are cho chủ ngữ số nhiều.",
+        "fallback_vi": null
+      }
+    }
+  ],
+  "_internal": {
+    "note": "Everything under _internal is for the team only. The site never renders it.",
+    "taught_before": [
+      "Material #1 đến #3: danh từ, tính từ.",
+      "Material #4: động từ chính là động từ chứa nội dung.",
+      "Material #5: mệnh đề, chủ ngữ, động từ, tân ngữ.",
+      "Material #6: đại từ, năm dạng theo ngôi."
+    ],
+    "not_yet_taught_so_not_used": [
+      "động từ khuyết thiếu (W2.3, material #8).",
+      "phủ định (Y7, material #9) và câu hỏi (C4.2, C4.3, material #10 và #11). Bài này nói trợ động từ mang thông tin phủ định và câu hỏi, nhưng không dạy cách làm.",
+      "thì và thể (Y1, Y2, material #12 và #13), và các dạng V-1, V-2, V-3, V-ing (M1.3, M1.4, M1.5, M1.6). Bài này dùng tên các dạng đó như nhãn trong bảng bản đồ, chưa dạy cách tạo ra chúng."
+    ],
+    "sources": [
+      "Ngữ pháp Tiếng Anh 1.docx của Kiên, mục Cấu tạo câu, trợ động từ và thì. Bốn thông tin mà trợ động từ mang, bốn cặp trợ động từ với dạng động từ, quy tắc hai thì đơn không cần trợ động từ, quy tắc chỉ chia một lần, và bảng do be have đều là của Kiên.",
+      "Phần fun fact giải thích vì sao chỉ chia một lần là phần em thêm. Nó không có trong file của Kiên và không phải trích dẫn từ tài liệu nào."
+    ],
+    "decisions": [
+      "Đây là stage gốc theo SPEC. Nhưng ở hiện tại đơn khẳng định, tiếng Anh không có trợ động từ nào để chỉ ra, nên ví dụ chính của bài là \"will\": nó hiện ra ngay trong câu khẳng định, và sau nó luôn là V-0, không cần biết gì thêm.",
+      "Bảng bốn trợ động từ được gọi thẳng là bản đồ, và bài nói rõ mỗi ô có một bài riêng ở sau. Như vậy các tên V-ing và V-3 xuất hiện ở đây là lời hứa trước, không phải nội dung bị kiểm tra.",
+      "Phương án A của W2.2-03 là \"She does read\", một câu đúng ngữ pháp nhưng mang nghĩa nhấn mạnh. Chẩn đoán nói rõ nó không sai mà là không phải cách nói bình thường, để không dạy người học một điều sai.",
+      "Ngày 19/09 theo Kiên: bảng dạng trợ động từ nêu trường hợp riêng trước rồi mới đến trường hợp chung, does trước do và has trước have. Và cột dạng động từ ghi cả tên đầy đủ: V-0 động từ nguyên thể, V-ing động từ thêm -ing, V-3 phân từ quá khứ.",
+      "Ngày 20/09: câu W2.2-02 đổi từ dạng tra bảng sang dạng phân tích một câu cụ thể, vì bản cũ có thể trả lời đúng chỉ bằng cách đọc lại bảng ngay trên nó. Bốn bộ ví dụ trong bài giờ tách riêng: bảng bốn trợ động từ dùng walk, bảng hai thì đơn dùng play, và bốn câu hỏi dùng visit, finish, clean và wash.",
+      "Ngày 21/09: Kiên giữ nguyên trợ động từ ở stage 6 với will làm ví dụ chính, và xác nhận quy tắc chỉ chia một lần là quy tắc chung cho mọi thể."
+    ],
+    "open_questions": []
+  }
+}

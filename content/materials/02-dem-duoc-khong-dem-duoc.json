@@ -1,0 +1,366 @@
+{
+  "material_id": 2,
+  "slug": "dem-duoc-khong-dem-duoc",
+  "title_vi": "Danh từ đếm được và danh từ không đếm được",
+  "stage": 1,
+  "nodes": [
+    "W1.2",
+    "W1.1",
+    "M1.1"
+  ],
+  "video_url": null,
+  "blocks": [
+    {
+      "type": "text",
+      "node": "W1.2",
+      "body_vi": "Danh từ chia thành hai nhóm:",
+      "list": [
+        "đếm được: đặt được số đếm ở trước. one book, two books, three books",
+        "không đếm được: không đặt được số đếm ở trước. water, rice, music"
+      ]
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1.2-01",
+        "node": "W1.2",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Từ nào dưới đây là danh từ không đếm được?",
+        "options": [
+          {
+            "key": "A",
+            "text": "apple",
+            "diagnosis_vi": "\"apple\" đếm được: one apple, two apples, three apples."
+          },
+          {
+            "key": "B",
+            "text": "rice",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "student",
+            "diagnosis_vi": "\"student\" đếm được: one student, two students, three students."
+          },
+          {
+            "key": "D",
+            "text": "table",
+            "diagnosis_vi": "\"table\" đếm được: one table, two tables, three tables."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Danh từ đếm được đặt được số đếm ở trước. Danh từ không đếm được thì không.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "text",
+      "body_vi": "Hai nhóm này khác nhau ở dạng số nhiều:"
+    },
+    {
+      "type": "section",
+      "node": "M1.1",
+      "heading_vi": "Danh từ đếm được có hai dạng: số ít và số nhiều",
+      "body_vi": "Số ít khi chỉ một. Số nhiều khi chỉ từ hai trở lên. Dạng số nhiều thêm -s hoặc -es vào cuối từ, theo các trường hợp sau.",
+      "table": {
+        "columns_vi": [
+          "Từ kết thúc bằng",
+          "Cách làm",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "phần lớn các trường hợp",
+            "thêm -s",
+            "book → books, dog → dogs"
+          ],
+          [
+            "-s, -ss, -sh, -ch, -x, -z",
+            "thêm -es",
+            "bus → buses, box → boxes, watch → watches"
+          ],
+          [
+            "phụ âm + y",
+            "đổi y thành i, thêm -es",
+            "city → cities, baby → babies"
+          ],
+          [
+            "nguyên âm + y",
+            "thêm -s",
+            "boy → boys, day → days"
+          ],
+          [
+            "-f hoặc -fe (một số từ)",
+            "đổi thành -ves",
+            "knife → knives, leaf → leaves"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "funfact",
+      "node": "W1.1",
+      "heading_vi": "Vì sao lại là -es?",
+      "body_vi": "Vì sao các từ kết thúc bằng -s, -ss, -sh, -ch, -x, -z lại thêm -es đằng sau? Những chữ này đều được đọc thành một nhóm âm gọi là âm xuýt, đơn giản là những âm mà chúng ta phải cắn răng cửa khi phát âm. Bản thân đuôi số nhiều -s cũng là một âm xuýt, nên ta sẽ phải cắn răng hai lần nếu đọc hai âm như vậy liên tục, như \"watchs\". Vì vậy, tiếng Anh sẽ thêm một âm mở miệng -e ở giữa, thành \"watches\" để dễ phát âm hơn."
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1.1-01",
+        "node": "W1.1",
+        "l1_tag": "PLS",
+        "type": "mcq",
+        "prompt_vi": "Dạng số nhiều của \"city\" là gì?",
+        "options": [
+          {
+            "key": "A",
+            "text": "citys",
+            "diagnosis_vi": "Chỉ thêm -s và giữ nguyên y. Chữ ngay trước y ở đây là c, một phụ âm, nên phải đổi y thành i rồi mới thêm -es."
+          },
+          {
+            "key": "B",
+            "text": "cities",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "cityes",
+            "diagnosis_vi": "Thêm -es nhưng vẫn giữ y. Bước đổi y thành i phải làm trước, rồi mới thêm -es."
+          },
+          {
+            "key": "D",
+            "text": "city",
+            "diagnosis_vi": "Giữ nguyên dạng số ít. Tiếng Việt không đổi hình thức danh từ khi số lượng thay đổi: \"một thành phố\" và \"ba thành phố\" đều dùng từ \"thành phố\". Tiếng Anh thì bắt buộc đổi dạng khi từ hai trở lên."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Danh từ kết thúc bằng phụ âm cộng y thì đổi y thành i rồi thêm -es. Danh từ kết thúc bằng nguyên âm cộng y thì chỉ thêm -s.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "W1.1",
+      "heading_vi": "Một số danh từ đếm được có dạng số nhiều bất quy tắc",
+      "body_vi": "Đây là một số danh từ mà dạng số nhiều không phải là thêm -s hoặc -es vào dạng số ít:",
+      "table": {
+        "columns_vi": [
+          "Số ít",
+          "Số nhiều"
+        ],
+        "rows": [
+          [
+            "child (đứa trẻ)",
+            "children"
+          ],
+          [
+            "man (người đàn ông)",
+            "men"
+          ],
+          [
+            "woman (người phụ nữ)",
+            "women"
+          ],
+          [
+            "person (người)",
+            "people"
+          ],
+          [
+            "foot (bàn chân)",
+            "feet"
+          ],
+          [
+            "tooth (cái răng)",
+            "teeth"
+          ],
+          [
+            "fish (con cá)",
+            "fish"
+          ],
+          [
+            "sheep (con cừu)",
+            "sheep"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1.1-02",
+        "node": "W1.1",
+        "l1_tag": "PLS",
+        "type": "mcq",
+        "prompt_vi": "Dạng số nhiều của \"mouse\" là gì?",
+        "options": [
+          {
+            "key": "A",
+            "text": "mouses",
+            "diagnosis_vi": "Áp dụng quy tắc thêm -s. \"mouse\" là danh từ bất quy tắc, nó không dùng quy tắc đó."
+          },
+          {
+            "key": "B",
+            "text": "mice",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "mices",
+            "diagnosis_vi": "Thêm -s vào một từ đã ở dạng số nhiều. \"mice\" đã là số nhiều rồi, thêm -s nữa là đánh dấu số nhiều hai lần."
+          },
+          {
+            "key": "D",
+            "text": "mouse",
+            "diagnosis_vi": "Giữ nguyên dạng số ít. Tiếng Việt dùng cùng một từ \"con chuột\" cho một con và cho nhiều con, nên bước đổi dạng rất dễ bị bỏ qua. Tiếng Anh thì bắt buộc đổi dạng khi từ hai trở lên."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Một số danh từ đếm được có dạng số nhiều riêng, không theo quy tắc thêm -s hoặc -es. Dạng riêng đó đã mang nghĩa số nhiều, nên không thêm -s vào nó nữa.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "W1.2",
+      "heading_vi": "Tất cả danh từ không đếm được đều không có dạng số nhiều",
+      "table": {
+        "columns_vi": [
+          "Danh từ không đếm được",
+          "Viết sai",
+          "Viết đúng"
+        ],
+        "rows": [
+          [
+            "information (thông tin)",
+            "informations",
+            "information"
+          ],
+          [
+            "advice (lời khuyên)",
+            "advices",
+            "advice"
+          ],
+          [
+            "furniture (đồ đạc)",
+            "furnitures",
+            "furniture"
+          ],
+          [
+            "homework (bài tập về nhà)",
+            "homeworks",
+            "homework"
+          ],
+          [
+            "music (âm nhạc)",
+            "musics",
+            "music"
+          ],
+          [
+            "rice (gạo, cơm)",
+            "rices",
+            "rice"
+          ]
+        ]
+      },
+      "body_vi": "Một số ví dụ:"
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1.2-02",
+        "node": "W1.2",
+        "l1_tag": "PLS",
+        "type": "mcq",
+        "prompt_vi": "Từ nào dưới đây viết đúng?",
+        "options": [
+          {
+            "key": "A",
+            "text": "breads",
+            "diagnosis_vi": "Thêm -s vào một danh từ không đếm được. \"bread\" không đếm được nên nó không có dạng số nhiều. Muốn đếm thì dùng đơn vị: two loaves of bread. Viết đúng là \"bread\"."
+          },
+          {
+            "key": "B",
+            "text": "knowledges",
+            "diagnosis_vi": "Thêm -s vào một danh từ không đếm được. \"knowledge\" gọi tên kiến thức nói chung, không đếm được. Viết đúng là \"knowledge\"."
+          },
+          {
+            "key": "C",
+            "text": "luggages",
+            "diagnosis_vi": "Thêm -s vào một danh từ không đếm được. Tiếng Việt đếm được \"hai cái vali\", nên người học mang thói quen đó sang mà không kiểm tra từ tiếng Anh có đếm được hay không. Viết đúng là \"luggage\"."
+          },
+          {
+            "key": "D",
+            "text": "chairs",
+            "diagnosis_vi": null
+          }
+        ],
+        "answer": "D",
+        "rule_vi": "Chỉ danh từ đếm được mới có dạng số nhiều. Danh từ không đếm được giữ nguyên một dạng duy nhất, không bao giờ thêm -s.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1.2-03",
+        "node": "W1.2",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Ba từ \"coffee\", \"window\", \"keys\" thuộc ba nhóm nào, theo thứ tự lần lượt?",
+        "options": [
+          {
+            "key": "A",
+            "text": "không đếm được / đếm được số ít / đếm được số nhiều",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "B",
+            "text": "đếm được số ít / đếm được số ít / đếm được số nhiều",
+            "diagnosis_vi": "Xếp \"coffee\" vào nhóm đếm được. \"coffee\" không đặt được số đếm ở trước, không nói \"two coffees\" khi nói về cà phê nói chung, nên nó không đếm được."
+          },
+          {
+            "key": "C",
+            "text": "không đếm được / đếm được số nhiều / đếm được số ít",
+            "diagnosis_vi": "Đảo hai nhóm cuối. \"window\" đang chỉ một cái cửa sổ, nên nó là số ít. \"keys\" đang chỉ từ hai chiếc chìa khoá trở lên, nên nó là số nhiều."
+          },
+          {
+            "key": "D",
+            "text": "không đếm được / không đếm được / đếm được số nhiều",
+            "diagnosis_vi": "Xếp \"window\" vào nhóm không đếm được. \"window\" đặt được số đếm ở trước: one window, two windows, nên nó đếm được."
+          }
+        ],
+        "answer": "A",
+        "rule_vi": "Một danh từ trước hết thuộc nhóm đếm được hoặc không đếm được. Nếu đếm được, nó còn ở dạng số ít khi chỉ một, hoặc dạng số nhiều khi chỉ từ hai trở lên. Danh từ không đếm được không chia hai dạng.",
+        "fallback_vi": null
+      }
+    }
+  ],
+  "_internal": {
+    "note": "Everything under _internal is for the team only. The site never renders it.",
+    "taught_before": [
+      "Material #1: danh từ là từ gọi tên; chỉ người / chỉ vật; chung / riêng; cụ thể / trừu tượng."
+    ],
+    "not_yet_taught_so_not_used": [
+      "mạo từ a/an/the (W6, không trong v1). Vì vậy tính đếm được được dạy bằng số đếm 'two', không bằng 'a'.",
+      "chủ ngữ, tân ngữ (C5, material #6).",
+      "sự hoà hợp chủ ngữ với động từ, nên bảng không đếm được không nói gì về is/are.",
+      "danh từ tập hợp (W1.4)."
+    ],
+    "sources": [
+      "Huddleston, R. và Pullum, G. K. (2002). The Cambridge Grammar of the English Language. Cambridge University Press. Chương 5, Nouns and noun phrases, phần count và non-count.",
+      "Danh sách danh từ không đếm được trong bảng là những từ người học Việt Nam hay thêm -s, theo quan sát của giáo viên. Không phải trích dẫn từ tài liệu và không phải số liệu."
+    ],
+    "decisions": [
+      "Bỏ hàng -o (tomato, potato) khỏi bảng quy tắc: photo và piano không theo quy tắc đó, nên dạy sẽ sai.",
+      "Bỏ 'water' và 'money' khỏi bảng viết sai: 'two waters' có người nói trong ngữ cảnh quán ăn, nên không đưa vào cột viết sai.",
+      "Hàng -f/-fe ghi rõ 'một số từ' vì roof và chief không đổi thành -ves.",
+      "Ba item mang tag PLS. Đối chiếu tiếng Việt và tiếng Anh nằm trong chẩn đoán, không nằm trong phần giảng, vì luật định dạng cắt mọi giải thích dưới bảng.",
+      "Fun fact về -es dùng đúng nguyên văn của Kiên. Mô tả \"cắn răng cửa\" là cách nói trực quan cho người mới, không phải mô tả cấu âm chính xác của /ʃ/ và /tʃ/. Đây là lựa chọn của giáo viên.",
+      "Bảng bất quy tắc không có mouse, và Câu 3 vẫn hỏi \"mouse\": người học đoán rồi học qua lỗi của mình.",
+      "Câu 3 không có fallback_vi. Kiên bỏ vì bảng không liệt kê hết danh từ bất quy tắc.",
+      "Ngày 21/09 theo Kiên: bỏ phần danh từ chỉ tập hợp và đưa W1.4 ra khỏi v1. Không thêm danh từ chỉ có dạng số nhiều và danh từ vừa đếm được vừa không đếm được."
+    ],
+    "open_questions": []
+  }
+}

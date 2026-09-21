@@ -1,0 +1,311 @@
+{
+  "material_id": 1,
+  "slug": "danh-tu-la-gi",
+  "title_vi": "Danh từ là gì?",
+  "stage": 1,
+  "nodes": [
+    "W1",
+    "W1.6",
+    "W1.3",
+    "W1.7"
+  ],
+  "video_url": null,
+  "blocks": [
+    {
+      "type": "text",
+      "node": "W1",
+      "body_vi": "Danh từ là loại từ dùng để gọi tên:",
+      "list": [
+        "sinh vật, tức là thứ có sự sống: teacher (giáo viên), dog (con chó), tree (cái cây)",
+        "sự việc, tức là thứ xảy ra rồi kết thúc: party (bữa tiệc), trip (chuyến đi), birthday (sinh nhật)",
+        "vật thể, tức là thứ không có sự sống mà nhìn thấy hoặc chạm được: table (cái bàn), water (nước), city (thành phố)",
+        "khái niệm, tức là thứ chỉ có trong suy nghĩ: love (tình yêu), idea (ý tưởng), kilogram (ki-lô-gam)"
+      ]
+    },
+    {
+      "type": "text",
+      "node": "W1",
+      "body_vi": "Để xếp một danh từ vào đúng một nhóm, hãy hỏi lần lượt ba câu. Có sự sống không? Có xảy ra rồi kết thúc không? Có nhìn thấy hoặc chạm được không? Câu trả lời \"có\" đầu tiên cho biết nhóm của danh từ đó. Nếu cả ba câu đều là \"không\" thì đó là khái niệm."
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1-01",
+        "node": "W1",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Trong câu \"The student reads a book quickly.\", từ nào dưới đây là danh từ?",
+        "options": [
+          {
+            "key": "A",
+            "text": "reads",
+            "diagnosis_vi": "\"reads\" nói ra hành động của người học sinh. Nó không gọi tên sinh vật, sự việc, vật thể hay khái niệm nào, nên nó không phải danh từ."
+          },
+          {
+            "key": "B",
+            "text": "book",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "quickly",
+            "diagnosis_vi": "\"quickly\" nói về cách một hành động diễn ra, nhanh hay chậm. Nó không gọi tên cái gì cả, nên nó không phải danh từ."
+          },
+          {
+            "key": "D",
+            "text": "the",
+            "diagnosis_vi": "\"the\" không gọi tên cái gì cả. Nó chỉ đi kèm với danh từ đứng ngay sau nó, ở đây là \"student\"."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Danh từ là từ gọi tên: gọi tên sinh vật, sự việc, vật thể hoặc khái niệm.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "text",
+      "body_vi": "Có một số cách để phân loại danh từ:"
+    },
+    {
+      "type": "section",
+      "node": "W1.6",
+      "heading_vi": "Theo danh từ chỉ người hoặc danh từ chỉ vật",
+      "table": {
+        "columns_vi": [
+          "Chỉ người",
+          "Chỉ vật"
+        ],
+        "rows": [
+          [
+            "teacher (giáo viên)",
+            "dog (con chó)"
+          ],
+          [
+            "student (học sinh)",
+            "table (cái bàn)"
+          ],
+          [
+            "doctor (bác sĩ)",
+            "school (trường học)"
+          ],
+          [
+            "sister (chị, em gái)",
+            "Hanoi (Hà Nội)"
+          ],
+          [
+            "Minh (tên một người)",
+            "love (tình yêu)"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1.6-01",
+        "node": "W1.6",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Trong câu \"My brother has a dog and a bike.\", từ nào là danh từ chỉ người?",
+        "options": [
+          {
+            "key": "A",
+            "text": "brother",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "B",
+            "text": "dog",
+            "diagnosis_vi": "\"dog\" gọi tên một con vật, không gọi tên con người. Con vật nằm trong nhóm chỉ vật."
+          },
+          {
+            "key": "C",
+            "text": "bike",
+            "diagnosis_vi": "\"bike\" gọi tên một đồ vật, không gọi tên con người. Đồ vật nằm trong nhóm chỉ vật."
+          },
+          {
+            "key": "D",
+            "text": "has",
+            "diagnosis_vi": "\"has\" gọi tên một hành động, nên nó không phải danh từ, và cũng không gọi tên con người."
+          }
+        ],
+        "answer": "A",
+        "rule_vi": "Danh từ chỉ người gọi tên con người. Mọi danh từ còn lại đều nằm trong nhóm chỉ vật, dù là con vật, cây cối, sự việc, vật thể hay khái niệm.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "W1.3",
+      "heading_vi": "Theo danh từ chung hoặc danh từ riêng",
+      "body_vi": "Danh từ chung gọi tên cả một loại. Danh từ riêng gọi tên một cái duy nhất, và luôn viết hoa chữ cái đầu.",
+      "table": {
+        "columns_vi": [
+          "Danh từ chung",
+          "Danh từ riêng"
+        ],
+        "rows": [
+          [
+            "city (thành phố)",
+            "Hanoi (Hà Nội)"
+          ],
+          [
+            "river (con sông)",
+            "the Red River (sông Hồng)"
+          ],
+          [
+            "country (quốc gia)",
+            "Vietnam (Việt Nam)"
+          ],
+          [
+            "teacher (giáo viên)",
+            "Mr Nam (một giáo viên cụ thể)"
+          ],
+          [
+            "month (tháng)",
+            "October (tháng Mười)"
+          ],
+          [
+            "day (ngày)",
+            "Monday (thứ Hai)"
+          ],
+          [
+            "language (ngôn ngữ)",
+            "English (tiếng Anh)"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1.3-01",
+        "node": "W1.3",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Trong câu \"Lan lives in a small city near the Red River.\", những từ nào là danh từ riêng?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Lan, Red River",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "B",
+            "text": "Lan, city, Red River",
+            "diagnosis_vi": "Xếp \"city\" vào nhóm danh từ riêng. \"city\" gọi tên cả một loại, dùng được cho mọi thành phố, nên nó là danh từ chung. Dấu hiệu rõ nhất: \"city\" không viết hoa."
+          },
+          {
+            "key": "C",
+            "text": "city, river",
+            "diagnosis_vi": "Đảo ngược hai nhóm. \"city\" và \"river\" gọi tên cả một loại. \"Lan\" và \"Red River\" mới gọi tên một người và một con sông duy nhất."
+          },
+          {
+            "key": "D",
+            "text": "Lan",
+            "diagnosis_vi": "Chỉ nhận ra tên người. \"Red River\" cũng là danh từ riêng: đó là tên của một con sông duy nhất. Nó gồm hai từ, nhưng chữ R viết hoa cho thấy đó là một cái tên."
+          }
+        ],
+        "answer": "A",
+        "rule_vi": "Danh từ riêng gọi tên một cái duy nhất và luôn viết hoa chữ cái đầu. Danh từ chung gọi tên cả một loại và không viết hoa. Một danh từ riêng có thể gồm nhiều từ.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "W1.7",
+      "heading_vi": "Theo danh từ cụ thể hoặc danh từ trừu tượng",
+      "body_vi": "Danh từ cụ thể gọi tên những thứ nhìn thấy hoặc chạm được. Danh từ trừu tượng gọi tên những thứ chỉ có trong suy nghĩ.",
+      "table": {
+        "columns_vi": [
+          "Danh từ cụ thể",
+          "Danh từ trừu tượng"
+        ],
+        "rows": [
+          [
+            "chair (cái ghế)",
+            "love (tình yêu)"
+          ],
+          [
+            "rain (mưa)",
+            "happiness (niềm hạnh phúc)"
+          ],
+          [
+            "teacher (giáo viên)",
+            "freedom (sự tự do)"
+          ],
+          [
+            "dog (con chó)",
+            "knowledge (kiến thức)"
+          ],
+          [
+            "phone (điện thoại)",
+            "advice (lời khuyên)"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1.7-01",
+        "node": "W1.7",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Từ nào dưới đây là danh từ trừu tượng?",
+        "options": [
+          {
+            "key": "A",
+            "text": "chair",
+            "diagnosis_vi": "\"chair\" là danh từ cụ thể. Cái ghế nhìn thấy được và chạm được, nên nó không chỉ nằm trong suy nghĩ."
+          },
+          {
+            "key": "B",
+            "text": "rain",
+            "diagnosis_vi": "\"rain\" là danh từ cụ thể. Mưa nhìn thấy được, nghe được và chạm được, nên nó không chỉ nằm trong suy nghĩ."
+          },
+          {
+            "key": "C",
+            "text": "happiness",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "D",
+            "text": "teacher",
+            "diagnosis_vi": "\"teacher\" là danh từ cụ thể: một con người có thật, nhìn thấy được. Từ trừu tượng cùng gốc là \"teaching\", chỉ hành động dạy học."
+          }
+        ],
+        "answer": "C",
+        "rule_vi": "Danh từ cụ thể gọi tên những thứ nhìn thấy hoặc chạm được. Danh từ trừu tượng gọi tên cảm xúc, ý niệm hoặc phẩm chất, những thứ chỉ có trong suy nghĩ.",
+        "fallback_vi": null
+      }
+    }
+  ],
+  "_internal": {
+    "note": "Everything under _internal is for the team only. The site never renders it.",
+    "sources": [
+      "Huddleston, R. và Pullum, G. K. (2002). The Cambridge Grammar of the English Language. Cambridge University Press. Chương 5, Nouns and noun phrases.",
+      "Chung / riêng là tiểu loại ngữ pháp trong Ngữ pháp Cambridge. Chỉ người / chỉ vật và cụ thể / trừu tượng là phân loại theo nghĩa, không phải tiểu loại ngữ pháp."
+    ],
+    "decisions": [
+      "Cắt phần định nghĩa dài và ba phép thử ngữ pháp: chúng dựa vào a/an/the và chủ ngữ/tân ngữ, đều dạy sau. Định nghĩa giữ thuần theo nghĩa.",
+      "Cắt item W1-04 (bẫy viết hoa English/Monday). Id W1-04 không dùng lại.",
+      "Mọi chẩn đoán trong bài này chỉ dùng khái niệm đã dạy trong chính bài này: gọi tên cái gì. Không nhắc số nhiều, đếm được, mạo từ, he/she/it.",
+      "Id của item bằng node cộng số thứ tự trong node: W1.6-01. Bỏ cách đánh id theo material.",
+      "Ngày 21/09: thay định nghĩa danh từ bằng bốn nhóm sinh vật, sự việc, vật thể, khái niệm. Lý do: cả hai cách chia cũ đều không MECE. Năm nhóm cũ của em chồng nhau ở đồ vật và nơi chốn (trường học là cả hai), và bỏ sót sự việc, hiện tượng, đơn vị. Bảy nhóm trong file của Kiên chồng nhau ở người và sinh vật (người là sinh vật), và ở sự việc, hiện tượng, khái niệm.",
+      "Bốn nhóm mới MECE vì được xếp bằng ba câu hỏi hỏi lần lượt: có sự sống không, có xảy ra rồi kết thúc không, có nhìn thấy hoặc chạm được không. Câu trả lời có đầu tiên quyết định nhóm, nên mỗi danh từ rơi vào đúng một nhóm. Bảy nhóm của Kiên gộp vào như sau: người và sinh vật thành sinh vật; sự vật thành vật thể; sự việc và hiện tượng thành sự việc; khái niệm và đơn vị thành khái niệm.",
+      "Không dùng \"rain\" trong danh sách định nghĩa, vì theo câu hỏi thứ hai nó là sự việc, trong khi bảng cụ thể và trừu tượng ở cuối bài xếp nó là cụ thể. Hai cách chia đó nhìn từ hai góc khác nhau nên không mâu thuẫn, nhưng dùng cùng một từ sẽ làm người học rối."
+    ],
+    "taught_before": [
+      "Không có. Đây là bài đầu tiên."
+    ],
+    "not_yet_taught_so_not_used": [
+      "số nhiều và tính đếm được (material #2).",
+      "tính từ (material #3), động từ (material #4).",
+      "mệnh đề, chủ ngữ, tân ngữ (material #5).",
+      "đại từ (material #6).",
+      "mạo từ a/an/the (W6, không trong v1)."
+    ],
+    "open_questions": []
+  }
+}

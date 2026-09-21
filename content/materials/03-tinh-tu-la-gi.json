@@ -1,0 +1,305 @@
+{
+  "material_id": 3,
+  "slug": "tinh-tu-la-gi",
+  "title_vi": "Tính từ là gì?",
+  "stage": 2,
+  "nodes": [
+    "W3",
+    "W3.1"
+  ],
+  "video_url": null,
+  "blocks": [
+    {
+      "type": "text",
+      "body_vi": "Tính từ là từ dùng để miêu tả danh từ, cho biết danh từ đó như thế nào:",
+      "node": "W3",
+      "list": [
+        "kích thước: tall (cao), small (nhỏ), long (dài)",
+        "màu sắc: red (đỏ), white (trắng), black (đen)",
+        "tính chất: new (mới), cheap (rẻ), difficult (khó)",
+        "cảm giác: happy (vui), sad (buồn), tired (mệt)"
+      ]
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W3-01",
+        "node": "W3",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Trong câu \"My little brother has a new bike.\", từ nào là tính từ?",
+        "options": [
+          {
+            "key": "A",
+            "text": "brother",
+            "diagnosis_vi": "\"brother\" gọi tên một người, nên nó là danh từ. Trong câu này nó là thứ được miêu tả, không phải từ miêu tả."
+          },
+          {
+            "key": "B",
+            "text": "new",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "has",
+            "diagnosis_vi": "\"has\" cho biết em trai đang sở hữu chiếc xe. Nó không cho biết chiếc xe như thế nào."
+          },
+          {
+            "key": "D",
+            "text": "bike",
+            "diagnosis_vi": "\"bike\" gọi tên một đồ vật, nên nó là danh từ. Đây chính là danh từ đang được \"new\" miêu tả."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Tính từ miêu tả một danh từ, cho biết danh từ đó như thế nào.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "text",
+      "body_vi": "Có một số điều cần biết khi dùng tính từ:"
+    },
+    {
+      "type": "section",
+      "node": "W3",
+      "heading_vi": "Tính từ đứng ngay trước danh từ nó miêu tả",
+      "body_vi": "Tiếng Việt đặt tính từ sau danh từ, tiếng Anh đặt trước, nên thứ tự của hai tiếng ngược nhau. Đây là chỗ đứng thứ nhất của tính từ. Còn một chỗ đứng thứ hai, sẽ học ở bài về mệnh đề.",
+      "table": {
+        "columns_vi": [
+          "Tiếng Việt",
+          "Tiếng Anh",
+          "Viết sai"
+        ],
+        "rows": [
+          [
+            "một quyển sách rẻ",
+            "a cheap book",
+            "a book cheap"
+          ],
+          [
+            "một chiếc xe mới",
+            "a new bike",
+            "a bike new"
+          ],
+          [
+            "những cô gái cao",
+            "tall girls",
+            "girls tall"
+          ],
+          [
+            "một bài học khó",
+            "a difficult lesson",
+            "a lesson difficult"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W3-02",
+        "node": "W3",
+        "l1_tag": "AJO",
+        "type": "mcq",
+        "prompt_vi": "Hai cụm nào dưới đây đều viết đúng, cho \"một căn phòng rộng\" và \"những con mèo đen\"?",
+        "options": [
+          {
+            "key": "A",
+            "text": "a big room, black cats",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "B",
+            "text": "a room big, cats black",
+            "diagnosis_vi": "Cả hai cụm đều đặt tính từ sau danh từ, đúng theo thứ tự tiếng Việt \"căn phòng rộng\" và \"con mèo đen\". Tiếng Anh đảo lại, tính từ đứng trước danh từ."
+          },
+          {
+            "key": "C",
+            "text": "a big room, cats black",
+            "diagnosis_vi": "Cụm thứ nhất đúng, cụm thứ hai vẫn theo thứ tự tiếng Việt. Thứ tự trong tiếng Anh không đổi khi danh từ chuyển sang số nhiều: tính từ vẫn đứng trước."
+          },
+          {
+            "key": "D",
+            "text": "a room big, black cats",
+            "diagnosis_vi": "Cụm thứ hai đúng, còn cụm thứ nhất vẫn theo thứ tự tiếng Việt \"căn phòng rộng\". Trong tiếng Anh, \"big\" phải đứng trước \"room\"."
+          }
+        ],
+        "answer": "A",
+        "rule_vi": "Tính từ đứng ngay trước danh từ nó miêu tả, ngược lại với tiếng Việt. Thứ tự này không đổi, dù danh từ là số ít hay số nhiều.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "W3",
+      "heading_vi": "Tất cả tính từ đều không có dạng số nhiều",
+      "body_vi": "Một số ví dụ:",
+      "table": {
+        "columns_vi": [
+          "Số ít",
+          "Số nhiều",
+          "Viết sai"
+        ],
+        "rows": [
+          [
+            "a long river",
+            "long rivers",
+            "longs rivers"
+          ],
+          [
+            "a red flower",
+            "red flowers",
+            "reds flowers"
+          ],
+          [
+            "a small house",
+            "small houses",
+            "smalls houses"
+          ],
+          [
+            "a young teacher",
+            "young teachers",
+            "youngs teachers"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W3-03",
+        "node": "W3",
+        "l1_tag": "PLS",
+        "type": "mcq",
+        "prompt_vi": "Chọn cách viết đúng cho \"những chiếc áo trắng\":",
+        "options": [
+          {
+            "key": "A",
+            "text": "whites shirts",
+            "diagnosis_vi": "Thêm -s vào tính từ. Chỉ danh từ mới có dạng số nhiều. Tính từ giữ nguyên một dạng, dù danh từ là một hay nhiều."
+          },
+          {
+            "key": "B",
+            "text": "white shirts",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "white shirt",
+            "diagnosis_vi": "Quên dạng số nhiều của danh từ. \"những chiếc áo\" là từ hai chiếc trở lên, nên \"shirt\" phải thành \"shirts\"."
+          },
+          {
+            "key": "D",
+            "text": "whites shirt",
+            "diagnosis_vi": "Đánh dấu số nhiều đúng một lần nhưng ở sai từ: -s nằm trên tính từ, còn danh từ lại để nguyên. Dấu số nhiều luôn thuộc về danh từ."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Dấu số nhiều -s chỉ thuộc về danh từ. Tính từ không bao giờ thêm -s.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "W3.1",
+      "heading_vi": "Tính từ hướng vào trong và tính từ hướng ra ngoài",
+      "body_vi": "Tính từ hướng vào trong miêu tả cảm xúc mà một người cảm nhận được, do một thứ khác tác động vào. Tính từ hướng ra ngoài miêu tả bản chất của một sự vật hay sự việc, tức là thứ gây ra cảm xúc đó. Nhiều tính từ đi thành từng đôi, một từ đuôi -ed hướng vào trong và một từ đuôi -ing hướng ra ngoài.",
+      "table": {
+        "columns_vi": [
+          "Nghĩa",
+          "Hướng vào trong: người cảm nhận",
+          "Hướng ra ngoài: thứ gây ra cảm xúc"
+        ],
+        "rows": [
+          [
+            "chán",
+            "a bored student: học sinh đang thấy chán",
+            "a boring lesson: bài học gây chán"
+          ],
+          [
+            "thú vị",
+            "an interested student: học sinh đang thấy hứng thú",
+            "an interesting book: quyển sách gây hứng thú"
+          ],
+          [
+            "mệt",
+            "a tired worker: người thợ đang thấy mệt",
+            "a tiring job: công việc gây mệt"
+          ],
+          [
+            "kinh tởm",
+            "a disgusted customer: khách đang thấy kinh tởm",
+            "a disgusting smell: mùi gây kinh tởm"
+          ],
+          [
+            "phấn khích",
+            "an excited child: đứa trẻ đang phấn khích",
+            "an exciting trip: chuyến đi gây phấn khích"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W3.1-01",
+        "node": "W3.1",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Chọn từ đúng cho \"một bộ phim gây sợ\": \"a ___ movie\"",
+        "options": [
+          {
+            "key": "A",
+            "text": "frightened",
+            "diagnosis_vi": "\"frightened\" hướng vào trong, nói về người đang thấy sợ. Bộ phim không có cảm xúc, nó là thứ gây ra cảm xúc, nên phải dùng từ hướng ra ngoài."
+          },
+          {
+            "key": "B",
+            "text": "frightening",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "frighten",
+            "diagnosis_vi": "\"frighten\" chưa có đuôi -ed cũng chưa có đuôi -ing, nên nó chưa nhận hướng nào cả."
+          },
+          {
+            "key": "D",
+            "text": "frightenings",
+            "diagnosis_vi": "Thêm -s vào tính từ. Tính từ không có dạng số nhiều, và câu này cũng chỉ nói về một bộ phim."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Trong một đôi -ed và -ing, từ đuôi -ed hướng vào trong và đi với người cảm nhận. Từ đuôi -ing hướng ra ngoài và đi với thứ gây ra cảm xúc.",
+        "fallback_vi": null
+      }
+    }
+  ],
+  "_internal": {
+    "note": "Everything under _internal is for the team only. The site never renders it.",
+    "taught_before": [
+      "Material #1: danh từ là từ gọi tên; chỉ người / chỉ vật; chung / riêng; cụ thể / trừu tượng.",
+      "Material #2: đếm được / không đếm được; số ít / số nhiều; quy tắc thêm -s và -es; số nhiều bất quy tắc."
+    ],
+    "not_yet_taught_so_not_used": [
+      "động từ (material #4). Chẩn đoán W3-01 phương án C nói \"has cho biết ai sở hữu\", không gọi nó là động từ.",
+      "mệnh đề, chủ ngữ, bổ ngữ (C5, material #5). Vì vậy mọi ví dụ tính từ ở đây đều đứng trước danh từ, không có ví dụ nào dạng \"I am bored\".",
+      "mạo từ a/an/the (W6, không trong v1). \"a\" và \"an\" chỉ có trong ví dụ, không bị hỏi."
+    ],
+    "sources": [
+      "Ngữ pháp Tiếng Anh 1.docx của Kiên, mục Tính từ. Ba loại và hai tên gọi hướng vào trong / hướng ra ngoài là của Kiên, không phải cách gọi trong sách ngữ pháp.",
+      "Huddleston, R. và Pullum, G. K. (2002). The Cambridge Grammar of the English Language. Chương 6, Adjectives and adverbs.",
+      "Phần thứ tự tính từ và danh từ không có trong file của Kiên. Đây là phần em thêm, vì nó là lỗi tiếng Việt gây ra trực tiếp và là thứ duy nhất dạy được ở stage 2 khi chưa có động từ."
+    ],
+    "decisions": [
+      "Dùng đúng hai tên gọi của Kiên: hướng vào trong và hướng ra ngoài. Bỏ cách gọi cũ của em là \"người có cảm giác\" và \"thứ gây ra cảm giác\", chỉ giữ lại làm lời giải thích.",
+      "File của Kiên xếp happy, sad, angry, afraid vào nhóm hướng vào trong, và những từ này không có đuôi -ed. Vì vậy bài này tách rõ: hướng là chuyện nghĩa, còn đuôi -ed và -ing chỉ là dấu hiệu của một số đôi từ. Tính từ gốc là phần xử lý các từ không có đuôi.",
+      "Mọi ví dụ của Kiên ở mục tính từ đều dạng \"I am bored\", cần động từ be, mà be chỉ có ở material #5. Vì vậy mọi ví dụ ở đây được viết lại thành dạng đứng trước danh từ: a bored student, a boring lesson.",
+      "Không dạy quy tắc thứ tự nhiều tính từ đứng cạnh nhau. Quy tắc đó dài và nhiều ngoại lệ.",
+      "Bỏ hẳn phần tính từ gốc và câu hỏi đi kèm, 19/09 theo quyết định của Kiên. Node W3.2 vì thế được đưa ra khỏi v1 trong build_nodes.py, chứ không để lửng lơ không bài nào dạy.",
+      "Ngày 20/09: ba câu hỏi và bảng số nhiều đổi sang từ mới. Giờ mỗi phần của bài có bộ ví dụ riêng: bảng thứ tự dùng cheap book và tall girls, bảng số nhiều dùng long river và red flower, ba câu hỏi dùng big room, white shirts và frightening movie.",
+      "Ngày 21/09: Kiên đồng ý thêm tag AJO cho lỗi thứ tự tính từ và danh từ. Gắn vào câu W3-02. Tính từ vẫn ở stage 2."
+    ],
+    "open_questions": []
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "material_id": 12,
+  "slug": "thi-va-cac-dang-v0-v1-v2",
+  "title_vi": "Thì và một số dạng của động từ",
+  "stage": 11,
+  "nodes": [
+    "Y1",
+    "M1.3",
+    "M1.4"
+  ],
+  "video_url": null,
+  "blocks": [
+    {
+      "type": "text",
+      "body_vi": "Thì cho biết hành động xảy ra lúc nào. Có ba mốc thời gian, và động từ đổi dạng để chỉ ra mốc đó:",
+      "node": "Y1",
+      "list": [
+        "quá khứ: hành động đã xảy ra rồi. She worked yesterday.",
+        "hiện tại: hành động xảy ra bây giờ hoặc thường xuyên. She works every day.",
+        "tương lai: hành động chưa xảy ra. She will work tomorrow.",
+        "Lưu ý: chỉ quá khứ và hiện tại làm đổi dạng động từ chính. Tương lai không đổi dạng động từ chính, nó dùng trợ động từ will và sau will luôn là V-0."
+      ]
+    },
+    {
+      "type": "section",
+      "node": "M1.4",
+      "heading_vi": "Năm dạng của một động từ",
+      "table": {
+        "columns_vi": [
+          "Dạng",
+          "Tên",
+          "Dùng khi nào",
+          "Ví dụ với work và go"
+        ],
+        "rows": [
+          [
+            "V-0",
+            "nguyên thể",
+            "dạng gốc, sau trợ động từ do và will, sau động từ khuyết thiếu",
+            "work, go"
+          ],
+          [
+            "V-1",
+            "hiện tại ngôi thứ ba số ít",
+            "hiện tại đơn, khi chủ ngữ là một người hoặc một vật",
+            "works, goes"
+          ],
+          [
+            "V-2",
+            "quá khứ",
+            "quá khứ đơn",
+            "worked, went"
+          ],
+          [
+            "V-3",
+            "phân từ quá khứ",
+            "thể hoàn thành và dạng bị động",
+            "worked, gone"
+          ],
+          [
+            "V-ing",
+            "đuôi -ing",
+            "thể tiếp diễn",
+            "working, going"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "M1.4-01",
+        "node": "M1.4",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Trong câu \"They cleaned the room yesterday.\", động từ đang ở dạng nào?",
+        "options": [
+          {
+            "key": "A",
+            "text": "V-0",
+            "diagnosis_vi": "V-0 là dạng gốc, tức là \"clean\" không thêm gì. Ở đây động từ có thêm đuôi -ed."
+          },
+          {
+            "key": "B",
+            "text": "V-1",
+            "diagnosis_vi": "V-1 là dạng hiện tại ngôi thứ ba số ít, tức là \"cleans\" với đuôi -s. Ở đây đuôi là -ed, không phải -s."
+          },
+          {
+            "key": "C",
+            "text": "V-2",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "D",
+            "text": "V-ing",
+            "diagnosis_vi": "V-ing là dạng có đuôi -ing, tức là \"cleaning\". Ở đây đuôi là -ed."
+          }
+        ],
+        "answer": "C",
+        "rule_vi": "Nhìn đuôi của động từ là biết dạng. Không có đuôi là V-0. Đuôi -s là V-1. Đuôi -ed là V-2. Đuôi -ing là V-ing.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "text",
+      "body_vi": "Hai dạng phải tự tạo ra, mỗi dạng có quy tắc riêng:"
+    },
+    {
+      "type": "section",
+      "node": "M1.3",
+      "heading_vi": "V-1: thêm -s hoặc -es, ngược lại với quy tắc số nhiều của danh từ",
+      "body_vi": "Ở hiện tại đơn, khi chủ ngữ là một người hoặc một vật thuộc ngôi thứ ba số ít, động từ chính thêm -s hoặc -es. Với các trường hợp còn lại, động từ chính giữ nguyên V-0. Giải thích một cách dễ hiểu, đối với danh từ có quy tắc, danh từ thêm -s hoặc -es thì động từ không thêm gì, và danh từ không thêm gì thì động từ thêm -s hoặc -es. Quy tắc thêm -s hoặc -es của động từ giống với danh từ:",
+      "table": {
+        "columns_vi": [
+          "Từ kết thúc bằng",
+          "Cách làm",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "phần lớn các trường hợp",
+            "thêm -s",
+            "work  works, read  reads"
+          ],
+          [
+            "-s, -ss, -sh, -ch, -x, -z, -o",
+            "thêm -es",
+            "watch  watches, go  goes, fix  fixes"
+          ],
+          [
+            "phụ âm + y",
+            "đổi y thành i, thêm -es",
+            "study  studies, fly  flies"
+          ],
+          [
+            "nguyên âm + y",
+            "thêm -s",
+            "play  plays, buy  buys"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "M1.3-01",
+        "node": "M1.3",
+        "l1_tag": "PLS",
+        "type": "mcq",
+        "prompt_vi": "Chọn câu đúng cho \"Cô ấy dạy tiếng Anh mỗi ngày.\":",
+        "options": [
+          {
+            "key": "A",
+            "text": "She teach English every day.",
+            "diagnosis_vi": "Quên thêm -s. Chủ ngữ \"she\" là ngôi thứ ba số ít, nên động từ ở hiện tại đơn phải là V-1. Tiếng Việt không đổi động từ theo chủ ngữ, nên bước này rất dễ bị bỏ qua."
+          },
+          {
+            "key": "B",
+            "text": "She teaches English every day.",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "She teachs English every day.",
+            "diagnosis_vi": "Chỉ thêm -s. \"teach\" kết thúc bằng -ch, nên phải thêm -es, không phải -s."
+          },
+          {
+            "key": "D",
+            "text": "She teaching English every day.",
+            "diagnosis_vi": "Dùng dạng V-ing mà không có trợ động từ be đứng trước. Dạng đó thuộc thể tiếp diễn, và nó luôn phải có be đi cùng."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Ở hiện tại đơn, chủ ngữ ngôi thứ ba số ít thì động từ dùng V-1. Cách thêm -s và -es giống cách tạo số nhiều của danh từ.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "M1.4",
+      "heading_vi": "V-2: thêm -ed",
+      "body_vi": "ở quá khứ đơn, động từ thêm -ed. Đây là quy tắc chung, còn những động từ không theo quy tắc này sẽ học ở bài cuối.",
+      "table": {
+        "columns_vi": [
+          "Từ kết thúc bằng",
+          "Cách làm",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "phần lớn các trường hợp",
+            "thêm -ed",
+            "work  worked, play  played"
+          ],
+          [
+            "-e",
+            "chỉ thêm -d",
+            "live  lived, like  liked"
+          ],
+          [
+            "phụ âm + y",
+            "đổi y thành i, thêm -ed",
+            "study  studied, cry  cried"
+          ],
+          [
+            "một nguyên âm và một phụ âm ở cuối, từ một âm tiết",
+            "gấp đôi phụ âm cuối, thêm -ed",
+            "stop  stopped, plan  planned"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "M1.4-02",
+        "node": "M1.4",
+        "l1_tag": "FCC",
+        "type": "mcq",
+        "prompt_vi": "Dạng V-2 của \"carry\" là gì?",
+        "options": [
+          {
+            "key": "A",
+            "text": "carryed",
+            "diagnosis_vi": "Thêm -ed mà giữ nguyên y. Chữ đứng trước y là r, một phụ âm, nên phải đổi y thành i trước."
+          },
+          {
+            "key": "B",
+            "text": "carried",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "carred",
+            "diagnosis_vi": "Bỏ mất chữ y thay vì đổi nó thành i. Quy tắc là đổi y thành i, không phải bỏ y đi."
+          },
+          {
+            "key": "D",
+            "text": "carryd",
+            "diagnosis_vi": "Chỉ thêm -d. Cách chỉ thêm -d dùng cho từ đã kết thúc bằng -e, như live thành lived. \"carry\" không kết thúc bằng -e."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Động từ kết thúc bằng phụ âm cộng y thì đổi y thành i rồi thêm -ed. Quy tắc này giống hệt quy tắc đổi y ở danh từ số nhiều và ở V-1.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "Y1-01",
+        "node": "Y1",
+        "l1_tag": "AUX",
+        "type": "mcq",
+        "prompt_vi": "Chọn câu đúng cho \"Ngày mai họ sẽ nấu cơm.\":",
+        "options": [
+          {
+            "key": "A",
+            "text": "They will cooks rice tomorrow.",
+            "diagnosis_vi": "Chia động từ sau \"will\". Sau will luôn là V-0, tức là động từ giữ nguyên, không thêm -s."
+          },
+          {
+            "key": "B",
+            "text": "They will cook rice tomorrow.",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "They cook rice tomorrow.",
+            "diagnosis_vi": "Dùng dạng hiện tại cho một hành động trong tương lai, và bỏ mất \"will\". Tiếng Việt chỉ cần thêm chữ \"sẽ\", tiếng Anh cần trợ động từ will."
+          },
+          {
+            "key": "D",
+            "text": "They willed cook rice tomorrow.",
+            "diagnosis_vi": "Chia quá khứ cho \"will\". \"will\" là trợ động từ, nó không nhận đuôi -ed."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Thì tương lai không đổi dạng động từ. Nó dùng trợ động từ will, và sau will luôn là V-0.",
+        "fallback_vi": null
+      }
+    }
+  ],
+  "_internal": {
+    "note": "Everything under _internal is for the team only. The site never renders it.",
+    "taught_before": [
+      "Material #2: quy tắc thêm -s và -es cho danh từ số nhiều. Bài này dùng lại đúng quy tắc đó cho V-1.",
+      "Material #7: trợ động từ, bốn cặp trợ động từ với dạng động từ, quy tắc chỉ chia một lần.",
+      "Material #8: động từ khuyết thiếu và V-0.",
+      "Material #9, #10, #11: phủ định và câu hỏi."
+    ],
+    "not_yet_taught_so_not_used": [
+      "thể (Y2, material #13) và hai dạng V-3, V-ing (M1.5, M1.6, material #13). Bảng năm dạng có nhắc tên chúng và nói rõ là học ở bài sau.",
+      "dạng bị động (Y3, material #14).",
+      "động từ bất quy tắc (W2.5, material #16). Bảng năm dạng có \"go, goes, went, gone\" làm ví dụ nhưng không câu nào bắt người học tự tạo ra chúng."
+    ],
+    "sources": [
+      "Ngữ pháp Tiếng Anh 1.docx của Kiên: cách đánh số V-0, V-1, V-2, V-3, V-ing là của Kiên, và bài này dùng nguyên.",
+      "SPEC.md mục 3: tiếng Anh có hai thì biến tố là quá khứ và hiện tại, còn tương lai được tạo bằng trợ động từ will. Bài này nói đúng điều đó.",
+      "Fun fact so sánh đuôi -s của danh từ với đuôi -s của động từ là phần em thêm."
+    ],
+    "decisions": [
+      "Dạy V-1 bằng cách chỉ thẳng rằng quy tắc thêm -s giống hệt quy tắc danh từ số nhiều ở material #2. Người học không phải học lại, chỉ phải nhận ra là đã biết rồi.",
+      "Thêm hàng -o vào bảng V-1 (go thành goes), dù bảng danh từ ở material #2 đã cắt hàng -o. Lý do khác nhau: ở danh từ, hàng -o có ngoại lệ photos và pianos nên dạy sẽ sai; ở động từ, go, do và echo đều theo quy tắc nên hàng này an toàn.",
+      "Ngày 19/09 theo Kiên: bỏ mọi chữ \"học ở bài sau\" trong bảng năm dạng và bỏ câu dẫn nói bài này chỉ học ba dạng đầu. Dùng \"ngôi thứ ba\" thay cho \"ngôi ba\" ở mọi chỗ.",
+      "Ngày 20/09 theo Kiên: tiêu đề phần V-1 nói \"ngược lại với quy tắc số nhiều của danh từ\", và thân bài giải thích rõ chiều ngược đó: danh từ thêm -s thì động từ không thêm gì. Bỏ mọi nhãn \"Quy tắc:\". Bốn câu hỏi dùng clean, teach, carry và cook, đều là động từ không có trong bảng nào ở trên.",
+      "Ngày 21/09 theo Kiên: bỏ fun fact so sánh hai đuôi -s vì gây rối. Không thêm bảng đại từ bất định vào bài này. Bảng tổng hợp mười hai thì được đưa thành một material riêng, đặt sau bài về dạng bị động."
+    ],
+    "open_questions": []
+  }
+}

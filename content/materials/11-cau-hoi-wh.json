@@ -1,0 +1,269 @@
+{
+  "material_id": 11,
+  "slug": "cau-hoi-wh",
+  "title_vi": "Câu hỏi Wh-",
+  "stage": 10,
+  "nodes": [
+    "C4.3"
+  ],
+  "video_url": null,
+  "blocks": [
+    {
+      "type": "text",
+      "body_vi": "Câu hỏi Wh- là câu hỏi cần một câu trả lời cụ thể, không phải yes hay no. Câu hỏi Wh- có cấu trúc cơ bản như sau:",
+      "node": "C4.3",
+      "list": [
+        "Từ để hỏi + Câu hỏi Yes/No"
+      ]
+    },
+    {
+      "type": "text",
+      "node": "C4.3",
+      "body_vi": "Từ để hỏi thay chỗ cho đúng phần đang được hỏi, nên phần đó biến mất khỏi câu."
+    },
+    {
+      "type": "section",
+      "node": "C4.3",
+      "heading_vi": "Sáu từ để hỏi thường dùng",
+      "body_vi": "Mỗi từ để hỏi hỏi về một loại thông tin. Bảng dưới đây đi từng bước, từ câu khẳng định, qua câu hỏi Yes/No, đến câu hỏi Wh-, và cột cuối nói rõ chuyện gì xảy ra ở mỗi bước.",
+      "table": {
+        "columns_vi": [
+          "Từ để hỏi",
+          "Hỏi về",
+          "Câu khẳng định",
+          "Câu hỏi Yes/No",
+          "Câu hỏi Wh-",
+          "Chuyện gì xảy ra"
+        ],
+        "rows": [
+          [
+            "what",
+            "cái gì",
+            "They want to eat chocolate.",
+            "Do they want to eat chocolate?",
+            "What do they want?",
+            "Thêm do lên đầu để thành câu hỏi Yes/No. Bỏ \"to eat chocolate\" vì what thay cho nó. Đặt what lên đầu."
+          ],
+          [
+            "who",
+            "ai",
+            "He met Minh.",
+            "Did he meet Minh?",
+            "Who did he meet?",
+            "Thêm did, đưa met về meet. Bỏ \"Minh\" vì who thay cho nó. Đặt who lên đầu."
+          ],
+          [
+            "where",
+            "ở đâu",
+            "We will go to Da Lat.",
+            "Will we go to Da Lat?",
+            "Where will we go?",
+            "Đảo will lên đầu. Bỏ \"to Da Lat\" vì where thay cho nó. Đặt where lên đầu."
+          ],
+          [
+            "when",
+            "khi nào",
+            "You arrived at 8 p.m.",
+            "Did you arrive at 8 p.m.?",
+            "When did you arrive?",
+            "Thêm did, đưa arrived về arrive. Bỏ \"at 8 p.m.\" vì when thay cho nó. Đặt when lên đầu."
+          ],
+          [
+            "why",
+            "tại sao",
+            "He is crying because he is sad.",
+            "Is he crying because he is sad?",
+            "Why is he crying?",
+            "Đảo is lên đầu. Bỏ \"because he is sad\" vì why thay cho nó. Đặt why lên đầu."
+          ],
+          [
+            "how",
+            "bằng cách nào",
+            "They travel to school by bus.",
+            "Do they travel to school by bus?",
+            "How do they travel to school?",
+            "Thêm do lên đầu. Bỏ \"by bus\" vì how thay cho nó. Đặt how lên đầu."
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "C4.3-01",
+        "node": "C4.3",
+        "l1_tag": "AUX",
+        "type": "mcq",
+        "prompt_vi": "Chọn câu đúng cho \"Họ đang nấu gì?\":",
+        "options": [
+          {
+            "key": "A",
+            "text": "What they are cooking?",
+            "diagnosis_vi": "Đặt từ để hỏi lên trước nhưng quên đảo trợ động từ. Câu hỏi Wh- vẫn phải đảo trợ động từ lên trước chủ ngữ, y như câu hỏi Yes/No."
+          },
+          {
+            "key": "B",
+            "text": "What are they cooking?",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "What are they cooking rice?",
+            "diagnosis_vi": "Giữ lại \"rice\". Từ để hỏi \"what\" đã thay chỗ cho \"rice\" rồi, nên \"rice\" phải biến mất. Nếu để lại thì câu hỏi hai lần về cùng một thứ."
+          },
+          {
+            "key": "D",
+            "text": "Are they cooking what?",
+            "diagnosis_vi": "Để từ để hỏi ở nguyên chỗ cũ. Tiếng Việt đặt từ để hỏi ở đúng vị trí thành phần được hỏi, nên \"Họ đang nấu gì\" để \"gì\" ở cuối. Tiếng Anh đưa từ để hỏi lên đầu câu."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Câu hỏi Wh- gồm hai bước: đặt từ để hỏi lên đầu, và làm y hệt câu hỏi Yes/No ở phần sau. Thành phần được hỏi biến mất, vì từ để hỏi đã thay chỗ cho nó.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "C4.3-02",
+        "node": "C4.3",
+        "l1_tag": "AUX",
+        "type": "mcq",
+        "prompt_vi": "Chọn câu đúng cho \"Hôm qua anh ấy học ở đâu?\":",
+        "options": [
+          {
+            "key": "A",
+            "text": "Where did he study yesterday?",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "B",
+            "text": "Where he studied yesterday?",
+            "diagnosis_vi": "Quên đảo trợ động từ, và giữ động từ ở dạng quá khứ. Phải thêm \"did\" và đưa động từ chính về V-0."
+          },
+          {
+            "key": "C",
+            "text": "Where did he studied yesterday?",
+            "diagnosis_vi": "Chia quá khứ hai lần, một lần ở \"did\" và một lần ở \"studied\". Đã chia ở trợ động từ thì động từ chính trở về V-0."
+          },
+          {
+            "key": "D",
+            "text": "Where does he study yesterday?",
+            "diagnosis_vi": "Chọn dạng hiện tại của trợ động từ cho một hành động trong quá khứ. Từ \"yesterday\" cho biết phải dùng \"did\"."
+          }
+        ],
+        "answer": "A",
+        "rule_vi": "Phần sau từ để hỏi làm y hệt câu hỏi Yes/No, kể cả quy tắc chỉ chia một lần và quy tắc thêm do khi câu chưa có trợ động từ.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "text",
+      "body_vi": "Có một trường hợp làm ngược lại tất cả những gì vừa học:"
+    },
+    {
+      "type": "section",
+      "node": "C4.3",
+      "heading_vi": "Khi từ để hỏi chính là chủ ngữ thì không đảo gì cả",
+      "body_vi": "Từ để hỏi thay chỗ cho thành phần được hỏi. Nếu thành phần đó là chủ ngữ, thì từ để hỏi đã đứng sẵn ở đầu câu rồi, nên không còn gì để đảo. Trật tự giữ nguyên như câu khẳng định. So sánh từng cặp hàng dưới đây: cùng một từ để hỏi, nhưng câu gốc khác nhau nên kết quả khác nhau.",
+      "table": {
+        "columns_vi": [
+          "Câu gốc",
+          "Hỏi về phần nào",
+          "Câu hỏi",
+          "Có đảo không"
+        ],
+        "rows": [
+          [
+            "They visited Lan.",
+            "tân ngữ, tức là Lan",
+            "Who did they visit?",
+            "có đảo, thêm did"
+          ],
+          [
+            "Lan visited them.",
+            "chủ ngữ, tức là Lan",
+            "Who visited them?",
+            "không đảo, không thêm did"
+          ],
+          [
+            "He opened the door.",
+            "tân ngữ, tức là the door",
+            "What did he open?",
+            "có đảo, thêm did"
+          ],
+          [
+            "The wind opened the door.",
+            "chủ ngữ, tức là the wind",
+            "What opened the door?",
+            "không đảo, không thêm did"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "C4.3-03",
+        "node": "C4.3",
+        "l1_tag": "AUX",
+        "type": "mcq",
+        "prompt_vi": "Chọn câu đúng cho \"Ai đã dọn cái phòng này?\":",
+        "options": [
+          {
+            "key": "A",
+            "text": "Who did clean this room?",
+            "diagnosis_vi": "Thêm \"did\" khi không cần. Ở đây \"who\" chính là chủ ngữ, tức là người dọn, nên nó đã đứng sẵn ở đầu câu và không có gì để đảo."
+          },
+          {
+            "key": "B",
+            "text": "Who cleaned this room?",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "Who did cleaned this room?",
+            "diagnosis_vi": "Vừa thêm \"did\" không cần, vừa chia quá khứ hai lần."
+          },
+          {
+            "key": "D",
+            "text": "Who this room cleaned?",
+            "diagnosis_vi": "Đảo tân ngữ lên trước động từ. Trật tự vẫn là chủ ngữ, động từ, tân ngữ, và ở đây chủ ngữ chính là \"who\"."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Khi từ để hỏi chính là chủ ngữ, câu giữ nguyên trật tự chủ ngữ, động từ, tân ngữ, và không thêm trợ động từ nào. Khi từ để hỏi là tân ngữ hoặc thành phần khác thì mới đảo.",
+        "fallback_vi": null
+      }
+    }
+  ],
+  "_internal": {
+    "note": "Everything under _internal is for the team only. The site never renders it.",
+    "taught_before": [
+      "Material #5: chủ ngữ, động từ, tân ngữ.",
+      "Material #7: trợ động từ.",
+      "Material #9: phủ định.",
+      "Material #10: câu hỏi Yes/No, đảo trợ động từ lên đầu, thêm do khi chưa có."
+    ],
+    "not_yet_taught_so_not_used": [
+      "thì và thể như một hệ thống (material #12 và #13).",
+      "V-2 bất quy tắc (material #16). Ví dụ dùng went, broke và met, và bài không yêu cầu người học tự tạo ra chúng, chỉ chọn trong bốn phương án."
+    ],
+    "sources": [
+      "Ngữ pháp Tiếng Anh 1.docx của Kiên chỉ có quy tắc đảo trợ động từ cho câu hỏi nói chung, không tách riêng câu hỏi Wh-. Bảng sáu từ để hỏi và phần từ để hỏi làm chủ ngữ là phần em thêm, dựa trên node C4.3 trong nodes.json.",
+      "Huddleston, R. và Pullum, G. K. (2002). The Cambridge Grammar of the English Language. Chương 10, phần open interrogatives."
+    ],
+    "decisions": [
+      "Dạy câu hỏi Wh- đúng như SPEC mô tả: cùng một phép đảo, thêm một từ để hỏi ở trước. Như vậy bài này không phải học lại gì, chỉ cộng thêm một bước.",
+      "Đưa trường hợp từ để hỏi làm chủ ngữ vào bài, dù nó khó. Lý do: đây là lỗi mà người học sẽ mắc ngay khi bắt đầu tự đặt câu hỏi, và nếu không nói ra thì quy tắc \"luôn đảo\" vừa dạy sẽ bị áp dụng sai. Bài nói trước rằng đây là trường hợp làm ngược lại.",
+      "Chọn sáu từ để hỏi thường dùng nhất, bỏ which, whose, whom. Ba từ đó cần thêm khái niệm mới.",
+      "Ngày 19/09 theo Kiên: đổi động từ ví dụ từ \"study\" sang \"study\". \"study\" là động từ bất quy tắc, và bài này ở trước material #16 nên chưa dạy động từ bất quy tắc. \"study\" có quy tắc, nên câu quá khứ dùng đúng đuôi -ed.",
+      "Ngày 19/09 theo Kiên: thêm cột câu gốc vào bảng từ để hỏi làm chủ ngữ, và xếp bốn hàng thành hai cặp dùng chung một từ để hỏi, để thấy rõ cái quyết định có đảo hay không là vị trí của phần được hỏi trong câu gốc.",
+      "Ngày 20/09 theo Kiên: đổi toàn bộ \"từ hỏi\" thành \"từ để hỏi\". Mở bài chỉ còn một dòng công thức \"Từ để hỏi + Câu hỏi Yes/No\", phần giải thích tách ra thành đoạn riêng. Bảng sáu từ để hỏi dùng he, they, we, you, I thay cho she ở mọi hàng. Ba câu hỏi và hai bảng dùng ba bộ ví dụ khác nhau.",
+      "Ngày 21/09 theo Kiên: bảng sáu từ để hỏi chuyển thành bảng biến đổi từng bước, gồm câu khẳng định, câu hỏi Yes/No, câu hỏi Wh- và một cột giải thích từng bước. Hàng what dùng đúng ví dụ của Kiên. whom và whose để sang V2."
+    ],
+    "open_questions": [
+      "Kiên nói phần này vẫn hơi khó hiểu và sẽ bàn lại sau. Cột câu gốc là bước sửa thứ nhất, chưa chắc đã đủ."
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "material_id": 5,
+  "slug": "cau-truc-menh-de",
+  "title_vi": "Cấu trúc và các thành phần trong mệnh đề",
+  "stage": 4,
+  "nodes": [
+    "C5",
+    "C5.1",
+    "C5.2"
+  ],
+  "video_url": null,
+  "blocks": [
+    {
+      "type": "text",
+      "node": "C5",
+      "body_vi": "Mệnh đề là một nhóm từ có đủ một chủ ngữ và một động từ. Khái niệm này tương tự với chủ ngữ và vị ngữ trong tiếng Việt. Tuy nhiên, nếu vị ngữ trong tiếng Việt có thể là động từ \"Tôi đi làm\" hoặc tính từ \"Cô ấy xinh đẹp\", thì vị ngữ trong tiếng Anh luôn bao gồm một động từ \"She is beautiful\" (Cô ấy thì xinh đẹp). Do đó, ta sẽ gọi phần này là động từ để đảm bảo sự chính xác."
+    },
+    {
+      "type": "text",
+      "node": "C5",
+      "body_vi": "Công thức cơ bản của mệnh đề là Chủ ngữ + Động từ + Tân ngữ, viết gọn là S + V + O:",
+      "list": [
+        "Chủ ngữ (Subject, S): người hoặc vật gây ra hành động. Người đánh.",
+        "Động từ (Verb, V): chính hành động đó. Đấm.",
+        "Tân ngữ (Object, O): người hoặc vật bị hành động tác động lên. Người bị đánh.",
+        "Không phải mệnh đề nào cũng có tân ngữ, vì có nội động từ."
+      ]
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "C5-01",
+        "node": "C5",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Trong câu \"Nam hits Minh.\", từ nào là tân ngữ?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Nam",
+            "diagnosis_vi": "\"Nam\" đứng trước động từ, nên Nam là chủ ngữ, tức là người đánh."
+          },
+          {
+            "key": "B",
+            "text": "hits",
+            "diagnosis_vi": "\"hits\" là động từ, tức là chính hành động đánh. Nó không phải danh từ nào cả."
+          },
+          {
+            "key": "C",
+            "text": "Minh",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "D",
+            "text": "Câu này không có tân ngữ",
+            "diagnosis_vi": "Câu này có tân ngữ. \"hit\" là ngoại động từ, nó bắt buộc phải có danh từ đứng sau, và danh từ đó chính là tân ngữ."
+          }
+        ],
+        "answer": "C",
+        "rule_vi": "Trong tiếng Anh, thứ tự quyết định vai. Chủ ngữ đứng trước động từ và là người gây ra hành động. Tân ngữ đứng sau động từ và là người bị tác động.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "text",
+      "body_vi": "Một mệnh đề có năm thành phần:"
+    },
+    {
+      "type": "section",
+      "node": "C5.1",
+      "heading_vi": "Ba thành phần chính và hai thành phần bổ sung",
+      "body_vi": "Ba thành phần chính là chủ ngữ, động từ và tân ngữ. Hai thành phần bổ sung là bổ ngữ và trạng ngữ.",
+      "table": {
+        "columns_vi": [
+          "Thành phần",
+          "Trả lời câu hỏi gì",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "Chủ ngữ (S)",
+            "Ai, cái gì?",
+            "My brother cleans the room. Chủ ngữ là \"my brother\"."
+          ],
+          [
+            "Động từ (V)",
+            "Làm gì, thế nào?",
+            "My brother cleans the room. Động từ là \"cleans\"."
+          ],
+          [
+            "Tân ngữ (O)",
+            "Làm gì, làm ai?",
+            "My brother cleans the room. Tân ngữ là \"the room\"."
+          ],
+          [
+            "Bổ ngữ (C)",
+            "Chủ ngữ là ai, như thế nào?",
+            "My brother is a student. Bổ ngữ là \"a student\". My brother is tired. Bổ ngữ là \"tired\"."
+          ],
+          [
+            "Trạng ngữ (A)",
+            "Khi nào, ở đâu, ra sao?",
+            "My brother cleans the room every day. Trạng ngữ là \"every day\"."
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "C5.1-01",
+        "node": "C5.1",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Trong câu \"My little sister likes green apples.\", tân ngữ là gì?",
+        "options": [
+          {
+            "key": "A",
+            "text": "My little sister",
+            "diagnosis_vi": "\"My little sister\" đứng trước động từ, nên đây là chủ ngữ, tức là người thích."
+          },
+          {
+            "key": "B",
+            "text": "likes",
+            "diagnosis_vi": "\"likes\" là động từ, tức là chính trạng thái thích. Nó không phải thành phần bị tác động."
+          },
+          {
+            "key": "C",
+            "text": "green apples",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "D",
+            "text": "green",
+            "diagnosis_vi": "\"green\" chỉ là tính từ miêu tả \"apples\". Tân ngữ là cả cụm danh từ, không phải một tính từ trong đó."
+          }
+        ],
+        "answer": "C",
+        "rule_vi": "Tân ngữ là danh từ hoặc cụm danh từ đứng sau động từ, chỉ thứ bị hành động tác động lên. Tính từ đi kèm nằm trong cụm đó.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "C5.1-02",
+        "node": "C5.1",
+        "l1_tag": "DVB",
+        "type": "mcq",
+        "prompt_vi": "Chọn câu đúng cho \"Tôi thấy chán.\":",
+        "options": [
+          {
+            "key": "A",
+            "text": "I bored.",
+            "diagnosis_vi": "Thiếu động từ. Mệnh đề nào cũng phải có động từ, và ở đây động từ là \"am\". Tiếng Việt nói \"Tôi chán\" không cần từ nào ở giữa, nên bước này rất dễ bị bỏ."
+          },
+          {
+            "key": "B",
+            "text": "I am bored.",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "I am boring.",
+            "diagnosis_vi": "\"boring\" hướng ra ngoài, nghĩa là tôi làm người khác thấy chán. Câu tiếng Việt nói chính tôi đang thấy chán, nên dùng \"bored\", hướng vào trong."
+          },
+          {
+            "key": "D",
+            "text": "I am bore.",
+            "diagnosis_vi": "\"bore\" chưa có đuôi -ed cũng chưa có đuôi -ing, nên nó chưa phải tính từ, và chưa nhận hướng nào."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Khi muốn nói chủ ngữ như thế nào, dùng một dạng của \"be\" làm động từ, rồi đặt tính từ sau nó làm bổ ngữ. Đây là chỗ đứng thứ hai của tính từ, đã nói trước ở bài tính từ.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "C5.2",
+      "heading_vi": "Bảy mẫu câu cơ bản",
+      "body_vi": "Ghép năm thành phần lại, tiếng Anh có bảy mẫu câu cơ bản. Mọi câu đơn đều nằm trong một trong bảy mẫu này.",
+      "table": {
+        "columns_vi": [
+          "Mẫu",
+          "Ví dụ",
+          "Nghĩa"
+        ],
+        "rows": [
+          [
+            "S + V",
+            "The rain falls.",
+            "Mưa rơi."
+          ],
+          [
+            "S + V + O",
+            "I like coffee.",
+            "Tôi thích cà phê."
+          ],
+          [
+            "S + V + C",
+            "My brother is tired.",
+            "Em trai tôi mệt."
+          ],
+          [
+            "S + V + A",
+            "She lives in Hanoi.",
+            "Cô ấy sống ở Hà Nội."
+          ],
+          [
+            "S + V + O + O",
+            "He gives me a book.",
+            "Anh ấy đưa tôi một quyển sách."
+          ],
+          [
+            "S + V + O + C",
+            "They call him Nam.",
+            "Họ gọi anh ấy là Nam."
+          ],
+          [
+            "S + V + O + A",
+            "I put the book on the table.",
+            "Tôi đặt quyển sách lên bàn."
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "C5.2-01",
+        "node": "C5.2",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Câu \"They work in the garden.\" thuộc mẫu nào?",
+        "options": [
+          {
+            "key": "A",
+            "text": "S + V + O",
+            "diagnosis_vi": "\"in the garden\" trả lời câu hỏi ở đâu, nên nó là trạng ngữ, không phải tân ngữ. Tân ngữ là thứ bị hành động tác động lên, còn cái vườn không bị ai tác động lên cả."
+          },
+          {
+            "key": "B",
+            "text": "S + V + A",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "S + V + C",
+            "diagnosis_vi": "Bổ ngữ cho biết chủ ngữ là ai hoặc như thế nào. \"in the garden\" không cho biết họ là ai hay như thế nào, nó cho biết nơi họ làm việc."
+          },
+          {
+            "key": "D",
+            "text": "S + V",
+            "diagnosis_vi": "Mẫu S + V chỉ có chủ ngữ và động từ. Câu này còn \"in the garden\" ở sau, nên nó dài hơn mẫu đó."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Trạng ngữ trả lời khi nào, ở đâu, ra sao. Tân ngữ là thứ bị hành động tác động lên. Bổ ngữ cho biết chủ ngữ là ai hoặc như thế nào. Ba thành phần này đứng cùng một chỗ trong câu nên rất dễ lẫn.",
+        "fallback_vi": null
+      }
+    }
+  ],
+  "_internal": {
+    "note": "Everything under _internal is for the team only. The site never renders it.",
+    "taught_before": [
+      "Material #1 và #2: danh từ và các cách phân loại.",
+      "Material #3: tính từ, và lời hứa rằng tính từ còn một chỗ đứng thứ hai. Bài này trả món nợ đó ở câu C5.1-02.",
+      "Material #4: động từ chính, hành động và trạng thái, động từ tự đủ nghĩa và động từ cần một danh từ đi sau. Bài này đặt tên cho danh từ đó là tân ngữ."
+    ],
+    "not_yet_taught_so_not_used": [
+      "trợ động từ (W2.2, material #7). Mọi ví dụ là câu khẳng định hiện tại đơn, nên không cần trợ động từ.",
+      "thì và thể (material #12 và #13). Không ví dụ nào ở quá khứ hay ở thể tiếp diễn.",
+      "đại từ (W1.5, material #6). Bài này là bài cuối cùng dùng đại từ mà chưa dạy, và ngay bài sau sẽ dạy."
+    ],
+    "sources": [
+      "Ngữ pháp Tiếng Anh 1.docx của Kiên, mục Cấu tạo câu và mục Kết cấu của mệnh đề. Cách ví von người đánh, đấm, người bị đánh là của Kiên.",
+      "Bảy mẫu câu là bộ mẫu chuẩn của ngữ pháp mô tả tiếng Anh, khớp với node C5.2 trong nodes.json. File của Kiên chỉ có S + V + O, nên phần bảy mẫu là phần em thêm vào để C5.2 có nội dung."
+    ],
+    "decisions": [
+      "Dùng ví dụ Nam hits Minh cho câu đầu, theo đúng cách ví von người đánh và người bị đánh của Kiên.",
+      "Đặt câu \"I am bored\" ở đây chứ không ở material #3, vì nó cần động từ be và cần khái niệm bổ ngữ. Material #3 đã hứa trước về chỗ đứng thứ hai này.",
+      "Mục Kết cấu của mệnh đề trong file của Kiên chỉ có tiêu đề, chưa có nội dung. Phần bảng năm thành phần và bảng bảy mẫu câu là phần em viết, dựa trên cấu trúc mà file đã nêu: Chủ ngữ, Vị ngữ, Tân ngữ, Bổ ngữ, Trạng ngữ.",
+      "Phần mở bài viết lại ngày 19/09 theo Kiên: so sánh với chủ ngữ và vị ngữ trong tiếng Việt, và nói rõ vì sao gọi là động từ chứ không phải vị ngữ. Câu hỏi còn mở về hai từ này ở bản trước đã được Kiên trả lời chính bằng đoạn đó.",
+      "Ngày 20/09: bảng năm thành phần đổi động từ ví dụ sang \"cleans\", một động từ có quy tắc, và câu hỏi C5.2-01 đổi sang \"They work in the garden.\" để không lặp lại \"She lives in Hanoi.\" đã có trong bảng bảy mẫu.",
+      "Ngày 21/09 theo Kiên: câu C5.1-02 đổi từ tag AUX sang tag mới DVB, tức là bỏ mất động từ, vì \"am\" ở đây là động từ chính chứ không phải trợ động từ."
+    ],
+    "open_questions": []
+  }
+}

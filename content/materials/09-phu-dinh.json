@@ -1,0 +1,301 @@
+{
+  "material_id": 9,
+  "slug": "phu-dinh",
+  "title_vi": "Phủ định",
+  "stage": 8,
+  "nodes": [
+    "Y7"
+  ],
+  "video_url": null,
+  "blocks": [
+    {
+      "type": "text",
+      "body_vi": "Phủ định là nói rằng một hành động không xảy ra. Từ phủ định trong tiếng Anh là \"not\", và từ này có một chỗ đứng duy nhất:",
+      "node": "Y7",
+      "list": [
+        "Quy tắc: \"not\" luôn đứng ngay sau trợ động từ.",
+        "She will not study English.",
+        "She is not studying English.",
+        "She has not studied English.",
+        "She can not swim."
+      ]
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "Y7-01",
+        "node": "Y7",
+        "l1_tag": "AUX",
+        "type": "mcq",
+        "prompt_vi": "Chọn câu đúng cho \"Chúng tôi sẽ không mở cửa sổ.\":",
+        "options": [
+          {
+            "key": "A",
+            "text": "We not will open the window.",
+            "diagnosis_vi": "\"not\" đứng trước trợ động từ. Chỗ của \"not\" là ngay sau trợ động từ, không phải trước."
+          },
+          {
+            "key": "B",
+            "text": "We will not open the window.",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "We will open not the window.",
+            "diagnosis_vi": "\"not\" đứng sau động từ chính. Chỗ của \"not\" là ngay sau trợ động từ \"will\"."
+          },
+          {
+            "key": "D",
+            "text": "Not we will open the window.",
+            "diagnosis_vi": "\"not\" đứng đầu câu. Tiếng Việt đặt \"không\" ngay trước động từ, nhưng tiếng Anh gắn \"not\" vào trợ động từ, nên vị trí của nó do trợ động từ quyết định."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Chỉ có một quy tắc: \"not\" đứng ngay sau trợ động từ của câu. Tìm được trợ động từ là biết ngay chỗ của \"not\".",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "text",
+      "body_vi": "Còn một trường hợp cần xử lý riêng:"
+    },
+    {
+      "type": "section",
+      "node": "Y7",
+      "heading_vi": "Khi câu chưa có trợ động từ thì phải thêm do vào",
+      "body_vi": "Ở hiện tại đơn và quá khứ đơn, câu khẳng định không có trợ động từ nào. Vậy \"not\" không có chỗ để đứng. Lúc đó phải thêm trợ động từ \"do\" vào, rồi đặt \"not\" sau nó. Và vì đã chia ở \"do\", động từ chính trở về V-0.",
+      "table": {
+        "columns_vi": [
+          "Câu khẳng định",
+          "Câu phủ định",
+          "Việc đã làm"
+        ],
+        "rows": [
+          [
+            "He plays football.",
+            "He does not play football.",
+            "thêm does, đưa plays về play"
+          ],
+          [
+            "We play football.",
+            "We do not play football.",
+            "thêm do, play giữ nguyên"
+          ],
+          [
+            "He played football yesterday.",
+            "He did not play football yesterday.",
+            "thêm did, đưa played về V-0"
+          ],
+          [
+            "He is a student.",
+            "He is not a student.",
+            "không thêm gì, vì is đã sẵn có"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "Y7-02",
+        "node": "Y7",
+        "l1_tag": "AUX",
+        "type": "mcq",
+        "prompt_vi": "Chọn câu đúng cho \"Cô ấy không nấu cơm.\":",
+        "options": [
+          {
+            "key": "A",
+            "text": "She not cook rice.",
+            "diagnosis_vi": "Bỏ hẳn trợ động từ. Tiếng Việt chỉ cần thêm \"không\" vào trước động từ là xong, nên bước thêm \"does\" rất dễ bị bỏ. Tiếng Anh thì bắt buộc phải có trợ động từ để \"not\" đứng sau."
+          },
+          {
+            "key": "B",
+            "text": "She does not cook rice.",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "She does not cooks rice.",
+            "diagnosis_vi": "Chia động từ hai lần, một lần ở \"does\" và một lần ở \"cooks\". Đã chia ở trợ động từ thì động từ chính trở về V-0."
+          },
+          {
+            "key": "D",
+            "text": "She do not cook rice.",
+            "diagnosis_vi": "Chọn sai dạng của trợ động từ. Chủ ngữ \"she\" là ngôi thứ ba số ít, nên dạng đúng là \"does\"."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Ở hiện tại đơn và quá khứ đơn, câu phủ định phải thêm trợ động từ do, does hoặc did, đặt \"not\" ngay sau nó, và đưa động từ chính về V-0.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "Y7-03",
+        "node": "Y7",
+        "l1_tag": "AUX",
+        "type": "mcq",
+        "prompt_vi": "Chọn câu đúng cho \"Hôm qua họ đã không dọn phòng.\":",
+        "options": [
+          {
+            "key": "A",
+            "text": "They did not clean the room yesterday.",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "B",
+            "text": "They did not cleaned the room yesterday.",
+            "diagnosis_vi": "Chia quá khứ hai lần, một lần ở \"did\" và một lần ở \"cleaned\". Đã chia ở trợ động từ thì động từ chính trở về V-0."
+          },
+          {
+            "key": "C",
+            "text": "They not clean the room yesterday.",
+            "diagnosis_vi": "Bỏ hẳn trợ động từ. Không có trợ động từ thì \"not\" không có chỗ đứng, và cũng không có gì mang thông tin quá khứ."
+          },
+          {
+            "key": "D",
+            "text": "They do not clean the room yesterday.",
+            "diagnosis_vi": "Chọn dạng hiện tại của trợ động từ cho một hành động trong quá khứ. Từ \"yesterday\" cho biết hành động đã xảy ra rồi, nên trợ động từ phải là \"did\"."
+          }
+        ],
+        "answer": "A",
+        "rule_vi": "Chỉ chia một lần. Trợ động từ mang thông tin thời gian, nên động từ chính trở về V-0. \"did not study\", không phải \"did not studied\".",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "Y7",
+      "heading_vi": "Dạng viết gọn của trợ động từ phủ định",
+      "body_vi": "Trong văn nói và văn viết thân mật, trợ động từ và \"not\" được viết gộp thành một từ, với dấu nháy đơn thay cho chữ o bị mất:",
+      "table": {
+        "columns_vi": [
+          "Viết đầy đủ",
+          "Viết gọn",
+          "Viết đầy đủ",
+          "Viết gọn"
+        ],
+        "rows": [
+          [
+            "do not",
+            "don't",
+            "have not",
+            "haven't"
+          ],
+          [
+            "does not",
+            "doesn't",
+            "has not",
+            "hasn't"
+          ],
+          [
+            "did not",
+            "didn't",
+            "had not",
+            "hadn't"
+          ],
+          [
+            "is not",
+            "isn't",
+            "will not",
+            "won't"
+          ],
+          [
+            "are not",
+            "aren't",
+            "can not",
+            "can't"
+          ],
+          [
+            "was not",
+            "wasn't",
+            "could not",
+            "couldn't"
+          ],
+          [
+            "were not",
+            "weren't",
+            "should not",
+            "shouldn't"
+          ],
+          [
+            "am not",
+            "không có dạng gọn",
+            "must not",
+            "mustn't"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "funfact",
+      "node": "Y7",
+      "heading_vi": "Hai trường hợp không theo quy tắc",
+      "body_vi": "Phần lớn dạng viết gọn chỉ là bỏ chữ o của \"not\" và thay bằng dấu nháy đơn: does not thành doesn't. Có hai ngoại lệ đáng nhớ. Thứ nhất, \"will not\" thành \"won't\", đổi cả nguyên âm chứ không chỉ bỏ chữ o. Thứ hai, \"am not\" không có dạng gọn nào được chấp nhận trong văn viết, nên khi cần nói gọn thì người ta gộp ở chỗ khác: \"I am not\" thành \"I'm not\"."
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "Y7-04",
+        "node": "Y7",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Dạng viết gọn của \"will not\" là gì?",
+        "options": [
+          {
+            "key": "A",
+            "text": "willn't",
+            "diagnosis_vi": "Áp dụng quy tắc chung là bỏ chữ o của \"not\". \"will not\" là một trong hai ngoại lệ, nó đổi cả nguyên âm."
+          },
+          {
+            "key": "B",
+            "text": "won't",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "wo not",
+            "diagnosis_vi": "Đổi nguyên âm nhưng không gộp hai từ lại. Dạng viết gọn luôn là một từ duy nhất, có dấu nháy đơn ở giữa."
+          },
+          {
+            "key": "D",
+            "text": "willnot",
+            "diagnosis_vi": "Gộp hai từ nhưng không có dấu nháy đơn. Mọi dạng viết gọn đều có dấu nháy đơn thay cho chữ bị mất."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Dạng viết gọn bỏ chữ o của \"not\" và thay bằng dấu nháy đơn. Hai ngoại lệ: \"will not\" thành \"won't\", và \"am not\" không có dạng gọn.",
+        "fallback_vi": null
+      }
+    }
+  ],
+  "_internal": {
+    "note": "Everything under _internal is for the team only. The site never renders it.",
+    "taught_before": [
+      "Material #4: động từ chính.",
+      "Material #5: mệnh đề và các thành phần.",
+      "Material #7: trợ động từ, bốn trợ động từ, quy tắc hai thì đơn không cần trợ động từ ở câu khẳng định, quy tắc chỉ chia một lần, bảng dạng của do, be, have.",
+      "Material #8: động từ khuyết thiếu."
+    ],
+    "not_yet_taught_so_not_used": [
+      "câu hỏi (material #10 và #11).",
+      "thì và thể như một hệ thống (material #12 và #13). Bài này dùng các câu mẫu sẵn, không yêu cầu người học tự chia thì.",
+      "V-2 và cách tạo đuôi -ed (M1.4, material #12). Ví dụ dùng \"study\" vì V-0 và V-2 của nó viết giống nhau, nên không cần biết quy tắc -ed."
+    ],
+    "sources": [
+      "Ngữ pháp Tiếng Anh 1.docx của Kiên: \"Từ phủ định not luôn nằm ngay sau trợ động từ của câu\", và quy tắc chỉ dùng do cho câu phủ định và câu hỏi ở thể đơn giản.",
+      "Ba bước trong câu gợi ý của Y7-02 là cách em sắp xếp lại hai quy tắc của Kiên thành một thứ tự thao tác."
+    ],
+    "decisions": [
+      "Dạy \"not\" trước, rồi mới dạy trường hợp phải thêm do. Làm ngược lại thì người học phải nhớ hai việc cùng lúc.",
+      "Viết \"can not\" tách rời trong phần định nghĩa rồi nói ngay rằng nó thường viết thành cannot hoặc can't, để người học không tưởng là sai.",
+      "Ngày 19/09 theo Kiên: đổi động từ ví dụ từ \"study\" sang \"study\". \"study\" là động từ bất quy tắc, và bài này ở trước material #16 nên chưa dạy động từ bất quy tắc. \"study\" có quy tắc, nên câu quá khứ dùng đúng đuôi -ed.",
+      "Ngày 20/09 theo Kiên: mở bài viết lại, bỏ \"của câu\" trong quy tắc vị trí của \"not\", và bỏ đoạn giải thích cannot với can't ra khỏi phần định nghĩa vì nó thuộc phần dạng viết gọn.",
+      "Thêm phần dạng viết gọn của trợ động từ phủ định, theo yêu cầu của Kiên. Kèm một fun fact về hai ngoại lệ won't và am not, và một câu hỏi mới Y7-04.",
+      "Đổi toàn bộ câu ví dụ trong ba câu hỏi và trong bảng sang từ mới, để không câu hỏi nào lặp lại ví dụ đã hiện ở trên.",
+      "Kiên quyết ngày 21/09: không dạy never, no, nothing trong v1 để giữ bài đơn giản."
+    ],
+    "open_questions": []
+  }
+}

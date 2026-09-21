@@ -1,0 +1,548 @@
+{
+  "material_id": 6,
+  "slug": "dai-tu-la-gi",
+  "title_vi": "Đại từ là gì?",
+  "stage": 5,
+  "nodes": [
+    "W1.5",
+    "W1.5a",
+    "W1.5c",
+    "W1.5b",
+    "W1.5e",
+    "W1.5d"
+  ],
+  "video_url": null,
+  "blocks": [
+    {
+      "type": "text",
+      "body_vi": "Đại từ là từ đứng thay chỗ cho một danh từ để tránh lặp lại và giúp diễn đạt ngắn gọn hơn:",
+      "node": "W1.5",
+      "list": [
+        "Bạn đã ăn đồ ăn của bạn rồi, nên trả lại cái của tôi đây. You ate your food, so give back mine.",
+        "Đội của chúng ta sẽ thắng, còn cái của họ sẽ thua. Our team will win, and theirs will lose.",
+        "Minh là em trai tôi. Cậu ấy là bác sĩ. Minh is my brother. He is a doctor."
+      ]
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1.5-01",
+        "node": "W1.5",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Trong câu \"Hoa is my sister. She works at a bank.\", từ nào là đại từ?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Hoa",
+            "diagnosis_vi": "\"Hoa\" là tên của một người, nên nó là danh từ riêng. Nó chính là cái tên được thay, không phải từ đứng thay."
+          },
+          {
+            "key": "B",
+            "text": "sister",
+            "diagnosis_vi": "\"sister\" gọi tên một người, nên nó là danh từ. Nó không đứng thay chỗ của từ nào cả."
+          },
+          {
+            "key": "C",
+            "text": "She",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "D",
+            "text": "my",
+            "diagnosis_vi": "\"my\" luôn phải có danh từ đi ngay sau, ở đây là \"sister\". Nó không tự đứng thay chỗ cho danh từ nào, nên nó không phải đại từ."
+          }
+        ],
+        "answer": "C",
+        "rule_vi": "Đại từ đứng thay chỗ của một danh từ đã nhắc trước đó, để không phải nhắc lại danh từ ấy.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "text",
+      "body_vi": "Có một số loại đại từ:"
+    },
+    {
+      "type": "section",
+      "node": "W1.5a",
+      "heading_vi": "Đại từ và tính từ nhân xưng",
+      "body_vi": "Có bảy loại đại từ khác nhau dựa trên ngôi, số lượng và đặc điểm của danh từ nó thay thế cho. Ngôi thứ nhất là người nói. Ngôi thứ hai là người nghe. Ngôi thứ ba là người được nhắc đến. Ngôi thứ nhất nói với ngôi thứ hai về ngôi thứ ba. Ngoài ra, tính từ sở hữu là tính từ, không phải đại từ, nhưng liên quan chặt chẽ bốn đại từ nhân xưng còn lại.",
+      "table": {
+        "columns_vi": [
+          "Ngôi",
+          "Số lượng, đặc điểm",
+          "Đại từ chủ ngữ",
+          "Đại từ tân ngữ",
+          "Tính từ sở hữu",
+          "Đại từ sở hữu",
+          "Đại từ phản thân"
+        ],
+        "rows": [
+          [
+            "một",
+            "số ít",
+            "I",
+            "me",
+            "my",
+            "mine",
+            "myself"
+          ],
+          [
+            "một",
+            "số nhiều",
+            "we",
+            "us",
+            "our",
+            "ours",
+            "ourselves"
+          ],
+          [
+            "hai",
+            "số ít và số nhiều",
+            "you",
+            "you",
+            "your",
+            "yours",
+            "yourself / yourselves"
+          ],
+          [
+            "ba",
+            "số ít, nam",
+            "he",
+            "him",
+            "his",
+            "his",
+            "himself"
+          ],
+          [
+            "ba",
+            "số ít, nữ",
+            "she",
+            "her",
+            "her",
+            "hers",
+            "herself"
+          ],
+          [
+            "ba",
+            "số ít, vật",
+            "it",
+            "it",
+            "its",
+            "its",
+            "itself"
+          ],
+          [
+            "ba",
+            "số nhiều",
+            "they",
+            "them",
+            "their",
+            "theirs",
+            "themselves"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "node": "W1.5a",
+      "body_vi": "Đại từ chủ ngữ là đại từ thay thế cho danh từ đứng ở vị trí chủ ngữ. Do đó, ta có thể thay \"Tom is a carpenter\" thành \"He is a carpenter\".\n\nTương tự, đại từ tân ngữ là đại từ thay thế cho danh từ đứng ở vị trí tân ngữ, nên ta có thể thay \"The boss calls Thanh\" thành \"The boss calls her\"."
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1.5a-01",
+        "node": "W1.5a",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Chọn từ đúng cho \"Cô ấy thích tôi.\": \"She likes ___.\"",
+        "options": [
+          {
+            "key": "A",
+            "text": "I",
+            "diagnosis_vi": "\"I\" là dạng chủ ngữ. Ở đây chỗ trống nằm sau động từ, nên nó là tân ngữ, và dạng tân ngữ của ngôi 1 số ít là \"me\"."
+          },
+          {
+            "key": "B",
+            "text": "me",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "my",
+            "diagnosis_vi": "\"my\" là tính từ sở hữu, nên nó luôn phải có danh từ đi ngay sau, như \"my book\". Sau chỗ trống này không còn danh từ nào."
+          },
+          {
+            "key": "D",
+            "text": "mine",
+            "diagnosis_vi": "\"mine\" là đại từ sở hữu, mang nghĩa cái của tôi. Câu này không nói về sở hữu, nó nói cô ấy thích ai."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Đại từ làm chủ ngữ thì dùng dạng chủ ngữ, đứng trước động từ. Đại từ làm tân ngữ thì dùng dạng tân ngữ, đứng sau động từ.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1.5a-02",
+        "node": "W1.5a",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Chọn từ đúng cho \"Họ giúp chúng tôi.\": \"___ help ___.\"",
+        "options": [
+          {
+            "key": "A",
+            "text": "They, us",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "B",
+            "text": "Them, we",
+            "diagnosis_vi": "\"Them\" là dạng tân ngữ mà lại đứng trước động từ, còn \"we\" là dạng chủ ngữ mà lại đứng sau. Hai dạng bị đổi chỗ cho nhau."
+          },
+          {
+            "key": "C",
+            "text": "They, we",
+            "diagnosis_vi": "Chỗ đầu đúng, chỗ sau sai. Chỗ sau nằm sau động từ nên phải là dạng tân ngữ \"us\", không phải dạng chủ ngữ \"we\"."
+          },
+          {
+            "key": "D",
+            "text": "Them, us",
+            "diagnosis_vi": "Chỗ sau đúng, chỗ đầu sai. Chỗ đầu nằm trước động từ nên phải là dạng chủ ngữ \"They\", không phải dạng tân ngữ \"Them\"."
+          }
+        ],
+        "answer": "A",
+        "rule_vi": "Vị trí quyết định dạng. Trước động từ là dạng chủ ngữ, sau động từ là dạng tân ngữ. Hai chỗ trong cùng một câu được xét riêng, mỗi chỗ theo vị trí của nó.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "W1.5c",
+      "heading_vi": "Tính từ sở hữu và đại từ sở hữu",
+      "body_vi": "Tính từ sở hữu, như tên gọi của nó, là tính từ miêu tả người sở hữu của danh từ đứng sau nó. Đại từ sở hữu là đại từ thay thế cho cả tính từ sở hữu và danh từ đứng đằng sau nó. Ví dụ, thay vì nói \"His shirt is black. My shirt is blue\", ta có thể nói là \"His shirt is black. Mine is blue\". \"Mine\" ở đây thay thế cho \"My shirt\" và có thể được hiểu là \"cái của tôi\".",
+      "table": {
+        "columns_vi": [
+          "Ngôi",
+          "Tính từ sở hữu cộng danh từ",
+          "Đại từ sở hữu đứng một mình"
+        ],
+        "rows": [
+          [
+            "1 số ít",
+            "my book",
+            "mine"
+          ],
+          [
+            "2",
+            "your pen",
+            "yours"
+          ],
+          [
+            "3 số ít nữ",
+            "her bag",
+            "hers"
+          ],
+          [
+            "1 số nhiều",
+            "our classroom",
+            "ours"
+          ],
+          [
+            "3 số nhiều",
+            "their bikes",
+            "theirs"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1.5c-01",
+        "node": "W1.5c",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Chọn từ đúng cho \"Quyển sách này là của tôi.\": \"This book is ___.\"",
+        "options": [
+          {
+            "key": "A",
+            "text": "my",
+            "diagnosis_vi": "\"my\" là tính từ sở hữu, nên nó luôn phải có danh từ đi ngay sau, như \"my book\". Sau chỗ trống này không còn danh từ nào, nên phải dùng đại từ sở hữu."
+          },
+          {
+            "key": "B",
+            "text": "mine",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "me",
+            "diagnosis_vi": "\"me\" là dạng tân ngữ của ngôi 1 số ít, nó không mang nghĩa sở hữu. Câu này cần một từ cho biết quyển sách thuộc về ai."
+          },
+          {
+            "key": "D",
+            "text": "I",
+            "diagnosis_vi": "\"I\" là dạng chủ ngữ, và nó cũng không mang nghĩa sở hữu. Hơn nữa chỗ trống này nằm sau động từ \"is\"."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Tính từ sở hữu như my, your, her luôn có danh từ đi ngay sau. Đại từ sở hữu như mine, yours, hers đứng một mình, vì bản thân nó đã gồm cả danh từ. Riêng \"his\" và \"its\" dùng được ở cả hai chỗ.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "W1.5b",
+      "heading_vi": "Đại từ phản thân",
+      "body_vi": "Trong trường hợp chủ ngữ và tân ngữ là một, như \"Tôi tự thưởng cho mình một viên kẹo\", ta không thể nói là \"I reward me with a candy\". Đại từ phản thân chính là đại từ thay cho đại từ tân ngữ khi chủ ngữ và tân ngữ là một: \"I reward myself with a candy\".",
+      "table": {
+        "columns_vi": [
+          "Chủ ngữ",
+          "Phản thân",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "I",
+            "myself",
+            "I love myself."
+          ],
+          [
+            "we",
+            "ourselves",
+            "We help ourselves."
+          ],
+          [
+            "you (một người)",
+            "yourself",
+            "You do it yourself."
+          ],
+          [
+            "you (nhiều người)",
+            "yourselves",
+            "You do it yourselves."
+          ],
+          [
+            "he",
+            "himself",
+            "He trusts himself."
+          ],
+          [
+            "she",
+            "herself",
+            "She trusts herself."
+          ],
+          [
+            "it",
+            "itself",
+            "The cat cleans itself."
+          ],
+          [
+            "they",
+            "themselves",
+            "They help themselves."
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1.5b-01",
+        "node": "W1.5b",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Chọn từ đúng cho \"Anh ấy tự trách chính mình.\": \"He blames ___.\"",
+        "options": [
+          {
+            "key": "A",
+            "text": "him",
+            "diagnosis_vi": "\"him\" là đại từ tân ngữ thường, nên câu sẽ có nghĩa là anh ấy trách một người nam khác. Chủ ngữ và tân ngữ ở đây là một người, nên phải dùng đại từ phản thân."
+          },
+          {
+            "key": "B",
+            "text": "himself",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "his",
+            "diagnosis_vi": "\"his\" là tính từ sở hữu hoặc đại từ sở hữu, nghĩa là của anh ấy. Câu này không nói về sở hữu."
+          },
+          {
+            "key": "D",
+            "text": "he",
+            "diagnosis_vi": "\"he\" là đại từ chủ ngữ, mà chỗ trống này nằm sau động từ nên phải là đại từ tân ngữ. Và vì chủ ngữ với tân ngữ là một người, đại từ tân ngữ đó đổi thành đại từ phản thân."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Khi chủ ngữ và tân ngữ chỉ cùng một người, tân ngữ dùng dạng phản thân. Mỗi ngôi có một dạng phản thân riêng, lấy trong bảng ở trên.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "W1.5e",
+      "heading_vi": "Đại từ chỉ định cho biết vật ở gần hay ở xa",
+      "body_vi": "Đại từ chỉ định thay cho một vật hoặc một người, và cho biết vật đó ở gần hay ở xa người nói.",
+      "table": {
+        "columns_vi": [
+          "Khoảng cách",
+          "Chỉ một",
+          "Chỉ nhiều"
+        ],
+        "rows": [
+          [
+            "Ở gần (đây)",
+            "this: This is my book.",
+            "these: These are my books."
+          ],
+          [
+            "Ở xa (đó)",
+            "that: That is his house.",
+            "those: Those are his shoes."
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1.5e-01",
+        "node": "W1.5e",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Chọn từ đúng cho \"Kia là những chiếc xe của chúng tôi.\": \"___ are our bikes.\"",
+        "options": [
+          {
+            "key": "A",
+            "text": "This",
+            "diagnosis_vi": "\"This\" chỉ một vật, và là vật ở gần. Câu này nói về nhiều chiếc xe đang ở xa."
+          },
+          {
+            "key": "B",
+            "text": "These",
+            "diagnosis_vi": "\"These\" đúng ở chỗ chỉ nhiều vật, nhưng nó dùng cho vật ở gần. Chữ \"kia\" trong câu tiếng Việt cho biết xe đang ở xa."
+          },
+          {
+            "key": "C",
+            "text": "That",
+            "diagnosis_vi": "\"That\" đúng ở chỗ chỉ vật ở xa, nhưng nó chỉ một vật. Câu này nói về nhiều chiếc xe."
+          },
+          {
+            "key": "D",
+            "text": "Those",
+            "diagnosis_vi": null
+          }
+        ],
+        "answer": "D",
+        "rule_vi": "Đại từ chỉ định chọn theo hai điều: ở gần hay ở xa, và có một hay nhiều. Ở gần là this và these, ở xa là that và those.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "W1.5d",
+      "heading_vi": "Đại từ bất định chỉ người và chỉ vật",
+      "body_vi": "Đại từ bất định thay cho người hoặc vật mà không nói rõ là ai, là cái nào. Nhóm thứ nhất ghép every-, some-, any-, no- với -one, -body cho người và -thing cho vật.",
+      "table": {
+        "columns_vi": [
+          "Nghĩa",
+          "Chỉ người",
+          "Chỉ vật"
+        ],
+        "rows": [
+          [
+            "tất cả",
+            "everyone, everybody",
+            "everything"
+          ],
+          [
+            "có một ai đó, một cái gì đó",
+            "someone, somebody",
+            "something"
+          ],
+          [
+            "bất kỳ ai, bất kỳ cái gì",
+            "anyone, anybody",
+            "anything"
+          ],
+          [
+            "không một ai, không một cái gì",
+            "no one, nobody",
+            "nothing"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W1.5d-01",
+        "node": "W1.5d",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Chọn từ đúng cho \"Có ai đó đang ở ngoài cửa.\": \"___ is at the door.\"",
+        "options": [
+          {
+            "key": "A",
+            "text": "Someone",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "B",
+            "text": "Something",
+            "diagnosis_vi": "\"Something\" chỉ vật. Câu tiếng Việt nói \"ai đó\", tức là một con người, nên cần từ chỉ người."
+          },
+          {
+            "key": "C",
+            "text": "Anyone",
+            "diagnosis_vi": "\"Anyone\" nghĩa là bất kỳ ai cũng được, dùng khi còn chưa biết có người nào hay không. Câu tiếng Việt đã nói chắc là có một người."
+          },
+          {
+            "key": "D",
+            "text": "Everyone",
+            "diagnosis_vi": "\"Everyone\" nghĩa là tất cả mọi người. Câu này chỉ nói về một người đang ở ngoài cửa."
+          }
+        ],
+        "answer": "A",
+        "rule_vi": "Chọn đại từ bất định theo hai điều: chỉ người hay chỉ vật, và nghĩa là tất cả, có một, bất kỳ, hay không có.",
+        "fallback_vi": null
+      }
+    }
+  ],
+  "_internal": {
+    "note": "Everything under _internal is for the team only. The site never renders it.",
+    "taught_before": [
+      "Material #1 và #2: danh từ và các cách phân loại, số ít và số nhiều.",
+      "Material #3: tính từ.",
+      "Material #4: động từ chính, động từ tự đủ nghĩa và động từ cần một danh từ đi sau.",
+      "Material #5: mệnh đề, chủ ngữ, động từ, tân ngữ, bổ ngữ, trạng ngữ, bảy mẫu câu. Đây là lý do đại từ được dạy ở stage 5 chứ không phải stage 1."
+    ],
+    "not_yet_taught_so_not_used": [
+      "trợ động từ (W2.2, material #7).",
+      "quy tắc chia động từ theo chủ ngữ, tức là V-1 (M1.3, material #12). Vì vậy bài này không dạy quy tắc hoà hợp của đại từ bất định. Bảng năm con cá có has và have trong ví dụ nhưng không câu nào bị hỏi về chúng.",
+      "mạo từ a/an/the (W6, không trong v1)."
+    ],
+    "sources": [
+      "Ngữ pháp Tiếng Anh 1.docx của Kiên, mục Đại từ. Bảng năm dạng theo ngôi là bảng của Kiên, giữ nguyên cả cột và cả thứ tự hàng. Hai ví dụ mở bài và ví dụ I hit myself cũng là của Kiên.",
+      "Câu chuyện năm con cá và cơm là của Kiên, trong cùng mục.",
+      "Huddleston, R. và Pullum, G. K. (2002). The Cambridge Grammar of the English Language. Chương 5, coi đại từ là tiểu loại của danh từ."
+    ],
+    "decisions": [
+      "Chuyển sang stage 5, sau C5. Quyết định của Kiên ngày 18/09: phân biệt I với me phải có chủ ngữ và tân ngữ, mà hai khái niệm đó chỉ có sau khi học mệnh đề. Bản nháp cũ ở stage 1 đã bị thay hoàn toàn.",
+      "Dùng nhận xét của Kiên rằng đại từ sở hữu bằng tính từ sở hữu cộng danh từ. Đây là cách giải thích ngắn nhất cho khác biệt giữa my và mine.",
+      "Dùng đúng câu của Kiên: đại từ phản thân là dạng tân ngữ khi chủ ngữ và tân ngữ là một người.",
+      "Bỏ phần đại từ bất định chỉ số lượng, tức câu chuyện năm con cá với every, each, one, none, some, most, both, either, neither, ngày 19/09 theo Kiên. Kiên sẽ dạy phần này riêng.",
+      "Bảng đại từ nhân xưng tách cột Ngôi thành hai cột Ngôi và Số lượng, đặc điểm, và viết một, hai, ba bằng chữ, theo Kiên.",
+      "Lời giải thích từng cột đặt ngay dưới bảng, với ví dụ thay Tom thành He và thay Thanh thành her, theo đúng văn Kiên viết.",
+      "Ngày 20/09: câu W1.5-01 đổi sang \"Hoa is my sister. She works at a bank.\" để không lặp lại ví dụ Minh và He đã có ở phần mở bài.",
+      "Ngày 21/09: Kiên xác nhận không cần tag cho bài này, và phần đại từ bất định chỉ số lượng sẽ được Kiên thêm ở một tab riêng."
+    ],
+    "open_questions": []
+  }
+}

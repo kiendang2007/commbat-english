@@ -1,0 +1,222 @@
+{
+  "material_id": 8,
+  "slug": "dong-tu-khuyet-thieu",
+  "title_vi": "Động từ khuyết thiếu",
+  "stage": 7,
+  "nodes": [
+    "W2.3"
+  ],
+  "video_url": null,
+  "blocks": [
+    {
+      "type": "text",
+      "body_vi": "Động từ khuyết thiếu là một loại trợ động từ đặc biệt. Nó không mang thì, thể hay dạng như bốn trợ động từ kia, mà mang thái độ của người nói đối với hành động được nói ra:",
+      "node": "W2.3",
+      "list": [
+        "khả năng: có thể làm được hay không",
+        "sự cho phép: được làm hay không",
+        "sự khuyên bảo: nên làm hay không",
+        "sự dự đoán: sẽ xảy ra hay không",
+        "sự bắt buộc: phải làm hay không"
+      ]
+    },
+    {
+      "type": "text",
+      "node": "W2.3",
+      "body_vi": "Trợ động từ \"will\" luôn xuất hiện trong thì tương lai là một động từ khuyết thiếu. Ngoài ra, động từ đứng sau động từ khuyết thiếu luôn mang dạng nguyên thể V-0."
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W2.3-01",
+        "node": "W2.3",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Chọn từ đúng cho \"Tôi có thể bơi.\": \"I ___ swim.\"",
+        "options": [
+          {
+            "key": "A",
+            "text": "must",
+            "diagnosis_vi": "\"must\" mang nghĩa bắt buộc, tức là phải bơi. Câu tiếng Việt nói có thể, tức là khả năng."
+          },
+          {
+            "key": "B",
+            "text": "can",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "should",
+            "diagnosis_vi": "\"should\" mang nghĩa khuyên bảo, tức là nên bơi. Câu tiếng Việt không khuyên gì cả."
+          },
+          {
+            "key": "D",
+            "text": "may",
+            "diagnosis_vi": "\"may\" mang nghĩa cho phép, tức là được bơi. Câu tiếng Việt nói về khả năng của bản thân, không phải sự cho phép của ai."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Mỗi động từ khuyết thiếu mang một nghĩa riêng: can là khả năng, may là cho phép, should là khuyên bảo, will là dự đoán, must là bắt buộc.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "text",
+      "body_vi": "Có năm nghĩa, và phần lớn có hai dạng:"
+    },
+    {
+      "type": "section",
+      "node": "W2.3",
+      "heading_vi": "Các động từ khuyết thiếu và dạng thứ hai của chúng",
+      "body_vi": "Phần lớn nghĩa có hai dạng. Dạng thứ hai vừa là dạng quá khứ, vừa dùng khi người nói muốn nói nhẹ đi, ít chắc chắn hơn. Riêng must không có dạng thứ hai, còn shall và should thì mỗi từ mang một nghĩa riêng.",
+      "table": {
+        "columns_vi": [
+          "Nghĩa",
+          "Dạng thứ nhất",
+          "Dạng thứ hai",
+          "Ví dụ"
+        ],
+        "rows": [
+          [
+            "khả năng, có thể",
+            "can",
+            "could",
+            "I can swim. I could swim when I was six."
+          ],
+          [
+            "sự cho phép, được",
+            "may",
+            "might",
+            "You may go now. It might rain."
+          ],
+          [
+            "lời đề nghị, nhé",
+            "shall",
+            "không có",
+            "Shall we go?"
+          ],
+          [
+            "sự khuyên bảo, nên",
+            "should",
+            "không có",
+            "You should sleep early."
+          ],
+          [
+            "sự dự đoán, sẽ",
+            "will",
+            "would",
+            "It will rain. It would be nice."
+          ],
+          [
+            "sự bắt buộc, phải",
+            "must",
+            "không có",
+            "You must stop here."
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W2.3-02",
+        "node": "W2.3",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Chọn câu đúng cho \"Anh ấy có thể bơi.\":",
+        "options": [
+          {
+            "key": "A",
+            "text": "He can swims.",
+            "diagnosis_vi": "Chia động từ chính sau động từ khuyết thiếu. Sau mọi động từ khuyết thiếu luôn là V-0, tức là động từ giữ nguyên. Câu đúng là \"He can swim.\""
+          },
+          {
+            "key": "B",
+            "text": "He can swim.",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "He cans swim.",
+            "diagnosis_vi": "Thêm -s vào động từ khuyết thiếu. Động từ khuyết thiếu không bao giờ đổi dạng theo chủ ngữ, dù chủ ngữ là ai."
+          },
+          {
+            "key": "D",
+            "text": "He can to swim.",
+            "diagnosis_vi": "Thêm \"to\" vào giữa. Sau động từ khuyết thiếu là V-0 trần, không có \"to\" ở trước."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Sau mọi động từ khuyết thiếu luôn là V-0, tức là động từ chính giữ nguyên, không thêm -s, không thêm -ed, không có \"to\".",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "W2.3-03",
+        "node": "W2.3",
+        "l1_tag": "PLS",
+        "type": "mcq",
+        "prompt_vi": "Câu nào dưới đây viết đúng?",
+        "options": [
+          {
+            "key": "A",
+            "text": "She musts finish her homework.",
+            "diagnosis_vi": "Thêm -s vào \"must\". Động từ khuyết thiếu không đổi dạng theo chủ ngữ, nên không bao giờ có -s."
+          },
+          {
+            "key": "B",
+            "text": "She must finish her homework.",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "She must finishes her homework.",
+            "diagnosis_vi": "Thêm -s vào động từ chính. Sau động từ khuyết thiếu luôn là V-0."
+          },
+          {
+            "key": "D",
+            "text": "She musts finishes her homework.",
+            "diagnosis_vi": "Thêm -s vào cả hai từ. Động từ khuyết thiếu không đổi dạng, và động từ chính sau nó cũng giữ nguyên, nên cả hai đều không có -s."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Động từ khuyết thiếu không đổi dạng theo chủ ngữ, và động từ chính đứng sau nó luôn là V-0. Nghĩa là cả hai từ đều không thêm -s.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "funfact",
+      "node": "W2.3",
+      "heading_vi": "Vì sao gọi là khuyết thiếu?",
+      "body_vi": "Khuyết thiếu nghĩa là thiếu, và nó thiếu thật. Một động từ bình thường có đủ năm dạng V-0, V-1, V-2, V-3, V-ing. Động từ khuyết thiếu chỉ có một dạng duy nhất: không có -s, không có -ed, không có -ing. Đó là lý do \"cans\" và \"musting\" không tồn tại. Điều này cũng có mặt tốt: vì nó không mang thì, người học không phải chia nó theo chủ ngữ bao giờ."
+    }
+  ],
+  "_internal": {
+    "note": "Everything under _internal is for the team only. The site never renders it.",
+    "taught_before": [
+      "Material #4: động từ chính.",
+      "Material #5: mệnh đề và các thành phần.",
+      "Material #7: trợ động từ, bốn thông tin nó mang, quy tắc chỉ chia một lần, và dạng V-0."
+    ],
+    "not_yet_taught_so_not_used": [
+      "phủ định và câu hỏi (material #9, #10, #11).",
+      "thì và thể (material #12 và #13). Vì vậy phần dạng thứ hai chỉ nói là dạng quá khứ mà không giải thích thì quá khứ.",
+      "V-1, V-2, V-3, V-ing được nhắc tên trong fun fact như một danh sách, chưa dạy cách tạo."
+    ],
+    "sources": [
+      "Ngữ pháp Tiếng Anh 1.docx của Kiên, bảng Động từ khuyết thiếu. Năm nghĩa và các cặp dạng là của Kiên.",
+      "Fun fact về tên gọi khuyết thiếu là phần em thêm, không có trong file của Kiên."
+    ],
+    "decisions": [
+      "Bảng của Kiên có bốn tiêu đề cột là Chắc chắn nhất, Chắc chắn, Không quá chắc chắn hoặc quá khứ, Tác dụng, nhưng mỗi hàng chỉ có hai dạng. Bài này đổi tiêu đề thành Nghĩa, Dạng thứ nhất, Dạng thứ hai, Ví dụ, để số cột khớp với số ô.",
+      "Ghi rõ must không có dạng thứ hai, thay vì để trống như trong file.",
+      "Dạy động từ khuyết thiếu như một loại trợ động từ, theo đúng vị trí của W2.3 trong nodes.json, nơi W2.3 là con của W2.",
+      "Thêm phương án \"He can to swim\" vào W2.3-02, vì đây là lỗi rất phổ biến khi người học đã quen với \"want to swim\".",
+      "Ngày 19/09 theo Kiên: tách shall và should thành hai hàng riêng. Việc này cũng giải quyết luôn câu hỏi còn mở ở bản trước, vì hai từ mang hai nghĩa khác nhau chứ không phải một cặp dạng thứ nhất và dạng thứ hai.",
+      "Ngày 21/09: Kiên xác nhận hai câu hỏi còn mở đã được giải quyết bởi đoạn nói về will và bởi việc tách shall với should."
+    ],
+    "open_questions": []
+  }
+}

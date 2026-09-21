@@ -1,0 +1,398 @@
+{
+  "material_id": 10,
+  "slug": "cau-hoi-yes-no",
+  "title_vi": "Câu hỏi Yes/No",
+  "stage": 9,
+  "nodes": [
+    "C4.2"
+  ],
+  "video_url": null,
+  "blocks": [
+    {
+      "type": "text",
+      "body_vi": "Câu hỏi Yes/No là câu hỏi mà người nghe trả lời được bằng yes hoặc no. Để chuyển câu khẳng định thành câu hỏi Yes/No, ta chỉ cần làm một bước:",
+      "node": "C4.2",
+      "list": [
+        "Quy tắc: Đảo trợ động từ lên đầu câu. Mọi từ còn lại giữ nguyên, không đổi gì cả.",
+        "They will visit Hanoi.  Will they visit Hanoi?",
+        "They are visiting Hanoi.  Are they visiting Hanoi?",
+        "They have visited Hanoi.  Have they visited Hanoi?",
+        "They can visit Hanoi.  Can they visit Hanoi?"
+      ]
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "C4.2-01",
+        "node": "C4.2",
+        "l1_tag": "AUX",
+        "type": "mcq",
+        "prompt_vi": "Chuyển \"She is cooking rice.\" thành câu hỏi Yes/No:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Is she cooking rice?",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "B",
+            "text": "Is she cook rice?",
+            "diagnosis_vi": "Đổi cả động từ chính. Quy tắc chỉ nói đảo trợ động từ lên đầu, mọi từ còn lại giữ nguyên, nên \"cooking\" phải nguyên là \"cooking\"."
+          },
+          {
+            "key": "C",
+            "text": "She is cooking rice?",
+            "diagnosis_vi": "Chỉ thêm dấu hỏi mà không đảo gì. Trong tiếng Việt chỉ cần lên giọng hoặc thêm \"không\" ở cuối là thành câu hỏi. Tiếng Anh bắt buộc phải đảo trợ động từ lên đầu."
+          },
+          {
+            "key": "D",
+            "text": "Does she is cooking rice?",
+            "diagnosis_vi": "Thêm \"does\" vào một câu đã có trợ động từ. Câu này đã có \"is\", nên chỉ cần đảo \"is\" lên đầu."
+          }
+        ],
+        "answer": "A",
+        "rule_vi": "Đảo trợ động từ lên đầu câu và không đổi bất cứ thứ gì khác. Không thêm trợ động từ nếu câu đã có một cái.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "text",
+      "body_vi": "Còn một trường hợp cần xử lý riêng, giống như ở bài phủ định:"
+    },
+    {
+      "type": "section",
+      "node": "C4.2",
+      "heading_vi": "Khi câu chưa có trợ động từ thì phải thêm do vào",
+      "body_vi": "Ở hiện tại đơn và quá khứ đơn, câu khẳng định không có trợ động từ nào để đảo. Lúc đó thêm do, does hoặc did vào đầu câu, và đưa động từ chính về V-0.",
+      "table": {
+        "columns_vi": [
+          "Câu khẳng định",
+          "Câu hỏi Yes/No",
+          "Việc đã làm"
+        ],
+        "rows": [
+          [
+            "He watches TV.",
+            "Does he watch TV?",
+            "thêm does lên đầu, đưa watches về watch"
+          ],
+          [
+            "We watch TV.",
+            "Do we watch TV?",
+            "thêm do lên đầu, watch giữ nguyên"
+          ],
+          [
+            "He watched TV yesterday.",
+            "Did he watch TV yesterday?",
+            "thêm did lên đầu, đưa watched về V-0"
+          ],
+          [
+            "He is a teacher.",
+            "Is he a teacher?",
+            "không thêm gì, chỉ đảo is lên đầu"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "C4.2-02",
+        "node": "C4.2",
+        "l1_tag": "AUX",
+        "type": "mcq",
+        "prompt_vi": "Chuyển \"They play football.\" thành câu hỏi Yes/No:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Play they football?",
+            "diagnosis_vi": "Đảo động từ chính lên đầu. Chỉ trợ động từ được đảo. Câu này chưa có trợ động từ nên phải thêm \"do\" vào trước."
+          },
+          {
+            "key": "B",
+            "text": "Do they play football?",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "Do they plays football?",
+            "diagnosis_vi": "Chia động từ hai lần, một lần ở \"do\" và một lần ở \"plays\". Đã chia ở trợ động từ thì động từ chính trở về V-0."
+          },
+          {
+            "key": "D",
+            "text": "Does they play football?",
+            "diagnosis_vi": "Chọn sai dạng của trợ động từ. Chủ ngữ \"they\" là số nhiều, nên dạng đúng là \"do\"."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Ở hiện tại đơn và quá khứ đơn, câu hỏi phải thêm do, does hoặc did lên đầu, và đưa động từ chính về V-0.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "C4.2-03",
+        "node": "C4.2",
+        "l1_tag": "AUX",
+        "type": "mcq",
+        "prompt_vi": "Chuyển \"He did not open the door.\" thành câu hỏi Yes/No:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Did he not open the door?",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "B",
+            "text": "Did not he open the door?",
+            "diagnosis_vi": "Đảo cả \"did not\" lên đầu như một khối. Chỉ trợ động từ được đảo lên trước chủ ngữ, còn \"not\" ở lại sau chủ ngữ. Dạng viết gọn \"Didn't he open the door?\" thì lại đi cả khối, và đó là cách nói thường gặp hơn."
+          },
+          {
+            "key": "C",
+            "text": "Did he not opened the door?",
+            "diagnosis_vi": "Chia quá khứ hai lần. Đã có \"did\" thì động từ chính trở về V-0."
+          },
+          {
+            "key": "D",
+            "text": "He did not open the door?",
+            "diagnosis_vi": "Chỉ thêm dấu hỏi mà không đảo. Tiếng Anh bắt buộc phải đảo trợ động từ lên trước chủ ngữ."
+          }
+        ],
+        "answer": "A",
+        "rule_vi": "Đảo đúng trợ động từ lên đầu, không mang theo \"not\". Dạng viết đầy đủ để \"not\" ở lại sau chủ ngữ.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "C4.2",
+      "heading_vi": "Câu hỏi Yes/No với not",
+      "body_vi": "Câu hỏi Yes/No có thể đi kèm \"not\", và gần như luôn ở dạng viết gọn đứng đầu câu: Isn't he...? Don't you...? Về cấu trúc, đây vẫn chỉ là phép đảo trợ động từ. Khác biệt nằm ở điều người hỏi đang nghĩ. Câu hỏi thường là hỏi thật, vì người hỏi chưa biết câu trả lời. Câu hỏi với not cho thấy người hỏi đã tin câu trả lời là có, và đang muốn xác nhận lại, hoặc đang bất ngờ vì thấy điều ngược lại.",
+      "table": {
+        "columns_vi": [
+          "Câu hỏi",
+          "Người hỏi đang nghĩ gì"
+        ],
+        "rows": [
+          [
+            "Is he a doctor?",
+            "Chưa biết anh ấy làm nghề gì, nên hỏi thật."
+          ],
+          [
+            "Isn't he a doctor?",
+            "Đã tin anh ấy là bác sĩ, và muốn xác nhận lại."
+          ],
+          [
+            "Do you want some tea?",
+            "Chưa biết người kia có muốn uống trà không."
+          ],
+          [
+            "Don't you want some tea?",
+            "Đã tưởng người kia muốn, nay thấy họ không uống nên bất ngờ."
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "C4.2-04",
+        "node": "C4.2",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Bạn vẫn tin là Lan biết bơi, nhưng thấy Lan đứng mãi trên bờ không xuống nước. Bạn hỏi:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Can Lan swim?",
+            "diagnosis_vi": "Câu này đúng ngữ pháp, nhưng nó là câu hỏi thật, như thể bạn chưa biết gì về Lan. Muốn cho thấy bạn đã tin Lan biết bơi và đang bất ngờ, phải dùng câu hỏi với not."
+          },
+          {
+            "key": "B",
+            "text": "Can't Lan swim?",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "Lan can't swim?",
+            "diagnosis_vi": "Có not nhưng không đảo trợ động từ lên đầu. Câu hỏi với not vẫn phải đảo trợ động từ, y như mọi câu hỏi Yes/No khác."
+          },
+          {
+            "key": "D",
+            "text": "Can not Lan swim?",
+            "diagnosis_vi": "Đưa cả \"can not\" viết rời lên đầu. Khi viết rời thì chỉ trợ động từ lên đầu, còn \"not\" ở lại sau chủ ngữ: \"Can Lan not swim?\". Chỉ dạng viết gọn \"can't\" mới đi lên đầu thành một khối."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Câu hỏi với not có cùng cấu trúc với câu hỏi Yes/No thường, nhưng khác nghĩa: nó cho thấy người hỏi đã tin câu trả lời là có. Dạng viết gọn như can't, don't, isn't đi lên đầu câu thành một khối.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "C4.2",
+      "heading_vi": "Trả lời câu hỏi Yes/No",
+      "body_vi": "Câu trả lời ngắn gồm Yes hoặc No, rồi đến đại từ chủ ngữ, rồi đến đúng trợ động từ đã dùng trong câu hỏi. Câu trả lời No thêm not ngay sau trợ động từ, thường ở dạng viết gọn. Động từ chính không được nhắc lại.",
+      "table": {
+        "columns_vi": [
+          "Câu hỏi",
+          "Trả lời có",
+          "Trả lời không"
+        ],
+        "rows": [
+          [
+            "Does your brother play chess?",
+            "Yes, he does.",
+            "No, he doesn't."
+          ],
+          [
+            "Are the children sleeping?",
+            "Yes, they are.",
+            "No, they aren't."
+          ],
+          [
+            "Has Hoa finished her homework?",
+            "Yes, she has.",
+            "No, she hasn't."
+          ],
+          [
+            "Can you drive?",
+            "Yes, I can.",
+            "No, I can't."
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "C4.2-05",
+        "node": "C4.2",
+        "l1_tag": null,
+        "type": "mcq",
+        "prompt_vi": "Bố mẹ bạn làm việc ở Hà Nội. Có người hỏi: \"Do your parents work in Hanoi?\". Chọn câu trả lời đúng:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes, they do.",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "B",
+            "text": "Yes, they does.",
+            "diagnosis_vi": "Chọn sai dạng của trợ động từ. Chủ ngữ \"they\" là số nhiều, nên dạng đúng là \"do\", đúng như trợ động từ trong câu hỏi."
+          },
+          {
+            "key": "C",
+            "text": "Yes, do they.",
+            "diagnosis_vi": "Giữ nguyên thứ tự của câu hỏi. Trong câu trả lời, chủ ngữ đứng trước trợ động từ, giống như câu khẳng định."
+          },
+          {
+            "key": "D",
+            "text": "Yes, they have.",
+            "diagnosis_vi": "Đổi sang một trợ động từ khác. Câu trả lời ngắn dùng lại đúng trợ động từ của câu hỏi, mà câu hỏi dùng \"do\", không phải \"have\"."
+          }
+        ],
+        "answer": "A",
+        "rule_vi": "Câu trả lời ngắn là Yes hoặc No, cộng đại từ chủ ngữ, cộng đúng trợ động từ của câu hỏi. Chủ ngữ đứng trước trợ động từ.",
+        "fallback_vi": null
+      }
+    },
+    {
+      "type": "section",
+      "node": "C4.2",
+      "heading_vi": "Trả lời câu hỏi với not",
+      "body_vi": "Với câu hỏi có not, tiếng Anh trả lời theo sự thật, không theo việc đồng ý hay không đồng ý với người hỏi. Nếu điều đó đúng là có thì nói Yes, nếu điều đó không có thì nói No, bất kể câu hỏi có not hay không. Tiếng Việt thì làm ngược lại: \"Anh ấy không phải bác sĩ à?\", \"Ừ, không phải\". Chữ \"ừ\" ở đây là đồng ý với người hỏi, nên người Việt hay dịch nó thành Yes.",
+      "table": {
+        "columns_vi": [
+          "Câu hỏi",
+          "Sự thật",
+          "Trả lời đúng",
+          "Người Việt hay nói sai"
+        ],
+        "rows": [
+          [
+            "Isn't he a doctor?",
+            "anh ấy là bác sĩ",
+            "Yes, he is.",
+            "không có lỗi"
+          ],
+          [
+            "Isn't he a doctor?",
+            "anh ấy không phải bác sĩ",
+            "No, he isn't.",
+            "Yes, he isn't."
+          ],
+          [
+            "Doesn't she eat meat?",
+            "cô ấy không ăn thịt",
+            "No, she doesn't.",
+            "Yes, she doesn't."
+          ]
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "item": {
+        "id": "C4.2-06",
+        "node": "C4.2",
+        "l1_tag": "NQA",
+        "type": "mcq",
+        "prompt_vi": "Bạn không thích sữa. Bạn của bạn hỏi: \"Don't you like milk?\". Chọn câu trả lời đúng:",
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes, I don't.",
+            "diagnosis_vi": "Trả lời theo cách tiếng Việt: \"ừ\" để đồng ý với người hỏi, rồi \"không\" để nói sự thật. Tiếng Anh trả lời theo sự thật, và sự thật là bạn không thích, nên phải là No. Yes và don't cũng không bao giờ đi cùng nhau trong một câu trả lời ngắn."
+          },
+          {
+            "key": "B",
+            "text": "No, I don't.",
+            "diagnosis_vi": null
+          },
+          {
+            "key": "C",
+            "text": "Yes, I do.",
+            "diagnosis_vi": "Câu này đúng ngữ pháp nhưng sai sự thật: nó có nghĩa là bạn thích sữa."
+          },
+          {
+            "key": "D",
+            "text": "No, I do.",
+            "diagnosis_vi": "No và do không đi cùng nhau. Câu trả lời No luôn có not ngay sau trợ động từ."
+          }
+        ],
+        "answer": "B",
+        "rule_vi": "Câu hỏi có not hay không thì cách trả lời vẫn như nhau: đúng là có thì Yes, không có thì No. Yes luôn đi với trợ động từ khẳng định, No luôn đi với trợ động từ có not.",
+        "fallback_vi": null
+      }
+    }
+  ],
+  "_internal": {
+    "note": "Everything under _internal is for the team only. The site never renders it.",
+    "taught_before": [
+      "Material #7: trợ động từ và quy tắc chỉ chia một lần.",
+      "Material #8: động từ khuyết thiếu.",
+      "Material #9: phủ định, và trường hợp phải thêm do khi câu chưa có trợ động từ."
+    ],
+    "not_yet_taught_so_not_used": [
+      "câu hỏi Wh- (material #11).",
+      "thì và thể như một hệ thống (material #12 và #13).",
+      "V-2 và quy tắc đuôi -ed (material #12). Ví dụ dùng \"study\" vì V-0 và V-2 viết giống nhau."
+    ],
+    "sources": [
+      "Ngữ pháp Tiếng Anh 1.docx của Kiên: \"Để chuyển câu khẳng định thành câu hỏi, chỉ cần đảo trợ động từ lên đầu câu, các từ còn lại giữ nguyên.\""
+    ],
+    "decisions": [
+      "Dùng đúng một quy tắc của Kiên và không thêm quy tắc nào khác, vì đây chính là chỗ cách dạy này trả lãi: người học đã biết trợ động từ từ material #7, nên câu hỏi chỉ là một phép đảo.",
+      "Cấu trúc bài song song với material #9: quy tắc chính trước, rồi trường hợp phải thêm do. Hai bài giống nhau về hình dạng là có chủ ý.",
+      "Câu C4.2-03 kết hợp phủ định với câu hỏi, và chẩn đoán phương án B nói rõ dạng viết gọn didn\\'t thì đi cả khối, để người học không tưởng bài đang dạy sai.",
+      "Ngày 19/09 theo Kiên: đổi động từ ví dụ từ \"study\" sang \"study\". \"study\" là động từ bất quy tắc, và bài này ở trước material #16 nên chưa dạy động từ bất quy tắc. \"study\" có quy tắc, nên câu quá khứ dùng đúng đuôi -ed.",
+      "Ngày 20/09 theo Kiên: mở bài nói rõ \"để chuyển câu khẳng định thành câu hỏi Yes/No, ta chỉ cần làm một bước\". Toàn bộ ví dụ trong mở bài, trong bảng và trong ba câu hỏi dùng ba bộ từ khác nhau, không lặp lại nhau.",
+      "Ngày 21/09 theo Kiên: thêm ba phần mới là câu hỏi với not, cách trả lời ngắn, và cách trả lời câu hỏi với not, cùng ba câu hỏi C4.2-04, C4.2-05, C4.2-06.",
+      "Thêm tag mới NQA cho câu C4.2-06. Người Việt trả lời câu hỏi phủ định theo sự đồng ý với người hỏi, còn tiếng Anh trả lời theo sự thật. Đây là lỗi do tiếng Việt gây ra trực tiếp, và nó nằm ngoài bảy tag ban đầu."
+    ],
+    "open_questions": []
+  }
+}
