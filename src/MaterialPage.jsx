@@ -3,9 +3,19 @@ import SectionBlock from './blocks/SectionBlock.jsx'
 import FunfactBlock from './blocks/FunfactBlock.jsx'
 import ItemBlock from './blocks/ItemBlock.jsx'
 
-export default function MaterialPage({ material }) {
+export default function MaterialPage({
+  material,
+  onBack,
+  nextMaterial,
+  onOpenMaterial,
+  correct,
+  onAnswerCorrect,
+}) {
   return (
     <main>
+      <button type="button" className="link-button" onClick={onBack}>
+        Về danh sách
+      </button>
       <h1>{material.title_vi}</h1>
       {material.blocks.map((block, index) => {
         switch (block.type) {
@@ -16,11 +26,27 @@ export default function MaterialPage({ material }) {
           case 'funfact':
             return <FunfactBlock key={index} block={block} />
           case 'item':
-            return <ItemBlock key={index} item={block.item} />
+            return (
+              <ItemBlock
+                key={index}
+                item={block.item}
+                alreadyCorrect={Boolean(correct[`${material.material_id}:${block.item.id}`])}
+                onCorrect={() => onAnswerCorrect(material.material_id, block.item.id)}
+              />
+            )
           default:
             return null
         }
       })}
+      {nextMaterial && (
+        <button
+          type="button"
+          className="next-button"
+          onClick={() => onOpenMaterial(nextMaterial)}
+        >
+          Bước tiếp theo: {nextMaterial.title_vi}
+        </button>
+      )}
     </main>
   )
 }

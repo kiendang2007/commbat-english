@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function ItemBlock({ item }) {
+export default function ItemBlock({ item, alreadyCorrect, onCorrect }) {
   const [status, setStatus] = useState('unanswered')
   const [chosenKey, setChosenKey] = useState(null)
 
@@ -9,6 +9,9 @@ export default function ItemBlock({ item }) {
   function pick(key) {
     setChosenKey(key)
     setStatus(key === item.answer ? 'correct' : 'wrong')
+    if (key === item.answer) {
+      onCorrect()
+    }
   }
 
   function retry() {
@@ -53,6 +56,8 @@ export default function ItemBlock({ item }) {
           <p>{item.rule_vi}</p>
         </div>
       )}
+
+      {alreadyCorrect && <p className="item-already-correct">Đã làm đúng</p>}
     </div>
   )
 }
