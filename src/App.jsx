@@ -1,4 +1,11 @@
+import MaterialPage from './MaterialPage.jsx'
+
 const BUILD_TIME = __BUILD_TIME__
+
+const materialModules = import.meta.glob('/content/materials/*.json', { eager: true })
+const materials = Object.values(materialModules)
+  .map((mod) => mod.default ?? mod)
+  .sort((a, b) => a.material_id - b.material_id)
 
 function formatBuildTime(iso) {
   try {
@@ -9,35 +16,16 @@ function formatBuildTime(iso) {
 }
 
 export default function App() {
+  const material = materials.find((m) => m.material_id === 1)
+
   return (
-    <main className="page">
-      <p className="eyebrow">Đồ án nhóm, hạn 05/10/2026</p>
-
-      <h1>Xin chào</h1>
-
-      <p className="lede">
-        Đây là trang đầu tiên của <strong>CommbatEnglish</strong>, nền tảng chẩn đoán và
-        sắp xếp lộ trình học tiếng Anh nền tảng.
-      </p>
-
-      <div className="card">
-        <p className="card-title">Đường ống deploy đã chạy</p>
-        <p className="card-body">
-          Trang này được build từ nhánh <code>main</code> trên GitHub và tự động deploy
-          lên Vercel. Mỗi lần push là một lần deploy mới.
-        </p>
-        <p className="stamp">Bản build lúc {formatBuildTime(BUILD_TIME)}</p>
-      </div>
-
-      <ol className="next">
-        <li>Màn hình giới thiệu</li>
-        <li>33 câu hỏi chẩn đoán, mỗi câu 2 nút: tôi chắc chắn / tôi đoán</li>
-        <li>Màn hình kết quả: node yếu, lộ trình, và những gì bản này chưa đo được</li>
-      </ol>
-
-      <footer>
-        <p>Sửa nội dung trang này trong <code>src/App.jsx</code>.</p>
-      </footer>
-    </main>
+    <div className="page">
+      {material ? (
+        <MaterialPage material={material} />
+      ) : (
+        <p>Không tìm thấy bài học.</p>
+      )}
+      <p className="stamp">Bản build lúc {formatBuildTime(BUILD_TIME)}</p>
+    </div>
   )
 }
