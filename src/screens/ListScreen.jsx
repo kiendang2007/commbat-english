@@ -1,3 +1,5 @@
+import { isMaterialComplete } from '../progress.js'
+
 function statusFor(stage, currentStage) {
   if (stage < currentStage) return 'Đã xong'
   if (stage === currentStage) return 'Đang học'
@@ -23,6 +25,9 @@ export default function ListScreen({ learner, materials, onOpenMaterial, onSwitc
           Đổi người học
         </button>
       </div>
+      {learner.current_stage === 16 && (
+        <p className="all-done">Đã học xong tất cả các giai đoạn.</p>
+      )}
       <ul className="stage-list">
         {stages.map(({ stage, materials: stageMaterials }) => (
           <li key={stage} className="stage-card">
@@ -39,6 +44,7 @@ export default function ListScreen({ learner, materials, onOpenMaterial, onSwitc
                     onClick={() => onOpenMaterial(m)}
                   >
                     {m.title_vi}
+                    {isMaterialComplete(m, learner.correct) ? ' ✓' : ''}
                   </button>
                 </li>
               ))}

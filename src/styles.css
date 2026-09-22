@@ -178,6 +178,12 @@ thead th {
   color: var(--correct);
 }
 
+.item-already-correct {
+  margin: 0.625rem 0 0;
+  font-size: 0.8125rem;
+  color: var(--correct);
+}
+
 .item-retry {
   padding: 0.625rem 1rem;
   border: none;
@@ -258,6 +264,12 @@ thead th {
   padding: 0.75rem 1rem;
   margin: 0 0 1.25rem;
   font-size: 0.9375rem;
+}
+
+.all-done {
+  margin: 0 0 1.25rem;
+  font-weight: 600;
+  color: var(--correct);
 }
 
 .stage-list {

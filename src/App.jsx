@@ -3,7 +3,8 @@ import NameScreen from './screens/NameScreen.jsx'
 import ListScreen from './screens/ListScreen.jsx'
 import MaterialPage from './MaterialPage.jsx'
 import { materials } from './content.js'
-import { loadLearner, saveLearner, clearLearner } from './learner.js'
+import { loadLastName, saveLastName, loadProgress, saveProgress } from './learner.js'
+import { advanceStage } from './progress.js'
 
 const BUILD_TIME = __BUILD_TIME__
 
@@ -35,26 +36,41 @@ export default function App() {
   const [lockMessage, setLockMessage] = useState(null)
 
   useEffect(() => {
-    const saved = loadLearner()
-    if (saved) {
-      setLearner(saved)
+    const lastName = loadLastName()
+    if (lastName) {
+      const progress = loadProgress(lastName)
+      setLearner({ name: lastName, ...progress })
       setScreen('list')
     }
   }, [])
 
   function handleStart(name) {
-    const newLearner = { name, current_stage: 1 }
-    saveLearner(newLearner)
-    setLearner(newLearner)
+    const trimmed = name.trim()
+    const progress = loadProgress(trimmed)
+    saveLastName(trimmed)
+    saveProgress(trimmed, progress)
+    setLearner({ name: trimmed, ...progress })
+    setCurrentMaterialId(null)
+    setLockMessage(null)
     setScreen('list')
   }
 
   function handleSwitchLearner() {
-    clearLearner()
-    setLearner(null)
     setCurrentMaterialId(null)
     setLockMessage(null)
     setScreen('name')
+  }
+
+  function handleAnswerCorrect(materialId, itemId) {
+    setLearner((prev) => {
+      if (!prev) return prev
+      const key = `${materialId}:${itemId}`
+      if (prev.correct[key]) return prev
+      const correct = { ...prev.correct, [key]: true }
+      const current_stage = advanceStage(prev.current_stage, correct)
+      saveProgress(prev.name, { current_stage, correct })
+      return { name: prev.name, current_stage, correct }
+    })
   }
 
   function openMaterial(material) {
@@ -99,6 +115,8 @@ export default function App() {
           onBack={backToList}
           nextMaterial={nextMaterialFor(currentMaterial)}
           onOpenMaterial={openMaterial}
+          correct={learner.correct}
+          onAnswerCorrect={handleAnswerCorrect}
         />
       )}
       <p className="stamp">Bản build lúc {formatBuildTime(BUILD_TIME)}</p>

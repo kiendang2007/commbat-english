@@ -1,30 +1,48 @@
-const STORAGE_KEY = 'commbat_learner'
+const LAST_KEY = 'commbat:last'
+const DEFAULT_PROGRESS = { current_stage: 1, correct: {} }
 
-export function loadLearner() {
+function progressKey(name) {
+  return 'commbat:' + name.trim().toLowerCase()
+}
+
+function clampStage(stage) {
+  if (typeof stage !== 'number' || Number.isNaN(stage)) return 1
+  return Math.min(Math.max(Math.round(stage), 1), 16)
+}
+
+export function loadLastName() {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY)
-    if (!raw) return null
-    const parsed = JSON.parse(raw)
-    if (!parsed || typeof parsed.name !== 'string' || typeof parsed.current_stage !== 'number') {
-      return null
-    }
-    return parsed
+    return localStorage.getItem(LAST_KEY)
   } catch {
     return null
   }
 }
 
-export function saveLearner(learner) {
+export function saveLastName(name) {
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(learner))
+    localStorage.setItem(LAST_KEY, name)
   } catch {
     // ignore
   }
 }
 
-export function clearLearner() {
+export function loadProgress(name) {
   try {
-    localStorage.removeItem(STORAGE_KEY)
+    const raw = localStorage.getItem(progressKey(name))
+    if (!raw) return { current_stage: 1, correct: {} }
+    const parsed = JSON.parse(raw)
+    if (!parsed || typeof parsed.correct !== 'object' || parsed.correct === null) {
+      return { current_stage: 1, correct: {} }
+    }
+    return { current_stage: clampStage(parsed.current_stage), correct: { ...parsed.correct } }
+  } catch {
+    return { ...DEFAULT_PROGRESS, correct: {} }
+  }
+}
+
+export function saveProgress(name, progress) {
+  try {
+    localStorage.setItem(progressKey(name), JSON.stringify(progress))
   } catch {
     // ignore
   }
