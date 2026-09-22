@@ -4,7 +4,8 @@ import ListScreen from './screens/ListScreen.jsx'
 import MaterialPage from './MaterialPage.jsx'
 import { materials } from './content.js'
 import { loadLastName, saveLastName, loadProgress, saveProgress } from './learner.js'
-import { advanceStage } from './progress.js'
+import { advanceStage, isMaterialComplete } from './progress.js'
+import { log, setLogContext } from './log.js'
 
 const BUILD_TIME = __BUILD_TIME__
 
@@ -41,6 +42,8 @@ export default function App() {
       const progress = loadProgress(lastName)
       setLearner({ name: lastName, ...progress })
       setScreen('list')
+      setLogContext(lastName, progress.current_stage)
+      log('open')
     }
   }, [])
 
@@ -53,6 +56,8 @@ export default function App() {
     setCurrentMaterialId(null)
     setLockMessage(null)
     setScreen('list')
+    setLogContext(trimmed, progress.current_stage)
+    log('open')
   }
 
   function handleSwitchLearner() {
@@ -61,14 +66,35 @@ export default function App() {
     setScreen('name')
   }
 
-  function handleAnswerCorrect(materialId, itemId) {
+  function handleAnswerPick(materialId, itemId, choiceKey, isCorrect) {
+    if (learner) {
+      setLogContext(learner.name, learner.current_stage)
+      log('answer', { material: materialId, item: itemId, choice: choiceKey, correct: isCorrect })
+    }
+    if (!isCorrect) return
+
     setLearner((prev) => {
       if (!prev) return prev
       const key = `${materialId}:${itemId}`
       if (prev.correct[key]) return prev
       const correct = { ...prev.correct, [key]: true }
+
+      const material = materials.find((m) => m.material_id === materialId)
+      const wasMaterialComplete = material ? isMaterialComplete(material, prev.correct) : false
+      const isNowMaterialComplete = material ? isMaterialComplete(material, correct) : false
+
       const current_stage = advanceStage(prev.current_stage, correct)
       saveProgress(prev.name, { current_stage, correct })
+
+      if (!wasMaterialComplete && isNowMaterialComplete) {
+        setLogContext(prev.name, current_stage)
+        log('material_done', { material: materialId })
+      }
+      if (current_stage > prev.current_stage) {
+        setLogContext(prev.name, current_stage)
+        log('stage_up', { stage: current_stage })
+      }
+
       return { name: prev.name, current_stage, correct }
     })
   }
@@ -79,6 +105,8 @@ export default function App() {
       setLockMessage(
         `Giai đoạn này chưa mở. Hãy học xong Giai đoạn ${learner.current_stage} trước.`
       )
+      setLogContext(learner.name, learner.current_stage)
+      log('locked_click', { material: material.material_id })
       return
     }
     setLockMessage(null)
@@ -116,7 +144,7 @@ export default function App() {
           nextMaterial={nextMaterialFor(currentMaterial)}
           onOpenMaterial={openMaterial}
           correct={learner.correct}
-          onAnswerCorrect={handleAnswerCorrect}
+          onAnswerPick={handleAnswerPick}
         />
       )}
       <p className="stamp">Bản build lúc {formatBuildTime(BUILD_TIME)}</p>

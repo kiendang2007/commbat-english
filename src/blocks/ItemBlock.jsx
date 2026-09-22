@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function ItemBlock({ item, alreadyCorrect, onCorrect }) {
+export default function ItemBlock({ item, alreadyCorrect, onPick }) {
   const [status, setStatus] = useState('unanswered')
   const [chosenKey, setChosenKey] = useState(null)
 
@@ -8,10 +8,9 @@ export default function ItemBlock({ item, alreadyCorrect, onCorrect }) {
 
   function pick(key) {
     setChosenKey(key)
-    setStatus(key === item.answer ? 'correct' : 'wrong')
-    if (key === item.answer) {
-      onCorrect()
-    }
+    const isCorrect = key === item.answer
+    setStatus(isCorrect ? 'correct' : 'wrong')
+    onPick(key, isCorrect)
   }
 
   function retry() {
