@@ -9,7 +9,7 @@ export default function MaterialPage({
   nextMaterial,
   onOpenMaterial,
   correct,
-  onAnswerCorrect,
+  onAnswerPick,
 }) {
   return (
     <main>
@@ -31,7 +31,9 @@ export default function MaterialPage({
                 key={index}
                 item={block.item}
                 alreadyCorrect={Boolean(correct[`${material.material_id}:${block.item.id}`])}
-                onCorrect={() => onAnswerCorrect(material.material_id, block.item.id)}
+                onPick={(choiceKey, isCorrect) =>
+                  onAnswerPick(material.material_id, block.item.id, choiceKey, isCorrect)
+                }
               />
             )
           default:
