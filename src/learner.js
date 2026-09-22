@@ -26,6 +26,14 @@ export function saveLastName(name) {
   }
 }
 
+export function hasProgress(name) {
+  try {
+    return localStorage.getItem(progressKey(name)) !== null
+  } catch {
+    return false
+  }
+}
+
 export function loadProgress(name) {
   try {
     const raw = localStorage.getItem(progressKey(name))

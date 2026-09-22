@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import NameScreen from './screens/NameScreen.jsx'
 import ListScreen from './screens/ListScreen.jsx'
+import TeacherScreen from './screens/TeacherScreen.jsx'
 import MaterialPage from './MaterialPage.jsx'
 import { materials } from './content.js'
-import { loadLastName, saveLastName, loadProgress, saveProgress } from './learner.js'
+import { loadLastName, saveLastName, hasProgress, loadProgress, saveProgress } from './learner.js'
 import { advanceStage, isMaterialComplete } from './progress.js'
 import { log, setLogContext } from './log.js'
 
@@ -37,6 +38,37 @@ export default function App() {
   const [lockMessage, setLockMessage] = useState(null)
 
   useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+
+    if (params.has('giao-vien')) {
+      setScreen('teacher')
+      return
+    }
+
+    const gdRaw = params.get('gd')
+    const hvRaw = params.get('hv')
+    const gdValid =
+      gdRaw !== null && /^\d+$/.test(gdRaw) && Number(gdRaw) >= 1 && Number(gdRaw) <= 15
+    const nameFromLink = hvRaw !== null ? hvRaw.trim() : ''
+
+    if (gdValid && nameFromLink.length > 0) {
+      const gd = Number(gdRaw)
+      const existed = hasProgress(nameFromLink)
+      const previous = loadProgress(nameFromLink)
+      const current_stage = existed ? Math.max(previous.current_stage, gd) : gd
+      const correct = existed ? previous.correct : {}
+
+      saveLastName(nameFromLink)
+      saveProgress(nameFromLink, { current_stage, correct })
+      setLearner({ name: nameFromLink, current_stage, correct })
+      setScreen('list')
+      setLogContext(nameFromLink, current_stage)
+      log('open')
+      log('placed', { stage: current_stage })
+      window.history.replaceState(null, '', window.location.pathname)
+      return
+    }
+
     const lastName = loadLastName()
     if (lastName) {
       const progress = loadProgress(lastName)
@@ -128,6 +160,7 @@ export default function App() {
           {lockMessage}
         </p>
       )}
+      {screen === 'teacher' && <TeacherScreen materials={materials} />}
       {screen === 'name' && <NameScreen onStart={handleStart} />}
       {screen === 'list' && learner && (
         <ListScreen
