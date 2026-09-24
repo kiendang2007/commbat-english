@@ -38,36 +38,54 @@ export default function TeacherScreen({ materials }) {
   return (
     <main>
       <h1>Xếp giai đoạn</h1>
-      <div className="name-form">
-        <label htmlFor="teacher-name">Tên học viên</label>
-        <input
-          id="teacher-name"
-          type="text"
-          value={name}
-          onChange={(event) => setName(event.target.value)}
-        />
-        <label htmlFor="teacher-stage">Giai đoạn bắt đầu</label>
-        <select
-          id="teacher-stage"
-          value={stage}
-          onChange={(event) => setStage(Number(event.target.value))}
-        >
-          {Array.from({ length: 15 }, (_, i) => i + 1).map((s) => (
-            <option key={s} value={s}>
-              {stageLabel(s, materials)}
-            </option>
-          ))}
-        </select>
-        <button type="button" disabled={disabled} onClick={handleCreate}>
-          Tạo đường link
-        </button>
+      <div className="teacher-form">
+        <div className="field">
+          <label htmlFor="teacher-name">Tên học viên</label>
+          <input
+            id="teacher-name"
+            type="text"
+            autoComplete="off"
+            value={name}
+            onChange={(event) => setName(event.target.value)}
+          />
+        </div>
+        <div className="field">
+          <label htmlFor="teacher-stage">Giai đoạn bắt đầu</label>
+          <select
+            id="teacher-stage"
+            value={stage}
+            onChange={(event) => setStage(Number(event.target.value))}
+          >
+            {Array.from({ length: 15 }, (_, i) => i + 1).map((s) => (
+              <option key={s} value={s}>
+                {stageLabel(s, materials)}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div className="btn-row">
+          <button
+            type="button"
+            className="btn-primary"
+            disabled={disabled}
+            aria-describedby={disabled ? 'create-hint' : undefined}
+            onClick={handleCreate}
+          >
+            Tạo đường link
+          </button>
+        </div>
+        {disabled && (
+          <p id="create-hint" className="hint">
+            Nhập tên học viên để tạo đường link.
+          </p>
+        )}
       </div>
       {link && (
         <div className="teacher-link">
           <p className="teacher-link-text" role="textbox" aria-readonly="true" tabIndex={0}>
             {link}
           </p>
-          <button type="button" className="link-button" onClick={handleCopy}>
+          <button type="button" className="btn-secondary btn-small" onClick={handleCopy}>
             {copied ? 'Đã sao chép' : 'Sao chép'}
           </button>
         </div>

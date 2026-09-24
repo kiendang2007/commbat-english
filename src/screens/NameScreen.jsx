@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { LogoLockup } from '../components/Logo.jsx'
 
 export default function NameScreen({ onStart }) {
   const [name, setName] = useState('')
@@ -11,19 +12,33 @@ export default function NameScreen({ onStart }) {
   }
 
   return (
-    <main>
-      <h1>CommBat English</h1>
-      <form className="name-form" onSubmit={handleSubmit}>
+    <main className="name-screen">
+      <LogoLockup size={72} />
+      <form className="field" onSubmit={handleSubmit}>
         <label htmlFor="learner-name">Tên người học</label>
         <input
           id="learner-name"
           type="text"
+          autoComplete="off"
+          placeholder="Ví dụ: Minh"
           value={name}
           onChange={(event) => setName(event.target.value)}
         />
-        <button type="submit" disabled={disabled}>
-          Bắt đầu
-        </button>
+        <div className="btn-row">
+          <button
+            type="submit"
+            className="btn-primary"
+            disabled={disabled}
+            aria-describedby={disabled ? 'start-hint' : undefined}
+          >
+            Bắt đầu
+          </button>
+        </div>
+        {disabled && (
+          <p id="start-hint" className="hint">
+            Nhập tên để mở nút Bắt đầu.
+          </p>
+        )}
       </form>
     </main>
   )

@@ -131,12 +131,15 @@ export default function App() {
     })
   }
 
+  // A new object on every tap, so repeating the same message still scrolls it into view.
+  function showNotice(text) {
+    setLockMessage({ text })
+  }
+
   function openMaterial(material) {
     if (!learner) return
     if (material.stage > learner.current_stage) {
-      setLockMessage(
-        `Giai đoạn này chưa mở. Hãy học xong Giai đoạn ${learner.current_stage} trước.`
-      )
+      showNotice(`Giai đoạn này chưa mở. Hãy học xong Giai đoạn ${learner.current_stage} trước.`)
       setLogContext(learner.name, learner.current_stage)
       log('locked_click', { material: material.material_id })
       return
@@ -151,15 +154,14 @@ export default function App() {
     setScreen('list')
   }
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [screen, currentMaterialId])
+
   const currentMaterial = materials.find((m) => m.material_id === currentMaterialId)
 
   return (
     <div className="page">
-      {lockMessage && (
-        <p className="lock-message" role="alert">
-          {lockMessage}
-        </p>
-      )}
       {screen === 'teacher' && <TeacherScreen materials={materials} />}
       {screen === 'name' && <NameScreen onStart={handleStart} />}
       {screen === 'list' && learner && (
@@ -168,16 +170,22 @@ export default function App() {
           materials={materials}
           onOpenMaterial={openMaterial}
           onSwitchLearner={handleSwitchLearner}
+          notice={lockMessage}
+          onDismissNotice={() => setLockMessage(null)}
         />
       )}
       {screen === 'material' && learner && currentMaterial && (
         <MaterialPage
+          key={currentMaterial.material_id}
           material={currentMaterial}
+          stageMaterials={materials.filter((m) => m.stage === currentMaterial.stage)}
           onBack={backToList}
           nextMaterial={nextMaterialFor(currentMaterial)}
           onOpenMaterial={openMaterial}
           correct={learner.correct}
           onAnswerPick={handleAnswerPick}
+          notice={lockMessage}
+          onDismissNotice={() => setLockMessage(null)}
         />
       )}
       <p className="stamp">Bản build lúc {formatBuildTime(BUILD_TIME)}</p>
