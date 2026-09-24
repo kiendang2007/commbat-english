@@ -149,21 +149,14 @@ export default function App() {
     setScreen('material')
   }
 
-  // Practice has no questions yet. The side stop still answers every tap: locked before its
-  // stage is done, and "not ready" after.
-  function openPractice(stage) {
-    if (!learner) return
-    if (stage >= learner.current_stage) {
-      showNotice(`Phần luyện tập này chưa mở. Hãy học xong Giai đoạn ${stage} trước.`)
-      return
-    }
-    showNotice(`Phần luyện tập của Giai đoạn ${stage} chưa có câu hỏi.`)
-  }
-
   function backToList() {
     setLockMessage(null)
     setScreen('list')
   }
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [screen, currentMaterialId])
 
   const currentMaterial = materials.find((m) => m.material_id === currentMaterialId)
 
@@ -176,7 +169,6 @@ export default function App() {
           learner={learner}
           materials={materials}
           onOpenMaterial={openMaterial}
-          onOpenPractice={openPractice}
           onSwitchLearner={handleSwitchLearner}
           notice={lockMessage}
           onDismissNotice={() => setLockMessage(null)}

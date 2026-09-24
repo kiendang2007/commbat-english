@@ -41,33 +41,10 @@ function StageCard({ stage, status, materials, correct, onOpenMaterial }) {
   )
 }
 
-function StageStop({ open, solid, onOpen }) {
-  return (
-    <div className="stage-stop">
-      <div className="trail-rail">
-        <div className={`trail-line${solid ? ' solid' : ''}`} />
-      </div>
-      <div className="stop-body">
-        <button type="button" className={`stop-button ${open ? 'open' : 'locked'}`} onClick={onOpen}>
-          {open ? (
-            <span className="stop-check">
-              <CheckStroke size={12} color="#76591F" width={2.8} />
-            </span>
-          ) : (
-            <LockIcon />
-          )}
-          <span>Luyện tập</span>
-        </button>
-      </div>
-    </div>
-  )
-}
-
 export default function ListScreen({
   learner,
   materials,
   onOpenMaterial,
-  onOpenPractice,
   onSwitchLearner,
   notice,
   onDismissNotice,
@@ -113,11 +90,6 @@ export default function ListScreen({
                   onOpenMaterial={onOpenMaterial}
                 />
               </div>
-              <StageStop
-                open={status === 'done'}
-                solid={solid}
-                onOpen={() => onOpenPractice(stage)}
-              />
             </li>
           )
         })}
