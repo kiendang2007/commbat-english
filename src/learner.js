@@ -1,8 +1,8 @@
-const LAST_KEY = 'commbat:last'
+const LAST_KEY = 'trika:last'
 const DEFAULT_PROGRESS = { current_stage: 1, correct: {} }
 
 function progressKey(name) {
-  return 'commbat:' + name.trim().toLowerCase()
+  return 'trika:' + name.trim().toLowerCase()
 }
 
 function clampStage(stage) {
