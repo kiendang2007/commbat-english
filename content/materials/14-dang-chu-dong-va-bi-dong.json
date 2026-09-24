@@ -10,7 +10,7 @@
   "blocks": [
     {
       "type": "text",
-      "body_vi": "Dạng cho biết chủ ngữ là người làm hay là người bị làm. Có hai dạng:",
+      "body_vi": "Dạng cho biết chủ ngữ là người gây ra hành động hay là người bị tác động. Có hai dạng:",
       "node": "Y3",
       "list": [
         "chủ động: chủ ngữ là người gây ra hành động. Nam hits Minh. Nam đánh Minh.",
@@ -31,7 +31,7 @@
       "type": "section",
       "node": "Y3",
       "heading_vi": "Bốn bước để chuyển sang bị động",
-      "body_vi": "làm đủ bốn bước, theo đúng thứ tự.",
+      "body_vi": "Làm đủ bốn bước, theo đúng thứ tự.",
       "table": {
         "columns_vi": [
           "Bước",

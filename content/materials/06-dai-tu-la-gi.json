@@ -290,7 +290,7 @@
           }
         ],
         "answer": "B",
-        "rule_vi": "Tính từ sở hữu như my, your, her luôn có danh từ đi ngay sau. Đại từ sở hữu như mine, yours, hers đứng một mình, vì bản thân nó đã gồm cả danh từ. Riêng \"his\" và \"its\" dùng được ở cả hai chỗ.",
+        "rule_vi": "Tính từ sở hữu như my, your, her luôn có danh từ đi ngay sau. Đại từ sở hữu như mine, yours, hers đứng một mình, vì bản thân nó đã gồm cả danh từ. Riêng \"his\" và \"its\" có dạng tính từ sở hữu và đại từ sở hữu giống nhau, nên chúng dùng được ở cả hai trường hợp.",
         "fallback_vi": null
       }
     },

@@ -1738,9 +1738,9 @@
     "item_source": null,
     "old_id": null,
     "note": "Semantic in Cambridge, not a grammatical subclass. Kept because it has grammatical reflexes: he/she against it, who against which, and the preference for the 's genitive with people. Material 1.",
-    "in_v1": true,
-    "stage": 1,
-    "chain_order": 1
+    "in_v1": false,
+    "stage": null,
+    "chain_order": null
   },
   {
     "id": "W1.7",

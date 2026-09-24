@@ -5,7 +5,6 @@
   "stage": 1,
   "nodes": [
     "W1",
-    "W1.6",
     "W1.3",
     "W1.7"
   ],
@@ -18,14 +17,9 @@
       "list": [
         "sinh vật, tức là thứ có sự sống: teacher (giáo viên), dog (con chó), tree (cái cây)",
         "sự việc, tức là thứ xảy ra rồi kết thúc: party (bữa tiệc), trip (chuyến đi), birthday (sinh nhật)",
-        "vật thể, tức là thứ không có sự sống mà nhìn thấy hoặc chạm được: table (cái bàn), water (nước), city (thành phố)",
+        "vật thể, tức là thứ không có sự sống mà nhìn thấy hoặc chạm vào: table (cái bàn), water (nước), city (thành phố)",
         "khái niệm, tức là thứ chỉ có trong suy nghĩ: love (tình yêu), idea (ý tưởng), kilogram (ki-lô-gam)"
       ]
-    },
-    {
-      "type": "text",
-      "node": "W1",
-      "body_vi": "Để xếp một danh từ vào đúng một nhóm, hãy hỏi lần lượt ba câu. Có sự sống không? Có xảy ra rồi kết thúc không? Có nhìn thấy hoặc chạm được không? Câu trả lời \"có\" đầu tiên cho biết nhóm của danh từ đó. Nếu cả ba câu đều là \"không\" thì đó là khái niệm."
     },
     {
       "type": "item",
@@ -65,74 +59,6 @@
     {
       "type": "text",
       "body_vi": "Có một số cách để phân loại danh từ:"
-    },
-    {
-      "type": "section",
-      "node": "W1.6",
-      "heading_vi": "Theo danh từ chỉ người hoặc danh từ chỉ vật",
-      "table": {
-        "columns_vi": [
-          "Chỉ người",
-          "Chỉ vật"
-        ],
-        "rows": [
-          [
-            "teacher (giáo viên)",
-            "dog (con chó)"
-          ],
-          [
-            "student (học sinh)",
-            "table (cái bàn)"
-          ],
-          [
-            "doctor (bác sĩ)",
-            "school (trường học)"
-          ],
-          [
-            "sister (chị, em gái)",
-            "Hanoi (Hà Nội)"
-          ],
-          [
-            "Minh (tên một người)",
-            "love (tình yêu)"
-          ]
-        ]
-      }
-    },
-    {
-      "type": "item",
-      "item": {
-        "id": "W1.6-01",
-        "node": "W1.6",
-        "l1_tag": null,
-        "type": "mcq",
-        "prompt_vi": "Trong câu \"My brother has a dog and a bike.\", từ nào là danh từ chỉ người?",
-        "options": [
-          {
-            "key": "A",
-            "text": "brother",
-            "diagnosis_vi": null
-          },
-          {
-            "key": "B",
-            "text": "dog",
-            "diagnosis_vi": "\"dog\" gọi tên một con vật, không gọi tên con người. Con vật nằm trong nhóm chỉ vật."
-          },
-          {
-            "key": "C",
-            "text": "bike",
-            "diagnosis_vi": "\"bike\" gọi tên một đồ vật, không gọi tên con người. Đồ vật nằm trong nhóm chỉ vật."
-          },
-          {
-            "key": "D",
-            "text": "has",
-            "diagnosis_vi": "\"has\" gọi tên một hành động, nên nó không phải danh từ, và cũng không gọi tên con người."
-          }
-        ],
-        "answer": "A",
-        "rule_vi": "Danh từ chỉ người gọi tên con người. Mọi danh từ còn lại đều nằm trong nhóm chỉ vật, dù là con vật, cây cối, sự việc, vật thể hay khái niệm.",
-        "fallback_vi": null
-      }
     },
     {
       "type": "section",
@@ -294,7 +220,8 @@
       "Id của item bằng node cộng số thứ tự trong node: W1.6-01. Bỏ cách đánh id theo material.",
       "Ngày 21/09: thay định nghĩa danh từ bằng bốn nhóm sinh vật, sự việc, vật thể, khái niệm. Lý do: cả hai cách chia cũ đều không MECE. Năm nhóm cũ của em chồng nhau ở đồ vật và nơi chốn (trường học là cả hai), và bỏ sót sự việc, hiện tượng, đơn vị. Bảy nhóm trong file của Kiên chồng nhau ở người và sinh vật (người là sinh vật), và ở sự việc, hiện tượng, khái niệm.",
       "Bốn nhóm mới MECE vì được xếp bằng ba câu hỏi hỏi lần lượt: có sự sống không, có xảy ra rồi kết thúc không, có nhìn thấy hoặc chạm được không. Câu trả lời có đầu tiên quyết định nhóm, nên mỗi danh từ rơi vào đúng một nhóm. Bảy nhóm của Kiên gộp vào như sau: người và sinh vật thành sinh vật; sự vật thành vật thể; sự việc và hiện tượng thành sự việc; khái niệm và đơn vị thành khái niệm.",
-      "Không dùng \"rain\" trong danh sách định nghĩa, vì theo câu hỏi thứ hai nó là sự việc, trong khi bảng cụ thể và trừu tượng ở cuối bài xếp nó là cụ thể. Hai cách chia đó nhìn từ hai góc khác nhau nên không mâu thuẫn, nhưng dùng cùng một từ sẽ làm người học rối."
+      "Không dùng \"rain\" trong danh sách định nghĩa, vì theo câu hỏi thứ hai nó là sự việc, trong khi bảng cụ thể và trừu tượng ở cuối bài xếp nó là cụ thể. Hai cách chia đó nhìn từ hai góc khác nhau nên không mâu thuẫn, nhưng dùng cùng một từ sẽ làm người học rối.",
+      "Ngày 24/09: bỏ đoạn ba câu hỏi phân nhóm, và bỏ cả phần \"Theo danh từ chỉ người hoặc danh từ chỉ vật\" cùng bảng và câu hỏi W1.6-01. Kiên thấy cách chia người / vật mâu thuẫn với bốn nhóm ở phần định nghĩa. Node W1.6 ra khỏi v1. Id W1.6-01 không dùng lại."
     ],
     "taught_before": [
       "Không có. Đây là bài đầu tiên."
