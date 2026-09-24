@@ -1,22 +1,43 @@
 import TextBlock from './blocks/TextBlock.jsx'
 import SectionBlock from './blocks/SectionBlock.jsx'
 import FunfactBlock from './blocks/FunfactBlock.jsx'
-import ItemBlock from './blocks/ItemBlock.jsx'
+import QuestionCard from './blocks/ItemBlock.jsx'
+import Notice from './components/Notice.jsx'
 
 export default function MaterialPage({
   material,
+  stageMaterials,
   onBack,
   nextMaterial,
   onOpenMaterial,
   correct,
   onAnswerPick,
+  notice,
+  onDismissNotice,
 }) {
+  const position = stageMaterials.findIndex((m) => m.material_id === material.material_id) + 1
+
   return (
     <main>
-      <button type="button" className="link-button" onClick={onBack}>
-        Về danh sách
-      </button>
-      <h1>{material.title_vi}</h1>
+      <div className="screen-header">
+        <button type="button" className="link-button" onClick={onBack}>
+          <span className="arrow" aria-hidden="true">
+            ←
+          </span>
+          <span>Về danh sách</span>
+        </button>
+        <span className="pill pill-current">Giai đoạn {material.stage}</span>
+      </div>
+
+      <div className="material-heading">
+        <h1>{material.title_vi}</h1>
+        {stageMaterials.length > 1 && (
+          <span className="material-sub">
+            Bài {position} trong {stageMaterials.length}
+          </span>
+        )}
+      </div>
+
       {material.blocks.map((block, index) => {
         switch (block.type) {
           case 'text':
@@ -27,7 +48,7 @@ export default function MaterialPage({
             return <FunfactBlock key={index} block={block} />
           case 'item':
             return (
-              <ItemBlock
+              <QuestionCard
                 key={index}
                 item={block.item}
                 alreadyCorrect={Boolean(correct[`${material.material_id}:${block.item.id}`])}
@@ -40,14 +61,15 @@ export default function MaterialPage({
             return null
         }
       })}
+
+      <Notice notice={notice} onDismiss={onDismissNotice} />
+
       {nextMaterial && (
-        <button
-          type="button"
-          className="next-button"
-          onClick={() => onOpenMaterial(nextMaterial)}
-        >
-          Bước tiếp theo: {nextMaterial.title_vi}
-        </button>
+        <div className="btn-row">
+          <button type="button" className="btn-primary" onClick={() => onOpenMaterial(nextMaterial)}>
+            Bước tiếp theo: {nextMaterial.title_vi}
+          </button>
+        </div>
       )}
     </main>
   )

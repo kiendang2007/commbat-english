@@ -10,7 +10,7 @@ changes. The content lives in `content/materials/`, one JSON file per material.
 
 ## 1. The product
 
-**CommBat English** teaches one path through English grammar, in fifteen stages and sixteen
+**Trika English** (formerly CommBat English) teaches one path through English grammar, in fifteen stages and sixteen
 materials, and will not let a learner skip a stage.
 
 The claim the whole product rests on: **the auxiliary verb is the root**. Negation, yes/no
@@ -201,7 +201,8 @@ An item is `mcq` or `short`, both auto-graded.
 **`short`** normalisation before comparing, in this order: trim, lowercase, collapse runs of
 whitespace to one space, strip a trailing full stop. Nothing else. No fuzzy matching.
 
-On a wrong answer, show the steps in order, one screen at a time:
+On a wrong answer, reveal the steps in place, directly under the question, one after another
+(each fades up 160ms after the one before) and all of them stay visible:
 
 1. **Sai**. The answer was wrong.
 2. **Nhận thức cái sai**. The text of the option the learner chose, quoted verbatim.
@@ -210,7 +211,7 @@ On a wrong answer, show the steps in order, one screen at a time:
 5. **Phòng tránh cái sai**. The item's `fallback_vi`. The teacher removed every fallback on
    21 September, so this step is skipped for every item in v1 and the loop ends at step 4.
 
-After the loop, the learner answers the same item again. A correct answer shows a short
+After the loop, a **Thử lại** button lets the learner answer the same item again. A correct answer shows a short
 confirmation and nothing else.
 
 ## 10. Correction cards

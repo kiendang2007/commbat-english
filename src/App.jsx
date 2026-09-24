@@ -131,12 +131,15 @@ export default function App() {
     })
   }
 
+  // A new object on every tap, so repeating the same message still scrolls it into view.
+  function showNotice(text) {
+    setLockMessage({ text })
+  }
+
   function openMaterial(material) {
     if (!learner) return
     if (material.stage > learner.current_stage) {
-      setLockMessage(
-        `Giai đoạn này chưa mở. Hãy học xong Giai đoạn ${learner.current_stage} trước.`
-      )
+      showNotice(`Giai đoạn này chưa mở. Hãy học xong Giai đoạn ${learner.current_stage} trước.`)
       setLogContext(learner.name, learner.current_stage)
       log('locked_click', { material: material.material_id })
       return
@@ -144,6 +147,17 @@ export default function App() {
     setLockMessage(null)
     setCurrentMaterialId(material.material_id)
     setScreen('material')
+  }
+
+  // Practice has no questions yet. The side stop still answers every tap: locked before its
+  // stage is done, and "not ready" after.
+  function openPractice(stage) {
+    if (!learner) return
+    if (stage >= learner.current_stage) {
+      showNotice(`Phần luyện tập này chưa mở. Hãy học xong Giai đoạn ${stage} trước.`)
+      return
+    }
+    showNotice(`Phần luyện tập của Giai đoạn ${stage} chưa có câu hỏi.`)
   }
 
   function backToList() {
@@ -155,11 +169,6 @@ export default function App() {
 
   return (
     <div className="page">
-      {lockMessage && (
-        <p className="lock-message" role="alert">
-          {lockMessage}
-        </p>
-      )}
       {screen === 'teacher' && <TeacherScreen materials={materials} />}
       {screen === 'name' && <NameScreen onStart={handleStart} />}
       {screen === 'list' && learner && (
@@ -167,17 +176,23 @@ export default function App() {
           learner={learner}
           materials={materials}
           onOpenMaterial={openMaterial}
+          onOpenPractice={openPractice}
           onSwitchLearner={handleSwitchLearner}
+          notice={lockMessage}
+          onDismissNotice={() => setLockMessage(null)}
         />
       )}
       {screen === 'material' && learner && currentMaterial && (
         <MaterialPage
           material={currentMaterial}
+          stageMaterials={materials.filter((m) => m.stage === currentMaterial.stage)}
           onBack={backToList}
           nextMaterial={nextMaterialFor(currentMaterial)}
           onOpenMaterial={openMaterial}
           correct={learner.correct}
           onAnswerPick={handleAnswerPick}
+          notice={lockMessage}
+          onDismissNotice={() => setLockMessage(null)}
         />
       )}
       <p className="stamp">Bản build lúc {formatBuildTime(BUILD_TIME)}</p>

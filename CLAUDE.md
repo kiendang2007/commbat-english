@@ -1,4 +1,6 @@
-# CommBat English
+# Trika English
+
+Formerly CommBat English. Storage keys keep the `commbat:` prefix so saved progress survives.
 
 A Vietnamese-language website that teaches English grammar to Vietnamese beginners, one stage at
 a time. Built for a university course, due 5 October 2026.
@@ -29,6 +31,16 @@ a time. Built for a university course, due 5 October 2026.
 - Print the build timestamp in small text at the bottom of every screen.
 - Locked stages stay visible and clickable, and say which stage comes first. Never hide them.
 - Never add scoring, levels, CEFR bands, or anything SPEC section 14 forbids.
+
+## Design
+
+- `Design System Mocha` from the Claude Design handoff is the palette and type system. Tokens
+  live as CSS variables at the top of `src/styles.css`. Do not invent new colors.
+- Green (correct) and coral (wrong) appear only in answer feedback, always with an icon and a word.
+- Nunito for everything. Body text 17px, never smaller than 13px (build timestamp).
+- Spacing scale 4, 8, 12, 16, 20, 28, 44. Radius 14 controls, 16 cards, 999 pills.
+- Logo is option 7a, drawn by `src/components/Logo.jsx` from ratios of the tile size.
+- Nothing is positioned absolutely; every screen is one flowing column.
 
 ## Working style
 

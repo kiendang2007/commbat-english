@@ -1,12 +1,77 @@
 import { isMaterialComplete } from '../progress.js'
+import Notice from '../components/Notice.jsx'
+import { CheckStroke, LockIcon } from '../components/Icons.jsx'
 
 function statusFor(stage, currentStage) {
-  if (stage < currentStage) return 'Đã xong'
-  if (stage === currentStage) return 'Đang học'
-  return 'Chưa mở'
+  if (stage < currentStage) return 'done'
+  if (stage === currentStage) return 'current'
+  return 'locked'
 }
 
-export default function ListScreen({ learner, materials, onOpenMaterial, onSwitchLearner }) {
+const STATUS_LABEL = { done: 'Đã xong', current: 'Đang học', locked: 'Chưa mở' }
+
+function StageMarker({ stage, status }) {
+  return (
+    <div className={`trail-marker ${status}`}>
+      {status === 'done' && <CheckStroke size={22} />}
+      {status === 'current' && <span aria-hidden="true">{stage}</span>}
+      {status === 'locked' && <LockIcon />}
+    </div>
+  )
+}
+
+function StageCard({ stage, status, materials, correct, onOpenMaterial }) {
+  return (
+    <div className={`stage-card ${status}`}>
+      <div className="stage-card-head">
+        <h2 className="stage-title">Giai đoạn {stage}</h2>
+        <span className={`pill pill-${status}`}>{STATUS_LABEL[status]}</span>
+      </div>
+      <ul className="material-list">
+        {materials.map((m) => (
+          <li key={m.material_id}>
+            <button type="button" className="material-link" onClick={() => onOpenMaterial(m)}>
+              {m.title_vi}
+              {isMaterialComplete(m, correct) ? ' ✓' : ''}
+            </button>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
+function StageStop({ open, solid, onOpen }) {
+  return (
+    <div className="stage-stop">
+      <div className="trail-rail">
+        <div className={`trail-line${solid ? ' solid' : ''}`} />
+      </div>
+      <div className="stop-body">
+        <button type="button" className={`stop-button ${open ? 'open' : 'locked'}`} onClick={onOpen}>
+          {open ? (
+            <span className="stop-check">
+              <CheckStroke size={12} color="#76591F" width={2.8} />
+            </span>
+          ) : (
+            <LockIcon />
+          )}
+          <span>Luyện tập</span>
+        </button>
+      </div>
+    </div>
+  )
+}
+
+export default function ListScreen({
+  learner,
+  materials,
+  onOpenMaterial,
+  onOpenPractice,
+  onSwitchLearner,
+  notice,
+  onDismissNotice,
+}) {
   const stages = []
   for (let stage = 1; stage <= 15; stage++) {
     stages.push({
@@ -19,39 +84,44 @@ export default function ListScreen({ learner, materials, onOpenMaterial, onSwitc
 
   return (
     <main>
-      <div className="learner-bar">
-        <span>{learner.name}</span>
-        <button type="button" className="link-button" onClick={onSwitchLearner}>
+      <div className="screen-header">
+        <span className="learner-name">{learner.name}</span>
+        <button type="button" className="link-button underline" onClick={onSwitchLearner}>
           Đổi người học
         </button>
       </div>
+      <Notice notice={notice} onDismiss={onDismissNotice} />
       {learner.current_stage === 16 && (
         <p className="all-done">Đã học xong tất cả các giai đoạn.</p>
       )}
-      <ul className="stage-list">
-        {stages.map(({ stage, materials: stageMaterials }) => (
-          <li key={stage} className="stage-card">
-            <div className="stage-header">
-              <h2>Giai đoạn {stage}</h2>
-              <span className="stage-status">{statusFor(stage, learner.current_stage)}</span>
-            </div>
-            <ul className="material-list">
-              {stageMaterials.map((m) => (
-                <li key={m.material_id}>
-                  <button
-                    type="button"
-                    className="material-link"
-                    onClick={() => onOpenMaterial(m)}
-                  >
-                    {m.title_vi}
-                    {isMaterialComplete(m, learner.correct) ? ' ✓' : ''}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </li>
-        ))}
-      </ul>
+      <ol className="stage-trail">
+        {stages.map(({ stage, materials: stageMaterials }) => {
+          const status = statusFor(stage, learner.current_stage)
+          const solid = status === 'done'
+          return (
+            <li key={stage}>
+              <div className="stage-row">
+                <div className="trail-rail">
+                  <StageMarker stage={stage} status={status} />
+                  <div className={`trail-line${solid ? ' solid' : ''}`} />
+                </div>
+                <StageCard
+                  stage={stage}
+                  status={status}
+                  materials={stageMaterials}
+                  correct={learner.correct}
+                  onOpenMaterial={onOpenMaterial}
+                />
+              </div>
+              <StageStop
+                open={status === 'done'}
+                solid={solid}
+                onOpen={() => onOpenPractice(stage)}
+              />
+            </li>
+          )
+        })}
+      </ol>
     </main>
   )
 }
