@@ -176,6 +176,7 @@ export default function App() {
       )}
       {screen === 'material' && learner && currentMaterial && (
         <MaterialPage
+          key={currentMaterial.material_id}
           material={currentMaterial}
           stageMaterials={materials.filter((m) => m.stage === currentMaterial.stage)}
           onBack={backToList}

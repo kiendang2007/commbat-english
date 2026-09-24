@@ -38,18 +38,20 @@ export default function MaterialPage({
         )}
       </div>
 
+      {/* Keys carry material_id and item id, never a position, so a question never inherits
+          the state of the question that sat at the same place in the previous material. */}
       {material.blocks.map((block, index) => {
         switch (block.type) {
           case 'text':
-            return <TextBlock key={index} block={block} />
+            return <TextBlock key={`${material.material_id}:${index}`} block={block} />
           case 'section':
-            return <SectionBlock key={index} block={block} />
+            return <SectionBlock key={`${material.material_id}:${index}`} block={block} />
           case 'funfact':
-            return <FunfactBlock key={index} block={block} />
+            return <FunfactBlock key={`${material.material_id}:${index}`} block={block} />
           case 'item':
             return (
               <QuestionCard
-                key={index}
+                key={`${material.material_id}:${block.item.id}`}
                 item={block.item}
                 alreadyCorrect={Boolean(correct[`${material.material_id}:${block.item.id}`])}
                 onPick={(choiceKey, isCorrect) =>

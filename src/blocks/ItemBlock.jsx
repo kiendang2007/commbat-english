@@ -34,9 +34,13 @@ function AnswerOption({ option, state, onPick }) {
     </>
   )
 
-  if (state === 'idle') {
+  if (state === 'idle' || state === 'muted-open') {
     return (
-      <button type="button" className="option" onClick={() => onPick(option.key)}>
+      <button
+        type="button"
+        className={state === 'idle' ? 'option' : 'option muted'}
+        onClick={() => onPick(option.key)}
+      >
         {content}
       </button>
     )
@@ -106,10 +110,13 @@ export default function QuestionCard({ item, alreadyCorrect, onPick }) {
     setRetried(true)
   }
 
+  // The chosen option is marked by comparing its key to item.answer in pick(). After a correct
+  // answer the other options stay tappable, so the item can always be answered again. After a
+  // wrong answer the learner goes through the correction and then "Thử lại".
   function optionState(key) {
     if (status === 'unanswered') return 'idle'
     if (key === chosenKey) return status
-    return 'muted'
+    return status === 'correct' ? 'muted-open' : 'muted'
   }
 
   return (
