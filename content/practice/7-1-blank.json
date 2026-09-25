@@ -1,0 +1,283 @@
+{
+  "practice_id": "7.1",
+  "stage": 7,
+  "title_vi": "Luyện tập: điền động từ khuyết thiếu",
+  "type": "blank",
+  "items": [
+    {
+      "id": "P7.1-01",
+      "type": "blank",
+      "sentence_en": "It ___ rain tonight.",
+      "options": [
+        {
+          "key": "A",
+          "text": "must"
+        },
+        {
+          "key": "B",
+          "text": "might"
+        },
+        {
+          "key": "C",
+          "text": "should"
+        },
+        {
+          "key": "D",
+          "text": "can"
+        }
+      ],
+      "answer": "B",
+      "answer_text": "might",
+      "rule_vi": "might nói một khả năng không chắc chắn.",
+      "prompt_vi": "Tối nay trời có khả năng mưa."
+    },
+    {
+      "id": "P7.1-02",
+      "type": "blank",
+      "sentence_en": "Nam ___ go to bed early.",
+      "options": [
+        {
+          "key": "A",
+          "text": "should"
+        },
+        {
+          "key": "B",
+          "text": "may"
+        },
+        {
+          "key": "C",
+          "text": "will"
+        },
+        {
+          "key": "D",
+          "text": "must"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "should",
+      "rule_vi": "should đưa ra lời khuyên.",
+      "prompt_vi": "Nam nên đi ngủ sớm."
+    },
+    {
+      "id": "P7.1-03",
+      "type": "blank",
+      "sentence_en": "This bird ___ fly very high.",
+      "options": [
+        {
+          "key": "A",
+          "text": "can"
+        },
+        {
+          "key": "B",
+          "text": "may"
+        },
+        {
+          "key": "C",
+          "text": "should"
+        },
+        {
+          "key": "D",
+          "text": "would"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "can",
+      "rule_vi": "can nói về khả năng làm được một việc.",
+      "prompt_vi": "Con chim này bay được rất cao."
+    },
+    {
+      "id": "P7.1-04",
+      "type": "blank",
+      "sentence_en": "I ___ call you tomorrow.",
+      "options": [
+        {
+          "key": "A",
+          "text": "will"
+        },
+        {
+          "key": "B",
+          "text": "might"
+        },
+        {
+          "key": "C",
+          "text": "must"
+        },
+        {
+          "key": "D",
+          "text": "could"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "will",
+      "rule_vi": "will nói một việc chắc chắn sẽ làm ở tương lai.",
+      "prompt_vi": "Ngày mai tôi sẽ gọi cho chị."
+    },
+    {
+      "id": "P7.1-05",
+      "type": "blank",
+      "sentence_en": "Students ___ hand in the work before Friday.",
+      "options": [
+        {
+          "key": "A",
+          "text": "must"
+        },
+        {
+          "key": "B",
+          "text": "might"
+        },
+        {
+          "key": "C",
+          "text": "could"
+        },
+        {
+          "key": "D",
+          "text": "would"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "must",
+      "rule_vi": "must nói một điều bắt buộc.",
+      "prompt_vi": "Học sinh phải nộp bài trước thứ Sáu."
+    },
+    {
+      "id": "P7.1-06",
+      "type": "blank",
+      "sentence_en": "When she was young, she ___ run very fast.",
+      "options": [
+        {
+          "key": "A",
+          "text": "could"
+        },
+        {
+          "key": "B",
+          "text": "should"
+        },
+        {
+          "key": "C",
+          "text": "must"
+        },
+        {
+          "key": "D",
+          "text": "will"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "could",
+      "rule_vi": "could là dạng quá khứ của can, nói khả năng trong quá khứ.",
+      "prompt_vi": "Hồi nhỏ chị ấy chạy rất nhanh."
+    },
+    {
+      "id": "P7.1-07",
+      "type": "blank",
+      "sentence_en": "___ I come in?",
+      "options": [
+        {
+          "key": "A",
+          "text": "May"
+        },
+        {
+          "key": "B",
+          "text": "Must"
+        },
+        {
+          "key": "C",
+          "text": "Should"
+        },
+        {
+          "key": "D",
+          "text": "Would"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "May",
+      "rule_vi": "may dùng để xin phép một cách lịch sự.",
+      "prompt_vi": "Tôi vào lớp được không?"
+    },
+    {
+      "id": "P7.1-08",
+      "type": "blank",
+      "sentence_en": "We ___ take the bus.",
+      "options": [
+        {
+          "key": "A",
+          "text": "should"
+        },
+        {
+          "key": "B",
+          "text": "can"
+        },
+        {
+          "key": "C",
+          "text": "might"
+        },
+        {
+          "key": "D",
+          "text": "will"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "should",
+      "rule_vi": "should đưa ra lời khuyên cho cả nhóm.",
+      "prompt_vi": "Chúng ta nên đi xe buýt."
+    },
+    {
+      "id": "P7.1-09",
+      "type": "blank",
+      "sentence_en": "He ___ be at home.",
+      "options": [
+        {
+          "key": "A",
+          "text": "might"
+        },
+        {
+          "key": "B",
+          "text": "must"
+        },
+        {
+          "key": "C",
+          "text": "shall"
+        },
+        {
+          "key": "D",
+          "text": "can"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "might",
+      "rule_vi": "might nói một phỏng đoán chưa chắc chắn.",
+      "prompt_vi": "Anh ấy có lẽ đang ở nhà."
+    },
+    {
+      "id": "P7.1-10",
+      "type": "blank",
+      "sentence_en": "She ___ arrive at seven.",
+      "options": [
+        {
+          "key": "A",
+          "text": "will"
+        },
+        {
+          "key": "B",
+          "text": "may"
+        },
+        {
+          "key": "C",
+          "text": "could"
+        },
+        {
+          "key": "D",
+          "text": "should"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "will",
+      "rule_vi": "will nói một việc chắc chắn ở tương lai.",
+      "prompt_vi": "Cô ấy sẽ đến lúc bảy giờ."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

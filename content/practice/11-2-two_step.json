@@ -1,0 +1,486 @@
+{
+  "practice_id": "11.2",
+  "stage": 11,
+  "title_vi": "Luyện tập: dạng chủ động và bị động",
+  "type": "two_step",
+  "part": "dạng",
+  "items": [
+    {
+      "id": "P11.2-01",
+      "type": "two_step",
+      "prompt_vi": "Căn phòng này được dọn mỗi sáng.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "hiện tại",
+          "aspect": "đơn giản",
+          "voice": "bị động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "This",
+          "every",
+          "cleaning",
+          "morning",
+          "cleaned",
+          "is",
+          "room",
+          "has"
+        ],
+        "answer": "This room is cleaned every morning.",
+        "decoys": [
+          "has",
+          "cleaning"
+        ]
+      },
+      "rule_vi": "Câu này ở thì hiện tại, thể đơn giản, dạng bị động."
+    },
+    {
+      "id": "P11.2-02",
+      "type": "two_step",
+      "prompt_vi": "Ngôi nhà đang được sơn.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "hiện tại",
+          "aspect": "tiếp diễn",
+          "voice": "bị động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "being",
+          "house",
+          "has",
+          "The",
+          "painting",
+          "painted",
+          "is"
+        ],
+        "answer": "The house is being painted.",
+        "decoys": [
+          "has",
+          "painting"
+        ]
+      },
+      "rule_vi": "Câu này ở thì hiện tại, thể tiếp diễn, dạng bị động."
+    },
+    {
+      "id": "P11.2-03",
+      "type": "two_step",
+      "prompt_vi": "Cây cầu đã được xây xong.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "hiện tại",
+          "aspect": "hoàn thành",
+          "voice": "bị động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "The",
+          "building",
+          "is",
+          "has",
+          "been",
+          "bridge",
+          "built"
+        ],
+        "answer": "The bridge has been built.",
+        "decoys": [
+          "is",
+          "building"
+        ]
+      },
+      "rule_vi": "Câu này ở thì hiện tại, thể hoàn thành, dạng bị động."
+    },
+    {
+      "id": "P11.2-04",
+      "type": "two_step",
+      "prompt_vi": "Chiếc xe đã được sửa hôm qua.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "quá khứ",
+          "aspect": "đơn giản",
+          "voice": "bị động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "car",
+          "yesterday",
+          "repairing",
+          "repaired",
+          "was",
+          "has",
+          "The"
+        ],
+        "answer": "The car was repaired yesterday.",
+        "decoys": [
+          "has",
+          "repairing"
+        ]
+      },
+      "rule_vi": "Câu này ở thì quá khứ, thể đơn giản, dạng bị động."
+    },
+    {
+      "id": "P11.2-05",
+      "type": "two_step",
+      "prompt_vi": "Lúc đó bức thư đang được viết.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "quá khứ",
+          "aspect": "tiếp diễn",
+          "voice": "bị động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "being",
+          "had",
+          "written",
+          "writing",
+          "The",
+          "letter",
+          "then",
+          "was"
+        ],
+        "answer": "The letter was being written then.",
+        "decoys": [
+          "had",
+          "writing"
+        ]
+      },
+      "rule_vi": "Câu này ở thì quá khứ, thể tiếp diễn, dạng bị động."
+    },
+    {
+      "id": "P11.2-06",
+      "type": "two_step",
+      "prompt_vi": "Trước khi tôi đến, bữa tối đã được nấu xong.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "quá khứ",
+          "aspect": "hoàn thành",
+          "voice": "bị động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "Dinner",
+          "cooking",
+          "been",
+          "I",
+          "cooked",
+          "had",
+          "before",
+          "arrived",
+          "was"
+        ],
+        "answer": "Dinner had been cooked before I arrived.",
+        "decoys": [
+          "was",
+          "cooking"
+        ]
+      },
+      "rule_vi": "Câu này ở thì quá khứ, thể hoàn thành, dạng bị động."
+    },
+    {
+      "id": "P11.2-07",
+      "type": "two_step",
+      "prompt_vi": "Ngày mai bài kiểm tra sẽ được chấm.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "tương lai",
+          "aspect": "đơn giản",
+          "voice": "bị động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "has",
+          "tomorrow",
+          "marked",
+          "be",
+          "test",
+          "marking",
+          "will",
+          "The"
+        ],
+        "answer": "The test will be marked tomorrow.",
+        "decoys": [
+          "has",
+          "marking"
+        ]
+      },
+      "rule_vi": "Câu này ở thì tương lai, thể đơn giản, dạng bị động."
+    },
+    {
+      "id": "P11.2-08",
+      "type": "two_step",
+      "prompt_vi": "Đến thứ Hai bản báo cáo sẽ được gửi xong.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "tương lai",
+          "aspect": "hoàn thành",
+          "voice": "bị động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "by",
+          "will",
+          "The",
+          "been",
+          "sent",
+          "report",
+          "Monday",
+          "sending",
+          "is",
+          "have"
+        ],
+        "answer": "The report will have been sent by Monday.",
+        "decoys": [
+          "is",
+          "sending"
+        ]
+      },
+      "rule_vi": "Câu này ở thì tương lai, thể hoàn thành, dạng bị động."
+    },
+    {
+      "id": "P11.2-09",
+      "type": "two_step",
+      "prompt_vi": "Những quyển sách này được in ở Hà Nội.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "hiện tại",
+          "aspect": "đơn giản",
+          "voice": "bị động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "in",
+          "printed",
+          "are",
+          "books",
+          "Hanoi",
+          "printing",
+          "These",
+          "have"
+        ],
+        "answer": "These books are printed in Hanoi.",
+        "decoys": [
+          "have",
+          "printing"
+        ]
+      },
+      "rule_vi": "Câu này ở thì hiện tại, thể đơn giản, dạng bị động."
+    },
+    {
+      "id": "P11.2-10",
+      "type": "two_step",
+      "prompt_vi": "Cô ấy được mời đến bữa tiệc tuần trước.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "quá khứ",
+          "aspect": "đơn giản",
+          "voice": "bị động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "invited",
+          "week",
+          "last",
+          "inviting",
+          "the",
+          "to",
+          "has",
+          "party",
+          "She",
+          "was"
+        ],
+        "answer": "She was invited to the party last week.",
+        "decoys": [
+          "has",
+          "inviting"
+        ]
+      },
+      "rule_vi": "Câu này ở thì quá khứ, thể đơn giản, dạng bị động."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

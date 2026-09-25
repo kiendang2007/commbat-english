@@ -1,0 +1,933 @@
+{
+  "practice_id": "1.2",
+  "stage": 1,
+  "title_vi": "Luyện tập: đếm được hay không đếm được",
+  "type": "sort_two",
+  "items": [
+    {
+      "id": "P1.2-01",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Danh từ đếm được",
+      "right_label_vi": "Danh từ không đếm được",
+      "chips": [
+        {
+          "word": "sugar",
+          "group": "right"
+        },
+        {
+          "word": "bread",
+          "group": "right"
+        },
+        {
+          "word": "garden",
+          "group": "left"
+        },
+        {
+          "word": "bottle",
+          "group": "left"
+        },
+        {
+          "word": "milk",
+          "group": "right"
+        },
+        {
+          "word": "ticket",
+          "group": "left"
+        },
+        {
+          "word": "chair",
+          "group": "left"
+        },
+        {
+          "word": "salt",
+          "group": "right"
+        },
+        {
+          "word": "lamp",
+          "group": "left"
+        },
+        {
+          "word": "pen",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "pen",
+          "text_vi": "pen (cái bút): đếm được từng cái một, đặt được a pen hoặc one pen ở phía trước."
+        },
+        {
+          "word": "bottle",
+          "text_vi": "bottle (cái chai): đếm được từng cái một, đặt được a bottle hoặc one bottle ở phía trước."
+        },
+        {
+          "word": "bread",
+          "text_vi": "bread (bánh mì): là chất liệu hoặc một khối, chia nhỏ ra vẫn là bread, nên không đếm thành một, hai."
+        },
+        {
+          "word": "chair",
+          "text_vi": "chair (cái ghế): đếm được từng cái một, đặt được a chair hoặc one chair ở phía trước."
+        },
+        {
+          "word": "milk",
+          "text_vi": "milk (sữa): chất lỏng, đong bằng vật đựng chứ không đếm."
+        },
+        {
+          "word": "ticket",
+          "text_vi": "ticket (cái vé): đếm được từng cái một, đặt được a ticket hoặc one ticket ở phía trước."
+        },
+        {
+          "word": "sugar",
+          "text_vi": "sugar (đường): là chất liệu hoặc một khối, chia nhỏ ra vẫn là sugar, nên không đếm thành một, hai."
+        },
+        {
+          "word": "lamp",
+          "text_vi": "lamp (cái đèn): đếm được từng cái một, đặt được a lamp hoặc one lamp ở phía trước."
+        },
+        {
+          "word": "salt",
+          "text_vi": "salt (muối): là chất liệu hoặc một khối, chia nhỏ ra vẫn là salt, nên không đếm thành một, hai."
+        },
+        {
+          "word": "garden",
+          "text_vi": "garden (khu vườn): đếm được từng cái một, đặt được a garden hoặc one garden ở phía trước."
+        }
+      ],
+      "rule_vi": "Danh từ đếm được đặt được số đếm ở trước và có dạng số nhiều. Danh từ không đếm được thì không."
+    },
+    {
+      "id": "P1.2-02",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Danh từ đếm được",
+      "right_label_vi": "Danh từ không đếm được",
+      "chips": [
+        {
+          "word": "snow",
+          "group": "right"
+        },
+        {
+          "word": "honey",
+          "group": "right"
+        },
+        {
+          "word": "oil",
+          "group": "right"
+        },
+        {
+          "word": "bridge",
+          "group": "left"
+        },
+        {
+          "word": "cheese",
+          "group": "right"
+        },
+        {
+          "word": "cup",
+          "group": "left"
+        },
+        {
+          "word": "butter",
+          "group": "right"
+        },
+        {
+          "word": "flour",
+          "group": "right"
+        },
+        {
+          "word": "shirt",
+          "group": "left"
+        },
+        {
+          "word": "plate",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "cheese",
+          "text_vi": "cheese (phô mai): là chất liệu hoặc một khối, chia nhỏ ra vẫn là cheese, nên không đếm thành một, hai."
+        },
+        {
+          "word": "cup",
+          "text_vi": "cup (cái cốc): đếm được từng cái một, đặt được a cup hoặc one cup ở phía trước."
+        },
+        {
+          "word": "honey",
+          "text_vi": "honey (mật ong): chất lỏng, đong bằng vật đựng chứ không đếm."
+        },
+        {
+          "word": "plate",
+          "text_vi": "plate (cái đĩa): đếm được từng cái một, đặt được a plate hoặc one plate ở phía trước."
+        },
+        {
+          "word": "butter",
+          "text_vi": "butter (bơ): là chất liệu hoặc một khối, chia nhỏ ra vẫn là butter, nên không đếm thành một, hai."
+        },
+        {
+          "word": "oil",
+          "text_vi": "oil (dầu ăn): chất lỏng, đong bằng vật đựng chứ không đếm."
+        },
+        {
+          "word": "shirt",
+          "text_vi": "shirt (áo sơ mi): đếm được từng cái một, đặt được a shirt hoặc one shirt ở phía trước."
+        },
+        {
+          "word": "snow",
+          "text_vi": "snow (tuyết): là chất liệu hoặc một khối, chia nhỏ ra vẫn là snow, nên không đếm thành một, hai."
+        },
+        {
+          "word": "bridge",
+          "text_vi": "bridge (cây cầu): đếm được từng cái một, đặt được a bridge hoặc one bridge ở phía trước."
+        },
+        {
+          "word": "flour",
+          "text_vi": "flour (bột mì): là chất liệu hoặc một khối, chia nhỏ ra vẫn là flour, nên không đếm thành một, hai."
+        }
+      ],
+      "rule_vi": "Danh từ đếm được đặt được số đếm ở trước và có dạng số nhiều. Danh từ không đếm được thì không."
+    },
+    {
+      "id": "P1.2-03",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Danh từ đếm được",
+      "right_label_vi": "Danh từ không đếm được",
+      "chips": [
+        {
+          "word": "letter",
+          "group": "left"
+        },
+        {
+          "word": "sand",
+          "group": "right"
+        },
+        {
+          "word": "phone",
+          "group": "left"
+        },
+        {
+          "word": "smoke",
+          "group": "right"
+        },
+        {
+          "word": "hat",
+          "group": "left"
+        },
+        {
+          "word": "gold",
+          "group": "right"
+        },
+        {
+          "word": "bicycle",
+          "group": "left"
+        },
+        {
+          "word": "street",
+          "group": "left"
+        },
+        {
+          "word": "island",
+          "group": "left"
+        },
+        {
+          "word": "clock",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "phone",
+          "text_vi": "phone (điện thoại): đếm được từng cái một, đặt được a phone hoặc one phone ở phía trước."
+        },
+        {
+          "word": "clock",
+          "text_vi": "clock (đồng hồ treo tường): đếm được từng cái một, đặt được a clock hoặc one clock ở phía trước."
+        },
+        {
+          "word": "sand",
+          "text_vi": "sand (cát): là chất liệu hoặc một khối, chia nhỏ ra vẫn là sand, nên không đếm thành một, hai."
+        },
+        {
+          "word": "street",
+          "text_vi": "street (con phố): đếm được từng cái một, đặt được a street hoặc one street ở phía trước."
+        },
+        {
+          "word": "island",
+          "text_vi": "island (hòn đảo): đếm được từng cái một, đặt được an island hoặc one island ở phía trước."
+        },
+        {
+          "word": "gold",
+          "text_vi": "gold (vàng): là chất liệu hoặc một khối, chia nhỏ ra vẫn là gold, nên không đếm thành một, hai."
+        },
+        {
+          "word": "hat",
+          "text_vi": "hat (cái mũ): đếm được từng cái một, đặt được a hat hoặc one hat ở phía trước."
+        },
+        {
+          "word": "letter",
+          "text_vi": "letter (lá thư): đếm được từng cái một, đặt được a letter hoặc one letter ở phía trước."
+        },
+        {
+          "word": "smoke",
+          "text_vi": "smoke (khói): là chất liệu hoặc một khối, chia nhỏ ra vẫn là smoke, nên không đếm thành một, hai."
+        },
+        {
+          "word": "bicycle",
+          "text_vi": "bicycle (xe đạp): đếm được từng cái một, đặt được a bicycle hoặc one bicycle ở phía trước."
+        }
+      ],
+      "rule_vi": "Danh từ đếm được đặt được số đếm ở trước và có dạng số nhiều. Danh từ không đếm được thì không."
+    },
+    {
+      "id": "P1.2-04",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Danh từ đếm được",
+      "right_label_vi": "Danh từ không đếm được",
+      "chips": [
+        {
+          "word": "cloud",
+          "group": "left"
+        },
+        {
+          "word": "car",
+          "group": "left"
+        },
+        {
+          "word": "luggage",
+          "group": "right"
+        },
+        {
+          "word": "newspaper",
+          "group": "left"
+        },
+        {
+          "word": "traffic",
+          "group": "right"
+        },
+        {
+          "word": "money",
+          "group": "right"
+        },
+        {
+          "word": "suitcase",
+          "group": "left"
+        },
+        {
+          "word": "weather",
+          "group": "right"
+        },
+        {
+          "word": "news",
+          "group": "right"
+        },
+        {
+          "word": "wallet",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "money",
+          "text_vi": "money (tiền): tiếng Việt đếm được nhưng tiếng Anh thì không. Muốn đếm thì đếm tờ tiền hoặc vật đựng, như a note, a wallet."
+        },
+        {
+          "word": "wallet",
+          "text_vi": "wallet (cái ví): đếm được từng cái một, đặt được a wallet hoặc one wallet ở phía trước."
+        },
+        {
+          "word": "luggage",
+          "text_vi": "luggage (hành lý): gọi chung cả số đồ mang theo. Muốn đếm từng cái thì dùng a suitcase."
+        },
+        {
+          "word": "suitcase",
+          "text_vi": "suitcase (cái vali): đếm được từng cái một, đặt được a suitcase hoặc one suitcase ở phía trước."
+        },
+        {
+          "word": "weather",
+          "text_vi": "weather (thời tiết): khái niệm, không có hình dạng để đếm."
+        },
+        {
+          "word": "cloud",
+          "text_vi": "cloud (đám mây): đếm được từng cái một, đặt được a cloud hoặc one cloud ở phía trước."
+        },
+        {
+          "word": "traffic",
+          "text_vi": "traffic (giao thông): khái niệm, không có hình dạng để đếm."
+        },
+        {
+          "word": "car",
+          "text_vi": "car (ô tô): đếm được từng cái một, đặt được a car hoặc one car ở phía trước."
+        },
+        {
+          "word": "news",
+          "text_vi": "news (tin tức): có chữ -s ở cuối nhưng vẫn là danh từ không đếm được. Không viết a news."
+        },
+        {
+          "word": "newspaper",
+          "text_vi": "newspaper (tờ báo): đếm được từng cái một, đặt được a newspaper hoặc one newspaper ở phía trước."
+        }
+      ],
+      "rule_vi": "Danh từ đếm được đặt được số đếm ở trước và có dạng số nhiều. Danh từ không đếm được thì không."
+    },
+    {
+      "id": "P1.2-05",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Danh từ đếm được",
+      "right_label_vi": "Danh từ không đếm được",
+      "chips": [
+        {
+          "word": "freedom",
+          "group": "right"
+        },
+        {
+          "word": "lesson",
+          "group": "left"
+        },
+        {
+          "word": "exam",
+          "group": "left"
+        },
+        {
+          "word": "patience",
+          "group": "right"
+        },
+        {
+          "word": "bravery",
+          "group": "right"
+        },
+        {
+          "word": "luck",
+          "group": "right"
+        },
+        {
+          "word": "silence",
+          "group": "right"
+        },
+        {
+          "word": "knowledge",
+          "group": "right"
+        },
+        {
+          "word": "question",
+          "group": "left"
+        },
+        {
+          "word": "happiness",
+          "group": "right"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "knowledge",
+          "text_vi": "knowledge (kiến thức): khái niệm, không có hình dạng để đếm."
+        },
+        {
+          "word": "lesson",
+          "text_vi": "lesson (bài học): đếm được từng cái một, đặt được a lesson hoặc one lesson ở phía trước."
+        },
+        {
+          "word": "patience",
+          "text_vi": "patience (sự kiên nhẫn): khái niệm, không có hình dạng để đếm."
+        },
+        {
+          "word": "happiness",
+          "text_vi": "happiness (hạnh phúc): khái niệm, không có hình dạng để đếm."
+        },
+        {
+          "word": "exam",
+          "text_vi": "exam (kỳ thi): đếm được từng cái một, đặt được an exam hoặc one exam ở phía trước."
+        },
+        {
+          "word": "luck",
+          "text_vi": "luck (sự may mắn): khái niệm, không có hình dạng để đếm."
+        },
+        {
+          "word": "bravery",
+          "text_vi": "bravery (lòng dũng cảm): khái niệm, không có hình dạng để đếm."
+        },
+        {
+          "word": "question",
+          "text_vi": "question (câu hỏi): đếm được từng cái một, đặt được a question hoặc one question ở phía trước."
+        },
+        {
+          "word": "freedom",
+          "text_vi": "freedom (sự tự do): khái niệm, không có hình dạng để đếm."
+        },
+        {
+          "word": "silence",
+          "text_vi": "silence (sự im lặng): khái niệm, không có hình dạng để đếm."
+        }
+      ],
+      "rule_vi": "Danh từ đếm được đặt được số đếm ở trước và có dạng số nhiều. Danh từ không đếm được thì không."
+    },
+    {
+      "id": "P1.2-06",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Danh từ đếm được",
+      "right_label_vi": "Danh từ không đếm được",
+      "chips": [
+        {
+          "word": "tent",
+          "group": "left"
+        },
+        {
+          "word": "river",
+          "group": "left"
+        },
+        {
+          "word": "air",
+          "group": "right"
+        },
+        {
+          "word": "soup",
+          "group": "right"
+        },
+        {
+          "word": "lake",
+          "group": "left"
+        },
+        {
+          "word": "boat",
+          "group": "left"
+        },
+        {
+          "word": "forest",
+          "group": "left"
+        },
+        {
+          "word": "mountain",
+          "group": "left"
+        },
+        {
+          "word": "ice",
+          "group": "right"
+        },
+        {
+          "word": "wood",
+          "group": "right"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "mountain",
+          "text_vi": "mountain (ngọn núi): đếm được từng cái một, đặt được a mountain hoặc one mountain ở phía trước."
+        },
+        {
+          "word": "river",
+          "text_vi": "river (dòng sông): đếm được từng cái một, đặt được a river hoặc one river ở phía trước."
+        },
+        {
+          "word": "ice",
+          "text_vi": "ice (đá lạnh): là chất liệu hoặc một khối, chia nhỏ ra vẫn là ice, nên không đếm thành một, hai."
+        },
+        {
+          "word": "boat",
+          "text_vi": "boat (con thuyền): đếm được từng cái một, đặt được a boat hoặc one boat ở phía trước."
+        },
+        {
+          "word": "wood",
+          "text_vi": "wood (gỗ): là chất liệu hoặc một khối, chia nhỏ ra vẫn là wood, nên không đếm thành một, hai."
+        },
+        {
+          "word": "forest",
+          "text_vi": "forest (khu rừng): đếm được từng cái một, đặt được a forest hoặc one forest ở phía trước."
+        },
+        {
+          "word": "air",
+          "text_vi": "air (không khí): là chất liệu hoặc một khối, chia nhỏ ra vẫn là air, nên không đếm thành một, hai."
+        },
+        {
+          "word": "tent",
+          "text_vi": "tent (cái lều): đếm được từng cái một, đặt được a tent hoặc one tent ở phía trước."
+        },
+        {
+          "word": "soup",
+          "text_vi": "soup (món súp): chất lỏng, đong bằng vật đựng chứ không đếm."
+        },
+        {
+          "word": "lake",
+          "text_vi": "lake (cái hồ): đếm được từng cái một, đặt được a lake hoặc one lake ở phía trước."
+        }
+      ],
+      "rule_vi": "Danh từ đếm được đặt được số đếm ở trước và có dạng số nhiều. Danh từ không đếm được thì không."
+    },
+    {
+      "id": "P1.2-07",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Danh từ đếm được",
+      "right_label_vi": "Danh từ không đếm được",
+      "chips": [
+        {
+          "word": "jam",
+          "group": "right"
+        },
+        {
+          "word": "towel",
+          "group": "left"
+        },
+        {
+          "word": "soap",
+          "group": "right"
+        },
+        {
+          "word": "sandwich",
+          "group": "left"
+        },
+        {
+          "word": "meat",
+          "group": "right"
+        },
+        {
+          "word": "egg",
+          "group": "left"
+        },
+        {
+          "word": "shampoo",
+          "group": "right"
+        },
+        {
+          "word": "toothpaste",
+          "group": "right"
+        },
+        {
+          "word": "cream",
+          "group": "right"
+        },
+        {
+          "word": "mirror",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "meat",
+          "text_vi": "meat (thịt): là chất liệu hoặc một khối, chia nhỏ ra vẫn là meat, nên không đếm thành một, hai."
+        },
+        {
+          "word": "soap",
+          "text_vi": "soap (xà phòng): là chất liệu hoặc một khối, chia nhỏ ra vẫn là soap, nên không đếm thành một, hai."
+        },
+        {
+          "word": "shampoo",
+          "text_vi": "shampoo (dầu gội): chất lỏng, đong bằng vật đựng chứ không đếm."
+        },
+        {
+          "word": "toothpaste",
+          "text_vi": "toothpaste (kem đánh răng): là chất liệu hoặc một khối, chia nhỏ ra vẫn là toothpaste, nên không đếm thành một, hai."
+        },
+        {
+          "word": "cream",
+          "text_vi": "cream (kem bôi): là chất liệu hoặc một khối, chia nhỏ ra vẫn là cream, nên không đếm thành một, hai."
+        },
+        {
+          "word": "jam",
+          "text_vi": "jam (mứt): là chất liệu hoặc một khối, chia nhỏ ra vẫn là jam, nên không đếm thành một, hai."
+        },
+        {
+          "word": "sandwich",
+          "text_vi": "sandwich (bánh mì kẹp): đếm được từng cái một, đặt được a sandwich hoặc one sandwich ở phía trước."
+        },
+        {
+          "word": "egg",
+          "text_vi": "egg (quả trứng): đếm được từng cái một, đặt được an egg hoặc one egg ở phía trước."
+        },
+        {
+          "word": "towel",
+          "text_vi": "towel (khăn tắm): đếm được từng cái một, đặt được a towel hoặc one towel ở phía trước."
+        },
+        {
+          "word": "mirror",
+          "text_vi": "mirror (cái gương): đếm được từng cái một, đặt được a mirror hoặc one mirror ở phía trước."
+        }
+      ],
+      "rule_vi": "Danh từ đếm được đặt được số đếm ở trước và có dạng số nhiều. Danh từ không đếm được thì không."
+    },
+    {
+      "id": "P1.2-08",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Danh từ đếm được",
+      "right_label_vi": "Danh từ không đếm được",
+      "chips": [
+        {
+          "word": "poster",
+          "group": "left"
+        },
+        {
+          "word": "fan",
+          "group": "left"
+        },
+        {
+          "word": "song",
+          "group": "left"
+        },
+        {
+          "word": "singer",
+          "group": "left"
+        },
+        {
+          "word": "fame",
+          "group": "right"
+        },
+        {
+          "word": "jazz",
+          "group": "right"
+        },
+        {
+          "word": "drum",
+          "group": "left"
+        },
+        {
+          "word": "concert",
+          "group": "left"
+        },
+        {
+          "word": "band",
+          "group": "left"
+        },
+        {
+          "word": "guitar",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "singer",
+          "text_vi": "singer (ca sĩ): đếm được từng cái một, đặt được a singer hoặc one singer ở phía trước."
+        },
+        {
+          "word": "song",
+          "text_vi": "song (bài hát): đếm được từng cái một, đặt được a song hoặc one song ở phía trước."
+        },
+        {
+          "word": "guitar",
+          "text_vi": "guitar (đàn ghi ta): đếm được từng cái một, đặt được a guitar hoặc one guitar ở phía trước."
+        },
+        {
+          "word": "drum",
+          "text_vi": "drum (cái trống): đếm được từng cái một, đặt được a drum hoặc one drum ở phía trước."
+        },
+        {
+          "word": "concert",
+          "text_vi": "concert (buổi hòa nhạc): đếm được từng cái một, đặt được a concert hoặc one concert ở phía trước."
+        },
+        {
+          "word": "band",
+          "text_vi": "band (ban nhạc): đếm được từng cái một, đặt được a band hoặc one band ở phía trước."
+        },
+        {
+          "word": "fan",
+          "text_vi": "fan (người hâm mộ): đếm được từng cái một, đặt được a fan hoặc one fan ở phía trước."
+        },
+        {
+          "word": "poster",
+          "text_vi": "poster (tấm áp phích): đếm được từng cái một, đặt được a poster hoặc one poster ở phía trước."
+        },
+        {
+          "word": "jazz",
+          "text_vi": "jazz (nhạc jazz): khái niệm, không có hình dạng để đếm."
+        },
+        {
+          "word": "fame",
+          "text_vi": "fame (sự nổi tiếng): khái niệm, không có hình dạng để đếm."
+        }
+      ],
+      "rule_vi": "Danh từ đếm được đặt được số đếm ở trước và có dạng số nhiều. Danh từ không đếm được thì không."
+    },
+    {
+      "id": "P1.2-09",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Danh từ đếm được",
+      "right_label_vi": "Danh từ không đếm được",
+      "chips": [
+        {
+          "word": "paint",
+          "group": "right"
+        },
+        {
+          "word": "notebook",
+          "group": "left"
+        },
+        {
+          "word": "ink",
+          "group": "right"
+        },
+        {
+          "word": "eraser",
+          "group": "left"
+        },
+        {
+          "word": "chalk",
+          "group": "right"
+        },
+        {
+          "word": "pencil",
+          "group": "left"
+        },
+        {
+          "word": "glue",
+          "group": "right"
+        },
+        {
+          "word": "dust",
+          "group": "right"
+        },
+        {
+          "word": "desk",
+          "group": "left"
+        },
+        {
+          "word": "ruler",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "notebook",
+          "text_vi": "notebook (quyển vở): đếm được từng cái một, đặt được a notebook hoặc one notebook ở phía trước."
+        },
+        {
+          "word": "ink",
+          "text_vi": "ink (mực): chất lỏng, đong bằng vật đựng chứ không đếm."
+        },
+        {
+          "word": "pencil",
+          "text_vi": "pencil (bút chì): đếm được từng cái một, đặt được a pencil hoặc one pencil ở phía trước."
+        },
+        {
+          "word": "chalk",
+          "text_vi": "chalk (phấn viết): là chất liệu hoặc một khối, chia nhỏ ra vẫn là chalk, nên không đếm thành một, hai."
+        },
+        {
+          "word": "ruler",
+          "text_vi": "ruler (thước kẻ): đếm được từng cái một, đặt được a ruler hoặc one ruler ở phía trước."
+        },
+        {
+          "word": "glue",
+          "text_vi": "glue (keo dán): chất lỏng, đong bằng vật đựng chứ không đếm."
+        },
+        {
+          "word": "eraser",
+          "text_vi": "eraser (cục tẩy): đếm được từng cái một, đặt được an eraser hoặc one eraser ở phía trước."
+        },
+        {
+          "word": "dust",
+          "text_vi": "dust (bụi): là chất liệu hoặc một khối, chia nhỏ ra vẫn là dust, nên không đếm thành một, hai."
+        },
+        {
+          "word": "desk",
+          "text_vi": "desk (bàn học): đếm được từng cái một, đặt được a desk hoặc one desk ở phía trước."
+        },
+        {
+          "word": "paint",
+          "text_vi": "paint (sơn): chất lỏng, đong bằng vật đựng chứ không đếm."
+        }
+      ],
+      "rule_vi": "Danh từ đếm được đặt được số đếm ở trước và có dạng số nhiều. Danh từ không đếm được thì không."
+    },
+    {
+      "id": "P1.2-10",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Danh từ đếm được",
+      "right_label_vi": "Danh từ không đếm được",
+      "chips": [
+        {
+          "word": "pill",
+          "group": "left"
+        },
+        {
+          "word": "ambulance",
+          "group": "left"
+        },
+        {
+          "word": "nurse",
+          "group": "left"
+        },
+        {
+          "word": "oxygen",
+          "group": "right"
+        },
+        {
+          "word": "sleep",
+          "group": "right"
+        },
+        {
+          "word": "health",
+          "group": "right"
+        },
+        {
+          "word": "hospital",
+          "group": "left"
+        },
+        {
+          "word": "blood",
+          "group": "right"
+        },
+        {
+          "word": "patient",
+          "group": "left"
+        },
+        {
+          "word": "bandage",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "patient",
+          "text_vi": "patient (bệnh nhân): đếm được từng cái một, đặt được a patient hoặc one patient ở phía trước."
+        },
+        {
+          "word": "hospital",
+          "text_vi": "hospital (bệnh viện): đếm được từng cái một, đặt được a hospital hoặc one hospital ở phía trước."
+        },
+        {
+          "word": "pill",
+          "text_vi": "pill (viên thuốc): đếm được từng cái một, đặt được a pill hoặc one pill ở phía trước."
+        },
+        {
+          "word": "ambulance",
+          "text_vi": "ambulance (xe cứu thương): đếm được từng cái một, đặt được an ambulance hoặc one ambulance ở phía trước."
+        },
+        {
+          "word": "nurse",
+          "text_vi": "nurse (y tá): đếm được từng cái một, đặt được a nurse hoặc one nurse ở phía trước."
+        },
+        {
+          "word": "bandage",
+          "text_vi": "bandage (băng gạc): đếm được từng cái một, đặt được a bandage hoặc one bandage ở phía trước."
+        },
+        {
+          "word": "blood",
+          "text_vi": "blood (máu): chất lỏng, đong bằng vật đựng chứ không đếm."
+        },
+        {
+          "word": "health",
+          "text_vi": "health (sức khỏe): khái niệm, không có hình dạng để đếm."
+        },
+        {
+          "word": "oxygen",
+          "text_vi": "oxygen (khí oxy): là chất liệu hoặc một khối, chia nhỏ ra vẫn là oxygen, nên không đếm thành một, hai."
+        },
+        {
+          "word": "sleep",
+          "text_vi": "sleep (giấc ngủ): khái niệm, không có hình dạng để đếm."
+        }
+      ],
+      "rule_vi": "Danh từ đếm được đặt được số đếm ở trước và có dạng số nhiều. Danh từ không đếm được thì không."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

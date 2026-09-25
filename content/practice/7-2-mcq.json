@@ -1,0 +1,263 @@
+{
+  "practice_id": "7.2",
+  "stage": 7,
+  "title_vi": "Luyện tập: chọn câu dịch đúng",
+  "type": "mcq",
+  "items": [
+    {
+      "id": "P7.2-01",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu tiếng Anh đúng cho câu sau: Tôi trèo cây được.",
+      "options": [
+        {
+          "key": "A",
+          "text": "I can climb trees."
+        },
+        {
+          "key": "B",
+          "text": "I can to climb trees."
+        },
+        {
+          "key": "C",
+          "text": "I can climbs trees."
+        },
+        {
+          "key": "D",
+          "text": "I am can climb trees."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Sau động từ khuyết thiếu, động từ chính luôn ở dạng nguyên thể, không có to và không thêm -s."
+    },
+    {
+      "id": "P7.2-02",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu tiếng Anh đúng cho câu sau: Chị ấy phải làm xong hôm nay.",
+      "options": [
+        {
+          "key": "A",
+          "text": "She must finishes today."
+        },
+        {
+          "key": "B",
+          "text": "She must finish today."
+        },
+        {
+          "key": "C",
+          "text": "She musts finish today."
+        },
+        {
+          "key": "D",
+          "text": "She must to finish today."
+        }
+      ],
+      "answer": "B",
+      "rule_vi": "Động từ khuyết thiếu không bao giờ thêm -s, và động từ chính sau nó giữ nguyên thể."
+    },
+    {
+      "id": "P7.2-03",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu tiếng Anh đúng cho câu sau: Trời có khả năng lạnh vào buổi tối.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It might is cold in the evening."
+        },
+        {
+          "key": "B",
+          "text": "It might be cold in the evening."
+        },
+        {
+          "key": "C",
+          "text": "It mights be cold in the evening."
+        },
+        {
+          "key": "D",
+          "text": "It might being cold in the evening."
+        }
+      ],
+      "answer": "B",
+      "rule_vi": "Sau might, be phải ở dạng nguyên thể."
+    },
+    {
+      "id": "P7.2-04",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu tiếng Anh đúng cho câu sau: Các em nên uống nhiều nước hơn.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The children should drink more water."
+        },
+        {
+          "key": "B",
+          "text": "The children should drinks more water."
+        },
+        {
+          "key": "C",
+          "text": "The children shoulds drink more water."
+        },
+        {
+          "key": "D",
+          "text": "The children should to drink more water."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Động từ chính sau should giữ nguyên thể."
+    },
+    {
+      "id": "P7.2-05",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu tiếng Anh đúng cho câu sau: Hồi bé tôi đọc được chữ Hán.",
+      "options": [
+        {
+          "key": "A",
+          "text": "When I was young, I could read Chinese."
+        },
+        {
+          "key": "B",
+          "text": "When I was young, I can read Chinese."
+        },
+        {
+          "key": "C",
+          "text": "When I was young, I could to read Chinese."
+        },
+        {
+          "key": "D",
+          "text": "When I was young, I could reads Chinese."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Câu ở quá khứ nên dùng could, và động từ chính giữ nguyên thể."
+    },
+    {
+      "id": "P7.2-06",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu tiếng Anh đúng cho câu sau: Tôi dùng điện thoại của anh được không?",
+      "options": [
+        {
+          "key": "A",
+          "text": "May I use your phone?"
+        },
+        {
+          "key": "B",
+          "text": "May I to use your phone?"
+        },
+        {
+          "key": "C",
+          "text": "May I using your phone?"
+        },
+        {
+          "key": "D",
+          "text": "I may use your phone?"
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Câu hỏi xin phép đảo động từ khuyết thiếu lên trước chủ ngữ."
+    },
+    {
+      "id": "P7.2-07",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu tiếng Anh đúng cho câu sau: Họ sẽ đến vào thứ Bảy.",
+      "options": [
+        {
+          "key": "A",
+          "text": "They will come on Saturday."
+        },
+        {
+          "key": "B",
+          "text": "They will comes on Saturday."
+        },
+        {
+          "key": "C",
+          "text": "They will to come on Saturday."
+        },
+        {
+          "key": "D",
+          "text": "They are will come on Saturday."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Sau will, động từ chính giữ nguyên thể, và không có trợ động từ nào khác."
+    },
+    {
+      "id": "P7.2-08",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu tiếng Anh đúng cho câu sau: Anh ấy chắc chắn đang ở nhà.",
+      "options": [
+        {
+          "key": "A",
+          "text": "He must be at home."
+        },
+        {
+          "key": "B",
+          "text": "He must is at home."
+        },
+        {
+          "key": "C",
+          "text": "He musts be at home."
+        },
+        {
+          "key": "D",
+          "text": "He must being at home."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Sau must, be ở dạng nguyên thể."
+    },
+    {
+      "id": "P7.2-09",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu tiếng Anh đúng cho câu sau: Mình đi bộ nhé?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Shall we walk?"
+        },
+        {
+          "key": "B",
+          "text": "Shall we walking?"
+        },
+        {
+          "key": "C",
+          "text": "Shall we to walk?"
+        },
+        {
+          "key": "D",
+          "text": "We shall walk?"
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Lời rủ dùng shall đảo lên trước chủ ngữ, động từ chính giữ nguyên thể."
+    },
+    {
+      "id": "P7.2-10",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu tiếng Anh đúng cho câu sau: Cái máy này có khả năng hỏng.",
+      "options": [
+        {
+          "key": "A",
+          "text": "This machine may break."
+        },
+        {
+          "key": "B",
+          "text": "This machine may breaks."
+        },
+        {
+          "key": "C",
+          "text": "This machine mays break."
+        },
+        {
+          "key": "D",
+          "text": "This machine may to break."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Động từ khuyết thiếu không chia, động từ chính giữ nguyên thể."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

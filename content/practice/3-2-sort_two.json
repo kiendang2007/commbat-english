@@ -1,0 +1,933 @@
+{
+  "practice_id": "3.2",
+  "stage": 3,
+  "title_vi": "Luyện tập: nội động từ hay ngoại động từ",
+  "type": "sort_two",
+  "items": [
+    {
+      "id": "P3.2-01",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Ngoại động từ",
+      "right_label_vi": "Nội động từ",
+      "chips": [
+        {
+          "word": "bark",
+          "group": "right"
+        },
+        {
+          "word": "borrow",
+          "group": "left"
+        },
+        {
+          "word": "cough",
+          "group": "right"
+        },
+        {
+          "word": "carry",
+          "group": "left"
+        },
+        {
+          "word": "repair",
+          "group": "left"
+        },
+        {
+          "word": "wash",
+          "group": "left"
+        },
+        {
+          "word": "build",
+          "group": "left"
+        },
+        {
+          "word": "sit",
+          "group": "right"
+        },
+        {
+          "word": "invite",
+          "group": "left"
+        },
+        {
+          "word": "wait",
+          "group": "right"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "repair",
+          "text_vi": "repair (sửa): cần một danh từ đi ngay sau, ví dụ repair the bike, nên là ngoại động từ."
+        },
+        {
+          "word": "borrow",
+          "text_vi": "borrow (mượn): cần một danh từ đi ngay sau, ví dụ borrow a book, nên là ngoại động từ."
+        },
+        {
+          "word": "sit",
+          "text_vi": "sit (ngồi): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "build",
+          "text_vi": "build (xây): cần một danh từ đi ngay sau, ví dụ build a house, nên là ngoại động từ."
+        },
+        {
+          "word": "wait",
+          "text_vi": "wait (đợi): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "invite",
+          "text_vi": "invite (mời): cần một danh từ đi ngay sau, ví dụ invite a friend, nên là ngoại động từ."
+        },
+        {
+          "word": "bark",
+          "text_vi": "bark (sủa): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "wash",
+          "text_vi": "wash (rửa): cần một danh từ đi ngay sau, ví dụ wash the plates, nên là ngoại động từ."
+        },
+        {
+          "word": "cough",
+          "text_vi": "cough (ho): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "carry",
+          "text_vi": "carry (mang): cần một danh từ đi ngay sau, ví dụ carry a bag, nên là ngoại động từ."
+        }
+      ],
+      "rule_vi": "Ngoại động từ cần một danh từ đi ngay sau làm tân ngữ. Nội động từ tự đủ nghĩa."
+    },
+    {
+      "id": "P3.2-02",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Ngoại động từ",
+      "right_label_vi": "Nội động từ",
+      "chips": [
+        {
+          "word": "protect",
+          "group": "left"
+        },
+        {
+          "word": "deliver",
+          "group": "left"
+        },
+        {
+          "word": "throw",
+          "group": "left"
+        },
+        {
+          "word": "tremble",
+          "group": "right"
+        },
+        {
+          "word": "collect",
+          "group": "left"
+        },
+        {
+          "word": "vanish",
+          "group": "right"
+        },
+        {
+          "word": "blush",
+          "group": "right"
+        },
+        {
+          "word": "yawn",
+          "group": "right"
+        },
+        {
+          "word": "shiver",
+          "group": "right"
+        },
+        {
+          "word": "kneel",
+          "group": "right"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "throw",
+          "text_vi": "throw (ném): cần một danh từ đi ngay sau, ví dụ throw a ball, nên là ngoại động từ."
+        },
+        {
+          "word": "yawn",
+          "text_vi": "yawn (ngáp): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "shiver",
+          "text_vi": "shiver (run vì lạnh): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "protect",
+          "text_vi": "protect (bảo vệ): cần một danh từ đi ngay sau, ví dụ protect the forest, nên là ngoại động từ."
+        },
+        {
+          "word": "blush",
+          "text_vi": "blush (đỏ mặt): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "collect",
+          "text_vi": "collect (sưu tầm): cần một danh từ đi ngay sau, ví dụ collect stamps, nên là ngoại động từ."
+        },
+        {
+          "word": "kneel",
+          "text_vi": "kneel (quỳ): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "deliver",
+          "text_vi": "deliver (giao): cần một danh từ đi ngay sau, ví dụ deliver a letter, nên là ngoại động từ."
+        },
+        {
+          "word": "vanish",
+          "text_vi": "vanish (biến mất): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "tremble",
+          "text_vi": "tremble (run rẩy): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        }
+      ],
+      "rule_vi": "Ngoại động từ cần một danh từ đi ngay sau làm tân ngữ. Nội động từ tự đủ nghĩa."
+    },
+    {
+      "id": "P3.2-03",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Ngoại động từ",
+      "right_label_vi": "Nội động từ",
+      "chips": [
+        {
+          "word": "float",
+          "group": "right"
+        },
+        {
+          "word": "describe",
+          "group": "left"
+        },
+        {
+          "word": "invent",
+          "group": "left"
+        },
+        {
+          "word": "destroy",
+          "group": "left"
+        },
+        {
+          "word": "harvest",
+          "group": "left"
+        },
+        {
+          "word": "admire",
+          "group": "left"
+        },
+        {
+          "word": "snore",
+          "group": "right"
+        },
+        {
+          "word": "depart",
+          "group": "right"
+        },
+        {
+          "word": "wear",
+          "group": "left"
+        },
+        {
+          "word": "mend",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "invent",
+          "text_vi": "invent (phát minh): cần một danh từ đi ngay sau, ví dụ invent a machine, nên là ngoại động từ."
+        },
+        {
+          "word": "describe",
+          "text_vi": "describe (miêu tả): cần một danh từ đi ngay sau, ví dụ describe a place, nên là ngoại động từ."
+        },
+        {
+          "word": "snore",
+          "text_vi": "snore (ngáy): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "admire",
+          "text_vi": "admire (ngưỡng mộ): cần một danh từ đi ngay sau, ví dụ admire a singer, nên là ngoại động từ."
+        },
+        {
+          "word": "destroy",
+          "text_vi": "destroy (phá hủy): cần một danh từ đi ngay sau, ví dụ destroy a bridge, nên là ngoại động từ."
+        },
+        {
+          "word": "depart",
+          "text_vi": "depart (khởi hành): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "mend",
+          "text_vi": "mend (vá, sửa): cần một danh từ đi ngay sau, ví dụ mend a shirt, nên là ngoại động từ."
+        },
+        {
+          "word": "harvest",
+          "text_vi": "harvest (thu hoạch): cần một danh từ đi ngay sau, ví dụ harvest the corn, nên là ngoại động từ."
+        },
+        {
+          "word": "float",
+          "text_vi": "float (nổi): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "wear",
+          "text_vi": "wear (mặc, đội): cần một danh từ đi ngay sau, ví dụ wear a hat, nên là ngoại động từ."
+        }
+      ],
+      "rule_vi": "Ngoại động từ cần một danh từ đi ngay sau làm tân ngữ. Nội động từ tự đủ nghĩa."
+    },
+    {
+      "id": "P3.2-04",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Ngoại động từ",
+      "right_label_vi": "Nội động từ",
+      "chips": [
+        {
+          "word": "rest",
+          "group": "right"
+        },
+        {
+          "word": "paint",
+          "group": "left"
+        },
+        {
+          "word": "bloom",
+          "group": "right"
+        },
+        {
+          "word": "punish",
+          "group": "left"
+        },
+        {
+          "word": "wander",
+          "group": "right"
+        },
+        {
+          "word": "translate",
+          "group": "left"
+        },
+        {
+          "word": "catch",
+          "group": "left"
+        },
+        {
+          "word": "stay",
+          "group": "right"
+        },
+        {
+          "word": "print",
+          "group": "left"
+        },
+        {
+          "word": "chat",
+          "group": "right"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "catch",
+          "text_vi": "catch (bắt): cần một danh từ đi ngay sau, ví dụ catch a fish, nên là ngoại động từ."
+        },
+        {
+          "word": "wander",
+          "text_vi": "wander (đi lang thang): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "punish",
+          "text_vi": "punish (phạt): cần một danh từ đi ngay sau, ví dụ punish a player, nên là ngoại động từ."
+        },
+        {
+          "word": "rest",
+          "text_vi": "rest (nghỉ ngơi): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "translate",
+          "text_vi": "translate (dịch): cần một danh từ đi ngay sau, ví dụ translate a poem, nên là ngoại động từ."
+        },
+        {
+          "word": "chat",
+          "text_vi": "chat (trò chuyện): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "print",
+          "text_vi": "print (in): cần một danh từ đi ngay sau, ví dụ print a photo, nên là ngoại động từ."
+        },
+        {
+          "word": "bloom",
+          "text_vi": "bloom (nở hoa): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "paint",
+          "text_vi": "paint (sơn, vẽ): cần một danh từ đi ngay sau, ví dụ paint the wall, nên là ngoại động từ."
+        },
+        {
+          "word": "stay",
+          "text_vi": "stay (ở lại): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        }
+      ],
+      "rule_vi": "Ngoại động từ cần một danh từ đi ngay sau làm tân ngữ. Nội động từ tự đủ nghĩa."
+    },
+    {
+      "id": "P3.2-05",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Ngoại động từ",
+      "right_label_vi": "Nội động từ",
+      "chips": [
+        {
+          "word": "sob",
+          "group": "right"
+        },
+        {
+          "word": "sit",
+          "group": "right"
+        },
+        {
+          "word": "hesitate",
+          "group": "right"
+        },
+        {
+          "word": "stay",
+          "group": "right"
+        },
+        {
+          "word": "bake",
+          "group": "left"
+        },
+        {
+          "word": "unlock",
+          "group": "left"
+        },
+        {
+          "word": "limp",
+          "group": "right"
+        },
+        {
+          "word": "giggle",
+          "group": "right"
+        },
+        {
+          "word": "fold",
+          "group": "left"
+        },
+        {
+          "word": "faint",
+          "group": "right"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "bake",
+          "text_vi": "bake (nướng): cần một danh từ đi ngay sau, ví dụ bake a cake, nên là ngoại động từ."
+        },
+        {
+          "word": "fold",
+          "text_vi": "fold (gấp): cần một danh từ đi ngay sau, ví dụ fold a shirt, nên là ngoại động từ."
+        },
+        {
+          "word": "unlock",
+          "text_vi": "unlock (mở khóa): cần một danh từ đi ngay sau, ví dụ unlock the door, nên là ngoại động từ."
+        },
+        {
+          "word": "sob",
+          "text_vi": "sob (nức nở): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "giggle",
+          "text_vi": "giggle (cười khúc khích): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "limp",
+          "text_vi": "limp (đi khập khiễng): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "faint",
+          "text_vi": "faint (ngất): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "hesitate",
+          "text_vi": "hesitate (do dự): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "stay",
+          "text_vi": "stay (ở lại): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "sit",
+          "text_vi": "sit (ngồi): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        }
+      ],
+      "rule_vi": "Ngoại động từ cần một danh từ đi ngay sau làm tân ngữ. Nội động từ tự đủ nghĩa."
+    },
+    {
+      "id": "P3.2-06",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Ngoại động từ",
+      "right_label_vi": "Nội động từ",
+      "chips": [
+        {
+          "word": "pour",
+          "group": "left"
+        },
+        {
+          "word": "measure",
+          "group": "left"
+        },
+        {
+          "word": "stir",
+          "group": "left"
+        },
+        {
+          "word": "peel",
+          "group": "left"
+        },
+        {
+          "word": "pack",
+          "group": "left"
+        },
+        {
+          "word": "lift",
+          "group": "left"
+        },
+        {
+          "word": "yawn",
+          "group": "right"
+        },
+        {
+          "word": "tie",
+          "group": "left"
+        },
+        {
+          "word": "kneel",
+          "group": "right"
+        },
+        {
+          "word": "count",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "lift",
+          "text_vi": "lift (nâng): cần một danh từ đi ngay sau, ví dụ lift a box, nên là ngoại động từ."
+        },
+        {
+          "word": "pour",
+          "text_vi": "pour (rót): cần một danh từ đi ngay sau, ví dụ pour the tea, nên là ngoại động từ."
+        },
+        {
+          "word": "pack",
+          "text_vi": "pack (đóng gói): cần một danh từ đi ngay sau, ví dụ pack a bag, nên là ngoại động từ."
+        },
+        {
+          "word": "measure",
+          "text_vi": "measure (đo): cần một danh từ đi ngay sau, ví dụ measure the room, nên là ngoại động từ."
+        },
+        {
+          "word": "count",
+          "text_vi": "count (đếm): cần một danh từ đi ngay sau, ví dụ count the tickets, nên là ngoại động từ."
+        },
+        {
+          "word": "tie",
+          "text_vi": "tie (buộc): cần một danh từ đi ngay sau, ví dụ tie a rope, nên là ngoại động từ."
+        },
+        {
+          "word": "peel",
+          "text_vi": "peel (gọt vỏ): cần một danh từ đi ngay sau, ví dụ peel an orange, nên là ngoại động từ."
+        },
+        {
+          "word": "stir",
+          "text_vi": "stir (khuấy): cần một danh từ đi ngay sau, ví dụ stir the soup, nên là ngoại động từ."
+        },
+        {
+          "word": "kneel",
+          "text_vi": "kneel (quỳ): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "yawn",
+          "text_vi": "yawn (ngáp): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        }
+      ],
+      "rule_vi": "Ngoại động từ cần một danh từ đi ngay sau làm tân ngữ. Nội động từ tự đủ nghĩa."
+    },
+    {
+      "id": "P3.2-07",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Ngoại động từ",
+      "right_label_vi": "Nội động từ",
+      "chips": [
+        {
+          "word": "bark",
+          "group": "right"
+        },
+        {
+          "word": "water",
+          "group": "left"
+        },
+        {
+          "word": "vanish",
+          "group": "right"
+        },
+        {
+          "word": "float",
+          "group": "right"
+        },
+        {
+          "word": "cough",
+          "group": "right"
+        },
+        {
+          "word": "spell",
+          "group": "left"
+        },
+        {
+          "word": "blush",
+          "group": "right"
+        },
+        {
+          "word": "tremble",
+          "group": "right"
+        },
+        {
+          "word": "rest",
+          "group": "right"
+        },
+        {
+          "word": "wander",
+          "group": "right"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "spell",
+          "text_vi": "spell (đánh vần): cần một danh từ đi ngay sau, ví dụ spell a word, nên là ngoại động từ."
+        },
+        {
+          "word": "water",
+          "text_vi": "water (tưới): cần một danh từ đi ngay sau, ví dụ water the plants, nên là ngoại động từ."
+        },
+        {
+          "word": "bark",
+          "text_vi": "bark (sủa): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "cough",
+          "text_vi": "cough (ho): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "blush",
+          "text_vi": "blush (đỏ mặt): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "tremble",
+          "text_vi": "tremble (run rẩy): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "wander",
+          "text_vi": "wander (đi lang thang): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "rest",
+          "text_vi": "rest (nghỉ ngơi): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "float",
+          "text_vi": "float (nổi): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "vanish",
+          "text_vi": "vanish (biến mất): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        }
+      ],
+      "rule_vi": "Ngoại động từ cần một danh từ đi ngay sau làm tân ngữ. Nội động từ tự đủ nghĩa."
+    },
+    {
+      "id": "P3.2-08",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Ngoại động từ",
+      "right_label_vi": "Nội động từ",
+      "chips": [
+        {
+          "word": "describe",
+          "group": "left"
+        },
+        {
+          "word": "chat",
+          "group": "right"
+        },
+        {
+          "word": "sell",
+          "group": "left"
+        },
+        {
+          "word": "collect",
+          "group": "left"
+        },
+        {
+          "word": "invite",
+          "group": "left"
+        },
+        {
+          "word": "bloom",
+          "group": "right"
+        },
+        {
+          "word": "depart",
+          "group": "right"
+        },
+        {
+          "word": "shiver",
+          "group": "right"
+        },
+        {
+          "word": "mix",
+          "group": "left"
+        },
+        {
+          "word": "destroy",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "sell",
+          "text_vi": "sell (bán): cần một danh từ đi ngay sau, ví dụ sell fruit, nên là ngoại động từ."
+        },
+        {
+          "word": "mix",
+          "text_vi": "mix (trộn): cần một danh từ đi ngay sau, ví dụ mix the flour, nên là ngoại động từ."
+        },
+        {
+          "word": "invite",
+          "text_vi": "invite (mời): cần một danh từ đi ngay sau, ví dụ invite a friend, nên là ngoại động từ."
+        },
+        {
+          "word": "collect",
+          "text_vi": "collect (sưu tầm): cần một danh từ đi ngay sau, ví dụ collect stamps, nên là ngoại động từ."
+        },
+        {
+          "word": "destroy",
+          "text_vi": "destroy (phá hủy): cần một danh từ đi ngay sau, ví dụ destroy a bridge, nên là ngoại động từ."
+        },
+        {
+          "word": "describe",
+          "text_vi": "describe (miêu tả): cần một danh từ đi ngay sau, ví dụ describe a place, nên là ngoại động từ."
+        },
+        {
+          "word": "chat",
+          "text_vi": "chat (trò chuyện): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "bloom",
+          "text_vi": "bloom (nở hoa): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "depart",
+          "text_vi": "depart (khởi hành): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "shiver",
+          "text_vi": "shiver (run vì lạnh): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        }
+      ],
+      "rule_vi": "Ngoại động từ cần một danh từ đi ngay sau làm tân ngữ. Nội động từ tự đủ nghĩa."
+    },
+    {
+      "id": "P3.2-09",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Ngoại động từ",
+      "right_label_vi": "Nội động từ",
+      "chips": [
+        {
+          "word": "wear",
+          "group": "left"
+        },
+        {
+          "word": "stay",
+          "group": "right"
+        },
+        {
+          "word": "harvest",
+          "group": "left"
+        },
+        {
+          "word": "snore",
+          "group": "right"
+        },
+        {
+          "word": "giggle",
+          "group": "right"
+        },
+        {
+          "word": "carry",
+          "group": "left"
+        },
+        {
+          "word": "limp",
+          "group": "right"
+        },
+        {
+          "word": "sob",
+          "group": "right"
+        },
+        {
+          "word": "protect",
+          "group": "left"
+        },
+        {
+          "word": "throw",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "carry",
+          "text_vi": "carry (mang): cần một danh từ đi ngay sau, ví dụ carry a bag, nên là ngoại động từ."
+        },
+        {
+          "word": "throw",
+          "text_vi": "throw (ném): cần một danh từ đi ngay sau, ví dụ throw a ball, nên là ngoại động từ."
+        },
+        {
+          "word": "protect",
+          "text_vi": "protect (bảo vệ): cần một danh từ đi ngay sau, ví dụ protect the forest, nên là ngoại động từ."
+        },
+        {
+          "word": "harvest",
+          "text_vi": "harvest (thu hoạch): cần một danh từ đi ngay sau, ví dụ harvest the corn, nên là ngoại động từ."
+        },
+        {
+          "word": "wear",
+          "text_vi": "wear (mặc, đội): cần một danh từ đi ngay sau, ví dụ wear a hat, nên là ngoại động từ."
+        },
+        {
+          "word": "snore",
+          "text_vi": "snore (ngáy): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "sob",
+          "text_vi": "sob (nức nở): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "giggle",
+          "text_vi": "giggle (cười khúc khích): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "stay",
+          "text_vi": "stay (ở lại): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "limp",
+          "text_vi": "limp (đi khập khiễng): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        }
+      ],
+      "rule_vi": "Ngoại động từ cần một danh từ đi ngay sau làm tân ngữ. Nội động từ tự đủ nghĩa."
+    },
+    {
+      "id": "P3.2-10",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Ngoại động từ",
+      "right_label_vi": "Nội động từ",
+      "chips": [
+        {
+          "word": "punish",
+          "group": "left"
+        },
+        {
+          "word": "kneel",
+          "group": "right"
+        },
+        {
+          "word": "faint",
+          "group": "right"
+        },
+        {
+          "word": "wait",
+          "group": "right"
+        },
+        {
+          "word": "sit",
+          "group": "right"
+        },
+        {
+          "word": "hesitate",
+          "group": "right"
+        },
+        {
+          "word": "translate",
+          "group": "left"
+        },
+        {
+          "word": "deliver",
+          "group": "left"
+        },
+        {
+          "word": "print",
+          "group": "left"
+        },
+        {
+          "word": "yawn",
+          "group": "right"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "translate",
+          "text_vi": "translate (dịch): cần một danh từ đi ngay sau, ví dụ translate a poem, nên là ngoại động từ."
+        },
+        {
+          "word": "print",
+          "text_vi": "print (in): cần một danh từ đi ngay sau, ví dụ print a photo, nên là ngoại động từ."
+        },
+        {
+          "word": "deliver",
+          "text_vi": "deliver (giao): cần một danh từ đi ngay sau, ví dụ deliver a letter, nên là ngoại động từ."
+        },
+        {
+          "word": "punish",
+          "text_vi": "punish (phạt): cần một danh từ đi ngay sau, ví dụ punish a player, nên là ngoại động từ."
+        },
+        {
+          "word": "faint",
+          "text_vi": "faint (ngất): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "hesitate",
+          "text_vi": "hesitate (do dự): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "kneel",
+          "text_vi": "kneel (quỳ): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "wait",
+          "text_vi": "wait (đợi): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "sit",
+          "text_vi": "sit (ngồi): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        },
+        {
+          "word": "yawn",
+          "text_vi": "yawn (ngáp): tự đủ nghĩa, không cần danh từ đi sau, nên là nội động từ."
+        }
+      ],
+      "rule_vi": "Ngoại động từ cần một danh từ đi ngay sau làm tân ngữ. Nội động từ tự đủ nghĩa."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

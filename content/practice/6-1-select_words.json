@@ -1,0 +1,257 @@
+{
+  "practice_id": "6.1",
+  "stage": 6,
+  "title_vi": "Luyện tập: tìm trợ động từ",
+  "type": "select_words",
+  "items": [
+    {
+      "id": "P6.1-01",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 trợ động từ trong câu sau.",
+      "tokens": [
+        "She",
+        "is",
+        "cooking,",
+        "and",
+        "her",
+        "brothers",
+        "are",
+        "watching",
+        "a",
+        "film."
+      ],
+      "answer_indices": [
+        1,
+        6
+      ],
+      "count": 2,
+      "rule_vi": "Trợ động từ đứng trước động từ chính và chia thay cho nó. Khi be đứng một mình với tính từ, nó là động từ chính, không phải trợ động từ."
+    },
+    {
+      "id": "P6.1-02",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 trợ động từ trong câu sau.",
+      "tokens": [
+        "We",
+        "have",
+        "finished",
+        "the",
+        "test,",
+        "and",
+        "Nam",
+        "has",
+        "started",
+        "his."
+      ],
+      "answer_indices": [
+        1,
+        7
+      ],
+      "count": 2,
+      "rule_vi": "Trợ động từ đứng trước động từ chính và chia thay cho nó. Khi be đứng một mình với tính từ, nó là động từ chính, không phải trợ động từ."
+    },
+    {
+      "id": "P6.1-03",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 trợ động từ trong câu sau.",
+      "tokens": [
+        "Does",
+        "your",
+        "sister",
+        "study",
+        "French,",
+        "or",
+        "does",
+        "she",
+        "study",
+        "German?"
+      ],
+      "answer_indices": [
+        0,
+        6
+      ],
+      "count": 2,
+      "rule_vi": "Trợ động từ đứng trước động từ chính và chia thay cho nó. Khi be đứng một mình với tính từ, nó là động từ chính, không phải trợ động từ."
+    },
+    {
+      "id": "P6.1-04",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 trợ động từ trong câu sau.",
+      "tokens": [
+        "They",
+        "were",
+        "waiting",
+        "while",
+        "the",
+        "rain",
+        "was",
+        "falling."
+      ],
+      "answer_indices": [
+        1,
+        6
+      ],
+      "count": 2,
+      "rule_vi": "Trợ động từ đứng trước động từ chính và chia thay cho nó. Khi be đứng một mình với tính từ, nó là động từ chính, không phải trợ động từ."
+    },
+    {
+      "id": "P6.1-05",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 trợ động từ trong câu sau.",
+      "tokens": [
+        "Did",
+        "you",
+        "call",
+        "him,",
+        "or",
+        "did",
+        "he",
+        "call",
+        "you?"
+      ],
+      "answer_indices": [
+        0,
+        5
+      ],
+      "count": 2,
+      "rule_vi": "Trợ động từ đứng trước động từ chính và chia thay cho nó. Khi be đứng một mình với tính từ, nó là động từ chính, không phải trợ động từ."
+    },
+    {
+      "id": "P6.1-06",
+      "type": "select_words",
+      "prompt_vi": "Chọn 3 trợ động từ trong câu sau.",
+      "tokens": [
+        "The",
+        "shop",
+        "is",
+        "closing,",
+        "the",
+        "workers",
+        "are",
+        "leaving,",
+        "and",
+        "the",
+        "lights",
+        "are",
+        "going",
+        "off."
+      ],
+      "answer_indices": [
+        2,
+        6,
+        11
+      ],
+      "count": 3,
+      "rule_vi": "Trợ động từ đứng trước động từ chính và chia thay cho nó. Khi be đứng một mình với tính từ, nó là động từ chính, không phải trợ động từ."
+    },
+    {
+      "id": "P6.1-07",
+      "type": "select_words",
+      "prompt_vi": "Chọn 3 trợ động từ trong câu sau.",
+      "tokens": [
+        "He",
+        "has",
+        "bought",
+        "a",
+        "ticket,",
+        "she",
+        "has",
+        "packed",
+        "a",
+        "bag,",
+        "and",
+        "they",
+        "have",
+        "left."
+      ],
+      "answer_indices": [
+        1,
+        6,
+        12
+      ],
+      "count": 3,
+      "rule_vi": "Trợ động từ đứng trước động từ chính và chia thay cho nó. Khi be đứng một mình với tính từ, nó là động từ chính, không phải trợ động từ."
+    },
+    {
+      "id": "P6.1-08",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 trợ động từ trong câu sau.",
+      "tokens": [
+        "Does",
+        "he",
+        "swim",
+        "every",
+        "morning?",
+        "He",
+        "is",
+        "training",
+        "for",
+        "a",
+        "race."
+      ],
+      "answer_indices": [
+        0,
+        6
+      ],
+      "count": 2,
+      "rule_vi": "Trợ động từ đứng trước động từ chính và chia thay cho nó. Khi be đứng một mình với tính từ, nó là động từ chính, không phải trợ động từ."
+    },
+    {
+      "id": "P6.1-09",
+      "type": "select_words",
+      "prompt_vi": "Chọn 3 trợ động từ trong câu sau.",
+      "tokens": [
+        "The",
+        "students",
+        "are",
+        "reading,",
+        "the",
+        "guide",
+        "is",
+        "explaining,",
+        "and",
+        "the",
+        "bus",
+        "is",
+        "waiting."
+      ],
+      "answer_indices": [
+        2,
+        6,
+        11
+      ],
+      "count": 3,
+      "rule_vi": "Trợ động từ đứng trước động từ chính và chia thay cho nó. Khi be đứng một mình với tính từ, nó là động từ chính, không phải trợ động từ."
+    },
+    {
+      "id": "P6.1-10",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 trợ động từ trong câu sau.",
+      "tokens": [
+        "He",
+        "is",
+        "tired,",
+        "but",
+        "he",
+        "is",
+        "running,",
+        "and",
+        "his",
+        "friends",
+        "are",
+        "cheering."
+      ],
+      "answer_indices": [
+        5,
+        10
+      ],
+      "count": 2,
+      "rule_vi": "Trợ động từ đứng trước động từ chính và chia thay cho nó. Khi be đứng một mình với tính từ, nó là động từ chính, không phải trợ động từ."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "practice_id": "8.1",
+  "stage": 8,
+  "title_vi": "Luyện tập: câu phủ định",
+  "type": "reorder",
+  "items": [
+    {
+      "id": "P8.1-01",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "I",
+        "not",
+        "like",
+        "do",
+        "milk"
+      ],
+      "answer": "I do not like milk.",
+      "rule_vi": "Ở thì hiện tại đơn, câu phủ định cần do, và not đứng ngay sau nó."
+    },
+    {
+      "id": "P8.1-02",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "She",
+        "meat",
+        "does",
+        "eat",
+        "not"
+      ],
+      "answer": "She does not eat meat.",
+      "rule_vi": "Chủ ngữ ngôi thứ ba số ít dùng does, và động từ chính trở về nguyên thể."
+    },
+    {
+      "id": "P8.1-03",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "finish",
+        "not",
+        "the",
+        "did",
+        "work",
+        "They"
+      ],
+      "answer": "They did not finish the work.",
+      "rule_vi": "Ở quá khứ đơn dùng did, và động từ chính trở về nguyên thể."
+    },
+    {
+      "id": "P8.1-04",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "not",
+        "sleeping",
+        "He",
+        "is",
+        "now"
+      ],
+      "answer": "He is not sleeping now.",
+      "rule_vi": "Thể tiếp diễn đã có trợ động từ be, nên not đứng ngay sau be."
+    },
+    {
+      "id": "P8.1-05",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "ready",
+        "We",
+        "are",
+        "not"
+      ],
+      "answer": "We are not ready.",
+      "rule_vi": "be ở đây là động từ chính, không cần do, và not vẫn đứng ngay sau be."
+    },
+    {
+      "id": "P8.1-06",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "opened",
+        "not",
+        "shop",
+        "has",
+        "The"
+      ],
+      "answer": "The shop has not opened.",
+      "rule_vi": "Thể hoàn thành đã có has, nên not đứng ngay sau has."
+    },
+    {
+      "id": "P8.1-07",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "not",
+        "parents",
+        "at",
+        "home",
+        "My",
+        "were"
+      ],
+      "answer": "My parents were not at home.",
+      "rule_vi": "be ở quá khứ là động từ chính, not đứng ngay sau were."
+    },
+    {
+      "id": "P8.1-08",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "piano",
+        "does",
+        "Lan",
+        "the",
+        "play",
+        "not"
+      ],
+      "answer": "Lan does not play the piano.",
+      "rule_vi": "Lan là ngôi thứ ba số ít nên dùng does, và play giữ nguyên thể."
+    },
+    {
+      "id": "P8.1-09",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "that",
+        "seen",
+        "I",
+        "film",
+        "not",
+        "have"
+      ],
+      "answer": "I have not seen that film.",
+      "rule_vi": "Thể hoàn thành dùng have, not đứng ngay sau have, động từ chính ở V-3."
+    },
+    {
+      "id": "P8.1-10",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "not",
+        "The",
+        "listening",
+        "are",
+        "children"
+      ],
+      "answer": "The children are not listening.",
+      "rule_vi": "Trợ động từ are đã có sẵn, not đứng ngay sau nó."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

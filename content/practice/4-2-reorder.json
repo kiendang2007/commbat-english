@@ -1,0 +1,173 @@
+{
+  "practice_id": "4.2",
+  "stage": 4,
+  "title_vi": "Luyện tập: các mẫu câu còn lại",
+  "type": "reorder",
+  "items": [
+    {
+      "id": "P4.2-01",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "stops",
+        "The",
+        "corner",
+        "the",
+        "bus",
+        "at"
+      ],
+      "answer": "The bus stops at the corner.",
+      "rule_vi": "Trạng ngữ trả lời ở đâu, khi nào, ra sao. Nó đứng sau động từ.",
+      "pattern": "S + V + A"
+    },
+    {
+      "id": "P4.2-02",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "a",
+        "postcard",
+        "sends",
+        "My",
+        "uncle",
+        "me"
+      ],
+      "answer": "My uncle sends me a postcard.",
+      "rule_vi": "Hai tân ngữ: người nhận đứng trước, vật đứng sau.",
+      "pattern": "S + V + O + O"
+    },
+    {
+      "id": "P4.2-03",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "team",
+        "names",
+        "her",
+        "The",
+        "captain"
+      ],
+      "answer": "The team names her captain.",
+      "rule_vi": "Bổ ngữ ở cuối nói về tân ngữ đứng ngay trước nó.",
+      "pattern": "S + V + O + C"
+    },
+    {
+      "id": "P4.2-04",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "shelf",
+        "on",
+        "leaves",
+        "the",
+        "the",
+        "She",
+        "keys"
+      ],
+      "answer": "She leaves the keys on the shelf.",
+      "rule_vi": "Tân ngữ đứng trước, trạng ngữ chỉ nơi chốn đứng sau.",
+      "pattern": "S + V + O + A"
+    },
+    {
+      "id": "P4.2-05",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "cat",
+        "sits",
+        "under",
+        "chair",
+        "the",
+        "The"
+      ],
+      "answer": "The cat sits under the chair.",
+      "rule_vi": "sit là nội động từ, sau nó là trạng ngữ chứ không phải tân ngữ.",
+      "pattern": "S + V + A"
+    },
+    {
+      "id": "P4.2-06",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "the",
+        "us",
+        "menu",
+        "hands",
+        "waiter",
+        "The"
+      ],
+      "answer": "The waiter hands us the menu.",
+      "rule_vi": "Người nhận đứng trước vật được đưa.",
+      "pattern": "S + V + O + O"
+    },
+    {
+      "id": "P4.2-07",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "white",
+        "They",
+        "fence",
+        "the",
+        "paint"
+      ],
+      "answer": "They paint the fence white.",
+      "rule_vi": "white nói về cái hàng rào sau khi sơn, nên nó là bổ ngữ của tân ngữ.",
+      "pattern": "S + V + O + C"
+    },
+    {
+      "id": "P4.2-08",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "keeps",
+        "a",
+        "his",
+        "money",
+        "drawer",
+        "He",
+        "in"
+      ],
+      "answer": "He keeps his money in a drawer.",
+      "rule_vi": "keep cần cả tân ngữ và nơi chốn.",
+      "pattern": "S + V + O + A"
+    },
+    {
+      "id": "P4.2-09",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "in",
+        "countryside",
+        "the",
+        "grandparents",
+        "stay",
+        "My"
+      ],
+      "answer": "My grandparents stay in the countryside.",
+      "rule_vi": "stay là nội động từ, sau nó là trạng ngữ chỉ nơi chốn.",
+      "pattern": "S + V + A"
+    },
+    {
+      "id": "P4.2-10",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "students",
+        "offers",
+        "school",
+        "lunch",
+        "free",
+        "The"
+      ],
+      "answer": "The school offers students free lunch.",
+      "rule_vi": "Người nhận students đứng trước thứ được nhận.",
+      "pattern": "S + V + O + O"
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "practice_id": "10.2",
+  "stage": 10,
+  "title_vi": "Luyện tập: câu hỏi Wh-",
+  "type": "reorder",
+  "items": [
+    {
+      "id": "P10.2-01",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "do",
+        "Where",
+        "live",
+        "you",
+        "?"
+      ],
+      "answer": "Where do you live?",
+      "rule_vi": "Từ để hỏi đứng đầu, rồi đến trợ động từ, rồi chủ ngữ, rồi động từ chính."
+    },
+    {
+      "id": "P10.2-02",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "she",
+        "?",
+        "is",
+        "What",
+        "cooking"
+      ],
+      "answer": "What is she cooking?",
+      "rule_vi": "Từ để hỏi đứng đầu, trợ động từ is đứng trước chủ ngữ."
+    },
+    {
+      "id": "P10.2-03",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "did",
+        "the",
+        "train",
+        "leave",
+        "When",
+        "?"
+      ],
+      "answer": "When did the train leave?",
+      "rule_vi": "Sau did, động từ chính trở về nguyên thể."
+    },
+    {
+      "id": "P10.2-04",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "are",
+        "they",
+        "laughing",
+        "?",
+        "Why"
+      ],
+      "answer": "Why are they laughing?",
+      "rule_vi": "Trợ động từ are đứng giữa từ để hỏi và chủ ngữ."
+    },
+    {
+      "id": "P10.2-05",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "school",
+        "go",
+        "?",
+        "to",
+        "How",
+        "does",
+        "he"
+      ],
+      "answer": "How does he go to school?",
+      "rule_vi": "Ngôi thứ ba số ít dùng does, và go giữ nguyên thể."
+    },
+    {
+      "id": "P10.2-06",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "broke",
+        "Who",
+        "the",
+        "?",
+        "window"
+      ],
+      "answer": "Who broke the window?",
+      "rule_vi": "who ở đây là chủ ngữ, nên không có trợ động từ và động từ chia bình thường."
+    },
+    {
+      "id": "P10.2-07",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "buy",
+        "did",
+        "Lan",
+        "?",
+        "What"
+      ],
+      "answer": "What did Lan buy?",
+      "rule_vi": "Sau did, buy giữ nguyên thể."
+    },
+    {
+      "id": "P10.2-08",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "the",
+        "cat",
+        "gone",
+        "Where",
+        "?",
+        "has"
+      ],
+      "answer": "Where has the cat gone?",
+      "rule_vi": "Thể hoàn thành dùng has, động từ chính ở V-3."
+    },
+    {
+      "id": "P10.2-09",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "is",
+        "Which",
+        "bag",
+        "?",
+        "yours"
+      ],
+      "answer": "Which bag is yours?",
+      "rule_vi": "which đi kèm danh từ bag, cả cụm làm chủ ngữ."
+    },
+    {
+      "id": "P10.2-10",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "the",
+        "shop",
+        "?",
+        "open",
+        "will",
+        "When"
+      ],
+      "answer": "When will the shop open?",
+      "rule_vi": "Sau will, động từ chính giữ nguyên thể."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

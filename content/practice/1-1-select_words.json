@@ -1,0 +1,230 @@
+{
+  "practice_id": "1.1",
+  "stage": 1,
+  "title_vi": "Luyện tập: tìm danh từ",
+  "type": "select_words",
+  "items": [
+    {
+      "id": "P1.1-01",
+      "type": "select_words",
+      "prompt_vi": "Chọn 3 danh từ trong câu sau.",
+      "tokens": [
+        "The",
+        "farmer",
+        "sells",
+        "fruit",
+        "at",
+        "the",
+        "market."
+      ],
+      "answer_indices": [
+        1,
+        3,
+        6
+      ],
+      "count": 3,
+      "rule_vi": "Danh từ gọi tên sinh vật, sự việc, vật thể hoặc khái niệm. Từ nói ra hành động là động từ. Từ miêu tả danh từ là tính từ."
+    },
+    {
+      "id": "P1.1-02",
+      "type": "select_words",
+      "prompt_vi": "Chọn 3 danh từ trong câu sau.",
+      "tokens": [
+        "Nam",
+        "waits",
+        "for",
+        "the",
+        "train",
+        "near",
+        "the",
+        "hotel."
+      ],
+      "answer_indices": [
+        0,
+        4,
+        7
+      ],
+      "count": 3,
+      "rule_vi": "Danh từ gọi tên sinh vật, sự việc, vật thể hoặc khái niệm. Từ nói ra hành động là động từ. Từ miêu tả danh từ là tính từ."
+    },
+    {
+      "id": "P1.1-03",
+      "type": "select_words",
+      "prompt_vi": "Chọn 3 danh từ trong câu sau.",
+      "tokens": [
+        "My",
+        "aunt",
+        "cooks",
+        "dinner",
+        "for",
+        "the",
+        "whole",
+        "family."
+      ],
+      "answer_indices": [
+        1,
+        3,
+        7
+      ],
+      "count": 3,
+      "rule_vi": "Danh từ gọi tên sinh vật, sự việc, vật thể hoặc khái niệm. Từ nói ra hành động là động từ. Từ miêu tả danh từ là tính từ."
+    },
+    {
+      "id": "P1.1-04",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 danh từ trong câu sau.",
+      "tokens": [
+        "Silence",
+        "helps",
+        "my",
+        "grandmother."
+      ],
+      "answer_indices": [
+        0,
+        3
+      ],
+      "count": 2,
+      "rule_vi": "Danh từ gọi tên sinh vật, sự việc, vật thể hoặc khái niệm. Từ nói ra hành động là động từ. Từ miêu tả danh từ là tính từ."
+    },
+    {
+      "id": "P1.1-05",
+      "type": "select_words",
+      "prompt_vi": "Chọn 4 danh từ trong câu sau.",
+      "tokens": [
+        "In",
+        "the",
+        "morning,",
+        "the",
+        "postman",
+        "brings",
+        "letters",
+        "to",
+        "the",
+        "office."
+      ],
+      "answer_indices": [
+        2,
+        4,
+        6,
+        9
+      ],
+      "count": 4,
+      "rule_vi": "Danh từ gọi tên sinh vật, sự việc, vật thể hoặc khái niệm. Từ nói ra hành động là động từ. Từ miêu tả danh từ là tính từ."
+    },
+    {
+      "id": "P1.1-06",
+      "type": "select_words",
+      "prompt_vi": "Chọn 3 danh từ trong câu sau.",
+      "tokens": [
+        "The",
+        "young",
+        "nurse",
+        "drinks",
+        "tea",
+        "before",
+        "lunch."
+      ],
+      "answer_indices": [
+        2,
+        4,
+        6
+      ],
+      "count": 3,
+      "rule_vi": "Danh từ gọi tên sinh vật, sự việc, vật thể hoặc khái niệm. Từ nói ra hành động là động từ. Từ miêu tả danh từ là tính từ."
+    },
+    {
+      "id": "P1.1-07",
+      "type": "select_words",
+      "prompt_vi": "Chọn 3 danh từ trong câu sau.",
+      "tokens": [
+        "Our",
+        "village",
+        "has",
+        "a",
+        "small",
+        "lake",
+        "and",
+        "a",
+        "wide",
+        "field."
+      ],
+      "answer_indices": [
+        1,
+        5,
+        9
+      ],
+      "count": 3,
+      "rule_vi": "Danh từ gọi tên sinh vật, sự việc, vật thể hoặc khái niệm. Từ nói ra hành động là động từ. Từ miêu tả danh từ là tính từ."
+    },
+    {
+      "id": "P1.1-08",
+      "type": "select_words",
+      "prompt_vi": "Chọn 4 danh từ trong câu sau.",
+      "tokens": [
+        "The",
+        "cook",
+        "adds",
+        "salt",
+        "and",
+        "pepper",
+        "to",
+        "the",
+        "soup."
+      ],
+      "answer_indices": [
+        1,
+        3,
+        5,
+        8
+      ],
+      "count": 4,
+      "rule_vi": "Danh từ gọi tên sinh vật, sự việc, vật thể hoặc khái niệm. Từ nói ra hành động là động từ. Từ miêu tả danh từ là tính từ."
+    },
+    {
+      "id": "P1.1-09",
+      "type": "select_words",
+      "prompt_vi": "Chọn 3 danh từ trong câu sau.",
+      "tokens": [
+        "Honesty",
+        "gives",
+        "a",
+        "leader",
+        "real",
+        "strength."
+      ],
+      "answer_indices": [
+        0,
+        3,
+        5
+      ],
+      "count": 3,
+      "rule_vi": "Danh từ gọi tên sinh vật, sự việc, vật thể hoặc khái niệm. Từ nói ra hành động là động từ. Từ miêu tả danh từ là tính từ."
+    },
+    {
+      "id": "P1.1-10",
+      "type": "select_words",
+      "prompt_vi": "Chọn 3 danh từ trong câu sau.",
+      "tokens": [
+        "The",
+        "singer",
+        "writes",
+        "songs",
+        "about",
+        "the",
+        "sea."
+      ],
+      "answer_indices": [
+        1,
+        3,
+        6
+      ],
+      "count": 3,
+      "rule_vi": "Danh từ gọi tên sinh vật, sự việc, vật thể hoặc khái niệm. Từ nói ra hành động là động từ. Từ miêu tả danh từ là tính từ."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "practice_id": "1.3",
+  "stage": 1,
+  "title_vi": "Luyện tập: dạng số nhiều",
+  "type": "mcq",
+  "items": [
+    {
+      "id": "P1.3-01",
+      "type": "mcq",
+      "prompt_vi": "Dạng số nhiều của \"brush\" (cái bàn chải) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "brushs"
+        },
+        {
+          "key": "B",
+          "text": "brushes"
+        },
+        {
+          "key": "C",
+          "text": "brushies"
+        },
+        {
+          "key": "D",
+          "text": "brush"
+        }
+      ],
+      "answer": "B",
+      "rule_vi": "Từ kết thúc bằng -sh thì thêm -es."
+    },
+    {
+      "id": "P1.3-02",
+      "type": "mcq",
+      "prompt_vi": "Dạng số nhiều của \"story\" (câu chuyện) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "storys"
+        },
+        {
+          "key": "B",
+          "text": "storyes"
+        },
+        {
+          "key": "C",
+          "text": "stories"
+        },
+        {
+          "key": "D",
+          "text": "storyies"
+        }
+      ],
+      "answer": "C",
+      "rule_vi": "Phụ âm cộng y thì đổi y thành i rồi thêm -es."
+    },
+    {
+      "id": "P1.3-03",
+      "type": "mcq",
+      "prompt_vi": "Dạng số nhiều của \"ox\" (con bò đực) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "oxes"
+        },
+        {
+          "key": "B",
+          "text": "oxs"
+        },
+        {
+          "key": "C",
+          "text": "oxen"
+        },
+        {
+          "key": "D",
+          "text": "ox"
+        }
+      ],
+      "answer": "C",
+      "rule_vi": "Đây là danh từ bất quy tắc. Quy tắc -x cộng -es không áp dụng cho nó."
+    },
+    {
+      "id": "P1.3-04",
+      "type": "mcq",
+      "prompt_vi": "Dạng số nhiều của \"key\" (chiếc chìa khóa) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "keies"
+        },
+        {
+          "key": "B",
+          "text": "keys"
+        },
+        {
+          "key": "C",
+          "text": "keyes"
+        },
+        {
+          "key": "D",
+          "text": "key"
+        }
+      ],
+      "answer": "B",
+      "rule_vi": "Nguyên âm cộng y thì chỉ thêm -s."
+    },
+    {
+      "id": "P1.3-05",
+      "type": "mcq",
+      "prompt_vi": "Dạng số nhiều của \"wolf\" (con sói) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "wolfs"
+        },
+        {
+          "key": "B",
+          "text": "wolves"
+        },
+        {
+          "key": "C",
+          "text": "wolfes"
+        },
+        {
+          "key": "D",
+          "text": "wolvs"
+        }
+      ],
+      "answer": "B",
+      "rule_vi": "Một số từ kết thúc bằng -f thì đổi thành -ves."
+    },
+    {
+      "id": "P1.3-06",
+      "type": "mcq",
+      "prompt_vi": "Dạng số nhiều của \"goose\" (con ngỗng) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "gooses"
+        },
+        {
+          "key": "B",
+          "text": "geese"
+        },
+        {
+          "key": "C",
+          "text": "geeses"
+        },
+        {
+          "key": "D",
+          "text": "goose"
+        }
+      ],
+      "answer": "B",
+      "rule_vi": "Đây là danh từ bất quy tắc, đổi cả nguyên âm bên trong."
+    },
+    {
+      "id": "P1.3-07",
+      "type": "mcq",
+      "prompt_vi": "Dạng số nhiều của \"bench\" (cái ghế dài) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "benchs"
+        },
+        {
+          "key": "B",
+          "text": "benches"
+        },
+        {
+          "key": "C",
+          "text": "benchies"
+        },
+        {
+          "key": "D",
+          "text": "bench"
+        }
+      ],
+      "answer": "B",
+      "rule_vi": "Từ kết thúc bằng -ch thì thêm -es."
+    },
+    {
+      "id": "P1.3-08",
+      "type": "mcq",
+      "prompt_vi": "Dạng số nhiều của \"wife\" (người vợ) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "wifes"
+        },
+        {
+          "key": "B",
+          "text": "wifs"
+        },
+        {
+          "key": "C",
+          "text": "wives"
+        },
+        {
+          "key": "D",
+          "text": "wifees"
+        }
+      ],
+      "answer": "C",
+      "rule_vi": "Một số từ kết thúc bằng -fe thì đổi thành -ves."
+    },
+    {
+      "id": "P1.3-09",
+      "type": "mcq",
+      "prompt_vi": "Dạng số nhiều của \"fox\" (con cáo) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "foxs"
+        },
+        {
+          "key": "B",
+          "text": "foxes"
+        },
+        {
+          "key": "C",
+          "text": "foxies"
+        },
+        {
+          "key": "D",
+          "text": "foxen"
+        }
+      ],
+      "answer": "B",
+      "rule_vi": "Từ kết thúc bằng -x thì thêm -es."
+    },
+    {
+      "id": "P1.3-10",
+      "type": "mcq",
+      "prompt_vi": "Dạng số nhiều của \"deer\" (con nai) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "deers"
+        },
+        {
+          "key": "B",
+          "text": "deeres"
+        },
+        {
+          "key": "C",
+          "text": "deer"
+        },
+        {
+          "key": "D",
+          "text": "deeries"
+        }
+      ],
+      "answer": "C",
+      "rule_vi": "Đây là danh từ bất quy tắc, số ít và số nhiều viết giống nhau."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

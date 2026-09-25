@@ -1,0 +1,237 @@
+{
+  "practice_id": "2.1",
+  "stage": 2,
+  "title_vi": "Luyện tập: tìm tính từ",
+  "type": "select_words",
+  "items": [
+    {
+      "id": "P2.1-01",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 tính từ trong câu sau.",
+      "tokens": [
+        "The",
+        "old",
+        "bridge",
+        "looks",
+        "dangerous."
+      ],
+      "answer_indices": [
+        1,
+        4
+      ],
+      "count": 2,
+      "rule_vi": "Tính từ miêu tả một danh từ, cho biết danh từ đó như thế nào. Tính từ đứng trước danh từ, hoặc đứng sau động từ be và một số động từ như look, taste, feel."
+    },
+    {
+      "id": "P2.1-02",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 tính từ trong câu sau.",
+      "tokens": [
+        "My",
+        "cousin",
+        "has",
+        "a",
+        "quiet",
+        "voice",
+        "and",
+        "a",
+        "warm",
+        "smile."
+      ],
+      "answer_indices": [
+        4,
+        8
+      ],
+      "count": 2,
+      "rule_vi": "Tính từ miêu tả một danh từ, cho biết danh từ đó như thế nào. Tính từ đứng trước danh từ, hoặc đứng sau động từ be và một số động từ như look, taste, feel."
+    },
+    {
+      "id": "P2.1-03",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 tính từ trong câu sau.",
+      "tokens": [
+        "The",
+        "hungry",
+        "children",
+        "eat",
+        "fresh",
+        "bread."
+      ],
+      "answer_indices": [
+        1,
+        4
+      ],
+      "count": 2,
+      "rule_vi": "Tính từ miêu tả một danh từ, cho biết danh từ đó như thế nào. Tính từ đứng trước danh từ, hoặc đứng sau động từ be và một số động từ như look, taste, feel."
+    },
+    {
+      "id": "P2.1-04",
+      "type": "select_words",
+      "prompt_vi": "Chọn 3 tính từ trong câu sau.",
+      "tokens": [
+        "A",
+        "tall",
+        "man",
+        "carries",
+        "a",
+        "heavy",
+        "box",
+        "up",
+        "the",
+        "narrow",
+        "stairs."
+      ],
+      "answer_indices": [
+        1,
+        5,
+        9
+      ],
+      "count": 3,
+      "rule_vi": "Tính từ miêu tả một danh từ, cho biết danh từ đó như thế nào. Tính từ đứng trước danh từ, hoặc đứng sau động từ be và một số động từ như look, taste, feel."
+    },
+    {
+      "id": "P2.1-05",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 tính từ trong câu sau.",
+      "tokens": [
+        "The",
+        "soup",
+        "tastes",
+        "salty,",
+        "and",
+        "the",
+        "tea",
+        "tastes",
+        "sweet."
+      ],
+      "answer_indices": [
+        3,
+        8
+      ],
+      "count": 2,
+      "rule_vi": "Tính từ miêu tả một danh từ, cho biết danh từ đó như thế nào. Tính từ đứng trước danh từ, hoặc đứng sau động từ be và một số động từ như look, taste, feel."
+    },
+    {
+      "id": "P2.1-06",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 tính từ trong câu sau.",
+      "tokens": [
+        "Her",
+        "rich",
+        "uncle",
+        "drives",
+        "an",
+        "expensive",
+        "car."
+      ],
+      "answer_indices": [
+        1,
+        5
+      ],
+      "count": 2,
+      "rule_vi": "Tính từ miêu tả một danh từ, cho biết danh từ đó như thế nào. Tính từ đứng trước danh từ, hoặc đứng sau động từ be và một số động từ như look, taste, feel."
+    },
+    {
+      "id": "P2.1-07",
+      "type": "select_words",
+      "prompt_vi": "Chọn 3 tính từ trong câu sau.",
+      "tokens": [
+        "The",
+        "weather",
+        "is",
+        "cold,",
+        "dry",
+        "and",
+        "windy",
+        "today."
+      ],
+      "answer_indices": [
+        3,
+        4,
+        6
+      ],
+      "count": 3,
+      "rule_vi": "Tính từ miêu tả một danh từ, cho biết danh từ đó như thế nào. Tính từ đứng trước danh từ, hoặc đứng sau động từ be và một số động từ như look, taste, feel."
+    },
+    {
+      "id": "P2.1-08",
+      "type": "select_words",
+      "prompt_vi": "Chọn 3 tính từ trong câu sau.",
+      "tokens": [
+        "A",
+        "brave",
+        "nurse",
+        "helps",
+        "the",
+        "sick",
+        "farmer",
+        "in",
+        "a",
+        "dirty",
+        "room."
+      ],
+      "answer_indices": [
+        1,
+        5,
+        9
+      ],
+      "count": 3,
+      "rule_vi": "Tính từ miêu tả một danh từ, cho biết danh từ đó như thế nào. Tính từ đứng trước danh từ, hoặc đứng sau động từ be và một số động từ như look, taste, feel."
+    },
+    {
+      "id": "P2.1-09",
+      "type": "select_words",
+      "prompt_vi": "Chọn 3 tính từ trong câu sau.",
+      "tokens": [
+        "The",
+        "young",
+        "singer",
+        "feels",
+        "nervous",
+        "before",
+        "the",
+        "important",
+        "concert."
+      ],
+      "answer_indices": [
+        1,
+        4,
+        7
+      ],
+      "count": 3,
+      "rule_vi": "Tính từ miêu tả một danh từ, cho biết danh từ đó như thế nào. Tính từ đứng trước danh từ, hoặc đứng sau động từ be và một số động từ như look, taste, feel."
+    },
+    {
+      "id": "P2.1-10",
+      "type": "select_words",
+      "prompt_vi": "Chọn 4 tính từ trong câu sau.",
+      "tokens": [
+        "This",
+        "small",
+        "phone",
+        "is",
+        "slow,",
+        "but",
+        "that",
+        "one",
+        "is",
+        "fast",
+        "and",
+        "light."
+      ],
+      "answer_indices": [
+        1,
+        4,
+        9,
+        11
+      ],
+      "count": 4,
+      "rule_vi": "Tính từ miêu tả một danh từ, cho biết danh từ đó như thế nào. Tính từ đứng trước danh từ, hoặc đứng sau động từ be và một số động từ như look, taste, feel."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "practice_id": "9.3",
+  "stage": 9,
+  "title_vi": "Luyện tập: chọn câu trả lời đúng",
+  "type": "mcq",
+  "items": [
+    {
+      "id": "P9.3-01",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu trả lời đúng: \"Do you like tea?\" Ý muốn nói: Có, tôi thích.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, I do."
+        },
+        {
+          "key": "B",
+          "text": "Yes, I like."
+        },
+        {
+          "key": "C",
+          "text": "Yes, I am."
+        },
+        {
+          "key": "D",
+          "text": "Yes, I does."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Câu hỏi mở đầu bằng do thì câu trả lời ngắn cũng dùng do."
+    },
+    {
+      "id": "P9.3-02",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu trả lời đúng: \"Is she a nurse?\" Ý muốn nói: Không, không phải.",
+      "options": [
+        {
+          "key": "A",
+          "text": "No, she isn't."
+        },
+        {
+          "key": "B",
+          "text": "No, she doesn't."
+        },
+        {
+          "key": "C",
+          "text": "No, she not."
+        },
+        {
+          "key": "D",
+          "text": "No, she hasn't."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Câu hỏi mở đầu bằng is thì trả lời bằng is."
+    },
+    {
+      "id": "P9.3-03",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu trả lời đúng: \"Did they win?\" Ý muốn nói: Có, họ thắng.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, they did."
+        },
+        {
+          "key": "B",
+          "text": "Yes, they do."
+        },
+        {
+          "key": "C",
+          "text": "Yes, they win."
+        },
+        {
+          "key": "D",
+          "text": "Yes, they were."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Câu hỏi mở đầu bằng did thì trả lời bằng did."
+    },
+    {
+      "id": "P9.3-04",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu trả lời đúng: \"Don't you like coffee?\" Ý muốn nói: Có, tôi thích.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, I do."
+        },
+        {
+          "key": "B",
+          "text": "No, I do."
+        },
+        {
+          "key": "C",
+          "text": "Yes, I don't."
+        },
+        {
+          "key": "D",
+          "text": "No, I don't."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Tiếng Anh trả lời theo sự thật chứ không theo người hỏi. Thích thì luôn là Yes."
+    },
+    {
+      "id": "P9.3-05",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu trả lời đúng: \"Isn't he your brother?\" Ý muốn nói: Không, không phải.",
+      "options": [
+        {
+          "key": "A",
+          "text": "No, he isn't."
+        },
+        {
+          "key": "B",
+          "text": "Yes, he isn't."
+        },
+        {
+          "key": "C",
+          "text": "No, he is."
+        },
+        {
+          "key": "D",
+          "text": "Yes, he doesn't."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Không phải thì luôn là No, dù câu hỏi ở dạng phủ định."
+    },
+    {
+      "id": "P9.3-06",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu trả lời đúng: \"Have you finished?\" Ý muốn nói: Chưa.",
+      "options": [
+        {
+          "key": "A",
+          "text": "No, I haven't."
+        },
+        {
+          "key": "B",
+          "text": "No, I didn't."
+        },
+        {
+          "key": "C",
+          "text": "No, I don't."
+        },
+        {
+          "key": "D",
+          "text": "No, I amn't."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Câu hỏi mở đầu bằng have thì trả lời bằng haven't."
+    },
+    {
+      "id": "P9.3-07",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu trả lời đúng: \"Can Nam drive?\" Ý muốn nói: Có.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, he can."
+        },
+        {
+          "key": "B",
+          "text": "Yes, he cans."
+        },
+        {
+          "key": "C",
+          "text": "Yes, he does."
+        },
+        {
+          "key": "D",
+          "text": "Yes, he is."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Câu hỏi mở đầu bằng can thì trả lời bằng can, và can không thêm -s."
+    },
+    {
+      "id": "P9.3-08",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu trả lời đúng: \"Aren't they at school?\" Ý muốn nói: Có, họ đang ở trường.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes, they are."
+        },
+        {
+          "key": "B",
+          "text": "No, they are."
+        },
+        {
+          "key": "C",
+          "text": "Yes, they aren't."
+        },
+        {
+          "key": "D",
+          "text": "No, they aren't."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Sự thật là họ đang ở trường, nên trả lời Yes dù câu hỏi phủ định."
+    },
+    {
+      "id": "P9.3-09",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu trả lời đúng: \"Does it rain here in July?\" Ý muốn nói: Không.",
+      "options": [
+        {
+          "key": "A",
+          "text": "No, it doesn't."
+        },
+        {
+          "key": "B",
+          "text": "No, it isn't."
+        },
+        {
+          "key": "C",
+          "text": "No, it don't."
+        },
+        {
+          "key": "D",
+          "text": "No, it didn't."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Câu hỏi mở đầu bằng does thì trả lời bằng doesn't."
+    },
+    {
+      "id": "P9.3-10",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu trả lời đúng: \"Weren't you tired?\" Ý muốn nói: Không, tôi không mệt.",
+      "options": [
+        {
+          "key": "A",
+          "text": "No, I wasn't."
+        },
+        {
+          "key": "B",
+          "text": "Yes, I wasn't."
+        },
+        {
+          "key": "C",
+          "text": "No, I weren't."
+        },
+        {
+          "key": "D",
+          "text": "No, I didn't."
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Sự thật là không mệt nên trả lời No, và chủ ngữ I ở quá khứ dùng wasn't."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

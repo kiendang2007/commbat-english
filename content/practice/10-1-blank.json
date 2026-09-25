@@ -1,0 +1,283 @@
+{
+  "practice_id": "10.1",
+  "stage": 10,
+  "title_vi": "Luyện tập: điền từ để hỏi",
+  "type": "blank",
+  "items": [
+    {
+      "id": "P10.1-01",
+      "type": "blank",
+      "sentence_en": "___ does she live?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Where"
+        },
+        {
+          "key": "B",
+          "text": "When"
+        },
+        {
+          "key": "C",
+          "text": "What"
+        },
+        {
+          "key": "D",
+          "text": "Who"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "Where",
+      "rule_vi": "where hỏi về nơi chốn.",
+      "prompt_vi": "Chị ấy sống ở đâu?"
+    },
+    {
+      "id": "P10.1-02",
+      "type": "blank",
+      "sentence_en": "___ does the class start?",
+      "options": [
+        {
+          "key": "A",
+          "text": "When"
+        },
+        {
+          "key": "B",
+          "text": "Where"
+        },
+        {
+          "key": "C",
+          "text": "Why"
+        },
+        {
+          "key": "D",
+          "text": "How"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "When",
+      "rule_vi": "when hỏi về thời gian.",
+      "prompt_vi": "Lớp học bắt đầu lúc mấy giờ?"
+    },
+    {
+      "id": "P10.1-03",
+      "type": "blank",
+      "sentence_en": "___ is Nam reading?",
+      "options": [
+        {
+          "key": "A",
+          "text": "What"
+        },
+        {
+          "key": "B",
+          "text": "Who"
+        },
+        {
+          "key": "C",
+          "text": "Which"
+        },
+        {
+          "key": "D",
+          "text": "Where"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "What",
+      "rule_vi": "what hỏi về vật, không giới hạn lựa chọn.",
+      "prompt_vi": "Nam đang đọc cái gì?"
+    },
+    {
+      "id": "P10.1-04",
+      "type": "blank",
+      "sentence_en": "___ cooks dinner?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Who"
+        },
+        {
+          "key": "B",
+          "text": "What"
+        },
+        {
+          "key": "C",
+          "text": "Whom"
+        },
+        {
+          "key": "D",
+          "text": "Whose"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "Who",
+      "rule_vi": "who hỏi về người, và ở đây who là chủ ngữ nên không cần trợ động từ.",
+      "prompt_vi": "Ai nấu bữa tối?"
+    },
+    {
+      "id": "P10.1-05",
+      "type": "blank",
+      "sentence_en": "___ are the children laughing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Why"
+        },
+        {
+          "key": "B",
+          "text": "How"
+        },
+        {
+          "key": "C",
+          "text": "When"
+        },
+        {
+          "key": "D",
+          "text": "What"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "Why",
+      "rule_vi": "why hỏi về lý do, trả lời thường bắt đầu bằng because.",
+      "prompt_vi": "Vì sao các em cười?"
+    },
+    {
+      "id": "P10.1-06",
+      "type": "blank",
+      "sentence_en": "___ do you go to work?",
+      "options": [
+        {
+          "key": "A",
+          "text": "How"
+        },
+        {
+          "key": "B",
+          "text": "What"
+        },
+        {
+          "key": "C",
+          "text": "Where"
+        },
+        {
+          "key": "D",
+          "text": "Which"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "How",
+      "rule_vi": "how hỏi về cách thức.",
+      "prompt_vi": "Anh đi làm bằng gì?"
+    },
+    {
+      "id": "P10.1-07",
+      "type": "blank",
+      "sentence_en": "___ long is the film?",
+      "options": [
+        {
+          "key": "A",
+          "text": "How"
+        },
+        {
+          "key": "B",
+          "text": "What"
+        },
+        {
+          "key": "C",
+          "text": "When"
+        },
+        {
+          "key": "D",
+          "text": "Why"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "How",
+      "rule_vi": "how long hỏi về độ dài thời gian.",
+      "prompt_vi": "Bộ phim dài bao lâu?"
+    },
+    {
+      "id": "P10.1-08",
+      "type": "blank",
+      "sentence_en": "___ did they meet?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Where"
+        },
+        {
+          "key": "B",
+          "text": "Who"
+        },
+        {
+          "key": "C",
+          "text": "When"
+        },
+        {
+          "key": "D",
+          "text": "What"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "Where",
+      "rule_vi": "where hỏi về nơi chốn.",
+      "prompt_vi": "Họ gặp nhau ở đâu?"
+    },
+    {
+      "id": "P10.1-09",
+      "type": "blank",
+      "sentence_en": "___ shirt is cheaper?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Which"
+        },
+        {
+          "key": "B",
+          "text": "What"
+        },
+        {
+          "key": "C",
+          "text": "Who"
+        },
+        {
+          "key": "D",
+          "text": "Whose"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "Which",
+      "rule_vi": "which hỏi khi có một số lựa chọn có sẵn.",
+      "prompt_vi": "Chiếc áo nào rẻ hơn?"
+    },
+    {
+      "id": "P10.1-10",
+      "type": "blank",
+      "sentence_en": "___ will he come back?",
+      "options": [
+        {
+          "key": "A",
+          "text": "When"
+        },
+        {
+          "key": "B",
+          "text": "Where"
+        },
+        {
+          "key": "C",
+          "text": "How"
+        },
+        {
+          "key": "D",
+          "text": "Why"
+        }
+      ],
+      "answer": "A",
+      "answer_text": "When",
+      "rule_vi": "when hỏi về thời gian.",
+      "prompt_vi": "Bao giờ anh ấy về?"
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

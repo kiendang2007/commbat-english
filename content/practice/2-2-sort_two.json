@@ -1,0 +1,933 @@
+{
+  "practice_id": "2.2",
+  "stage": 2,
+  "title_vi": "Luyện tập: hướng vào trong hay hướng ra ngoài",
+  "type": "sort_two",
+  "items": [
+    {
+      "id": "P2.2-01",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Hướng vào trong",
+      "right_label_vi": "Hướng ra ngoài",
+      "chips": [
+        {
+          "word": "shocking",
+          "group": "right"
+        },
+        {
+          "word": "worried",
+          "group": "left"
+        },
+        {
+          "word": "annoying",
+          "group": "right"
+        },
+        {
+          "word": "relaxed",
+          "group": "left"
+        },
+        {
+          "word": "satisfying",
+          "group": "right"
+        },
+        {
+          "word": "inspiring",
+          "group": "right"
+        },
+        {
+          "word": "amazing",
+          "group": "right"
+        },
+        {
+          "word": "exhausted",
+          "group": "left"
+        },
+        {
+          "word": "amazed",
+          "group": "left"
+        },
+        {
+          "word": "terrified",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "amazed",
+          "text_vi": "amazed (kinh ngạc): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "amazing",
+          "text_vi": "amazing (đáng kinh ngạc): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "annoying",
+          "text_vi": "annoying (gây khó chịu): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "relaxed",
+          "text_vi": "relaxed (thấy thư giãn): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "shocking",
+          "text_vi": "shocking (gây sốc): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "worried",
+          "text_vi": "worried (lo lắng): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "satisfying",
+          "text_vi": "satisfying (làm cho hài lòng): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "terrified",
+          "text_vi": "terrified (sợ hãi): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "inspiring",
+          "text_vi": "inspiring (truyền cảm hứng cho người khác): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "exhausted",
+          "text_vi": "exhausted (kiệt sức): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        }
+      ],
+      "rule_vi": "Tính từ đuôi -ed nói cảm xúc bên trong người. Tính từ đuôi -ing nói đặc điểm của thứ gây ra cảm xúc đó."
+    },
+    {
+      "id": "P2.2-02",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Hướng vào trong",
+      "right_label_vi": "Hướng ra ngoài",
+      "chips": [
+        {
+          "word": "puzzled",
+          "group": "left"
+        },
+        {
+          "word": "depressed",
+          "group": "left"
+        },
+        {
+          "word": "fascinating",
+          "group": "right"
+        },
+        {
+          "word": "tiring",
+          "group": "right"
+        },
+        {
+          "word": "thrilled",
+          "group": "left"
+        },
+        {
+          "word": "pleasing",
+          "group": "right"
+        },
+        {
+          "word": "embarrassed",
+          "group": "left"
+        },
+        {
+          "word": "charmed",
+          "group": "left"
+        },
+        {
+          "word": "moved",
+          "group": "left"
+        },
+        {
+          "word": "irritating",
+          "group": "right"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "embarrassed",
+          "text_vi": "embarrassed (thấy ngượng): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "depressed",
+          "text_vi": "depressed (buồn nản): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "puzzled",
+          "text_vi": "puzzled (bối rối): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "thrilled",
+          "text_vi": "thrilled (phấn khích): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "moved",
+          "text_vi": "moved (xúc động): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "charmed",
+          "text_vi": "charmed (bị cuốn hút): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "fascinating",
+          "text_vi": "fascinating (rất hấp dẫn): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "irritating",
+          "text_vi": "irritating (gây bực mình): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "pleasing",
+          "text_vi": "pleasing (làm cho dễ chịu): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "tiring",
+          "text_vi": "tiring (làm cho mệt): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        }
+      ],
+      "rule_vi": "Tính từ đuôi -ed nói cảm xúc bên trong người. Tính từ đuôi -ing nói đặc điểm của thứ gây ra cảm xúc đó."
+    },
+    {
+      "id": "P2.2-03",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Hướng vào trong",
+      "right_label_vi": "Hướng ra ngoài",
+      "chips": [
+        {
+          "word": "satisfied",
+          "group": "left"
+        },
+        {
+          "word": "shocking",
+          "group": "right"
+        },
+        {
+          "word": "exhausting",
+          "group": "right"
+        },
+        {
+          "word": "inspired",
+          "group": "left"
+        },
+        {
+          "word": "amazing",
+          "group": "right"
+        },
+        {
+          "word": "relaxing",
+          "group": "right"
+        },
+        {
+          "word": "terrifying",
+          "group": "right"
+        },
+        {
+          "word": "embarrassing",
+          "group": "right"
+        },
+        {
+          "word": "worrying",
+          "group": "right"
+        },
+        {
+          "word": "annoyed",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "annoyed",
+          "text_vi": "annoyed (khó chịu): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "satisfied",
+          "text_vi": "satisfied (hài lòng): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "inspired",
+          "text_vi": "inspired (được truyền cảm hứng): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "amazing",
+          "text_vi": "amazing (đáng kinh ngạc): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "relaxing",
+          "text_vi": "relaxing (làm cho thư giãn): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "shocking",
+          "text_vi": "shocking (gây sốc): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "worrying",
+          "text_vi": "worrying (đáng lo): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "terrifying",
+          "text_vi": "terrifying (gây sợ hãi): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "exhausting",
+          "text_vi": "exhausting (làm cho kiệt sức): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "embarrassing",
+          "text_vi": "embarrassing (gây ngượng): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        }
+      ],
+      "rule_vi": "Tính từ đuôi -ed nói cảm xúc bên trong người. Tính từ đuôi -ing nói đặc điểm của thứ gây ra cảm xúc đó."
+    },
+    {
+      "id": "P2.2-04",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Hướng vào trong",
+      "right_label_vi": "Hướng ra ngoài",
+      "chips": [
+        {
+          "word": "surprised",
+          "group": "left"
+        },
+        {
+          "word": "charmed",
+          "group": "left"
+        },
+        {
+          "word": "puzzling",
+          "group": "right"
+        },
+        {
+          "word": "depressed",
+          "group": "left"
+        },
+        {
+          "word": "shocked",
+          "group": "left"
+        },
+        {
+          "word": "irritated",
+          "group": "left"
+        },
+        {
+          "word": "moving",
+          "group": "right"
+        },
+        {
+          "word": "pleased",
+          "group": "left"
+        },
+        {
+          "word": "thrilling",
+          "group": "right"
+        },
+        {
+          "word": "fascinated",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "shocked",
+          "text_vi": "shocked (bị sốc): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "surprised",
+          "text_vi": "surprised (ngạc nhiên): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "pleased",
+          "text_vi": "pleased (hài lòng): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "irritated",
+          "text_vi": "irritated (bực mình): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "fascinated",
+          "text_vi": "fascinated (bị mê hoặc): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "charmed",
+          "text_vi": "charmed (bị cuốn hút): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "depressed",
+          "text_vi": "depressed (buồn nản): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "moving",
+          "text_vi": "moving (gây xúc động): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "puzzling",
+          "text_vi": "puzzling (gây bối rối): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "thrilling",
+          "text_vi": "thrilling (gây phấn khích): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        }
+      ],
+      "rule_vi": "Tính từ đuôi -ed nói cảm xúc bên trong người. Tính từ đuôi -ing nói đặc điểm của thứ gây ra cảm xúc đó."
+    },
+    {
+      "id": "P2.2-05",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Hướng vào trong",
+      "right_label_vi": "Hướng ra ngoài",
+      "chips": [
+        {
+          "word": "inspired",
+          "group": "left"
+        },
+        {
+          "word": "depressing",
+          "group": "right"
+        },
+        {
+          "word": "embarrassing",
+          "group": "right"
+        },
+        {
+          "word": "annoying",
+          "group": "right"
+        },
+        {
+          "word": "tired",
+          "group": "left"
+        },
+        {
+          "word": "satisfying",
+          "group": "right"
+        },
+        {
+          "word": "exhausting",
+          "group": "right"
+        },
+        {
+          "word": "worried",
+          "group": "left"
+        },
+        {
+          "word": "relaxing",
+          "group": "right"
+        },
+        {
+          "word": "amazed",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "tired",
+          "text_vi": "tired (mệt): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "inspired",
+          "text_vi": "inspired (được truyền cảm hứng): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "worried",
+          "text_vi": "worried (lo lắng): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "amazed",
+          "text_vi": "amazed (kinh ngạc): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "depressing",
+          "text_vi": "depressing (gây buồn nản): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "exhausting",
+          "text_vi": "exhausting (làm cho kiệt sức): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "satisfying",
+          "text_vi": "satisfying (làm cho hài lòng): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "annoying",
+          "text_vi": "annoying (gây khó chịu): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "relaxing",
+          "text_vi": "relaxing (làm cho thư giãn): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "embarrassing",
+          "text_vi": "embarrassing (gây ngượng): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        }
+      ],
+      "rule_vi": "Tính từ đuôi -ed nói cảm xúc bên trong người. Tính từ đuôi -ing nói đặc điểm của thứ gây ra cảm xúc đó."
+    },
+    {
+      "id": "P2.2-06",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Hướng vào trong",
+      "right_label_vi": "Hướng ra ngoài",
+      "chips": [
+        {
+          "word": "thrilled",
+          "group": "left"
+        },
+        {
+          "word": "irritating",
+          "group": "right"
+        },
+        {
+          "word": "embarrassed",
+          "group": "left"
+        },
+        {
+          "word": "moved",
+          "group": "left"
+        },
+        {
+          "word": "charming",
+          "group": "right"
+        },
+        {
+          "word": "terrified",
+          "group": "left"
+        },
+        {
+          "word": "fascinating",
+          "group": "right"
+        },
+        {
+          "word": "puzzled",
+          "group": "left"
+        },
+        {
+          "word": "pleasing",
+          "group": "right"
+        },
+        {
+          "word": "surprising",
+          "group": "right"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "moved",
+          "text_vi": "moved (xúc động): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "puzzled",
+          "text_vi": "puzzled (bối rối): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "thrilled",
+          "text_vi": "thrilled (phấn khích): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "terrified",
+          "text_vi": "terrified (sợ hãi): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "embarrassed",
+          "text_vi": "embarrassed (thấy ngượng): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "charming",
+          "text_vi": "charming (cuốn hút người khác): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "fascinating",
+          "text_vi": "fascinating (rất hấp dẫn): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "irritating",
+          "text_vi": "irritating (gây bực mình): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "pleasing",
+          "text_vi": "pleasing (làm cho dễ chịu): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "surprising",
+          "text_vi": "surprising (gây ngạc nhiên): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        }
+      ],
+      "rule_vi": "Tính từ đuôi -ed nói cảm xúc bên trong người. Tính từ đuôi -ing nói đặc điểm của thứ gây ra cảm xúc đó."
+    },
+    {
+      "id": "P2.2-07",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Hướng vào trong",
+      "right_label_vi": "Hướng ra ngoài",
+      "chips": [
+        {
+          "word": "satisfied",
+          "group": "left"
+        },
+        {
+          "word": "shocked",
+          "group": "left"
+        },
+        {
+          "word": "relaxed",
+          "group": "left"
+        },
+        {
+          "word": "amazed",
+          "group": "left"
+        },
+        {
+          "word": "moving",
+          "group": "right"
+        },
+        {
+          "word": "inspired",
+          "group": "left"
+        },
+        {
+          "word": "annoyed",
+          "group": "left"
+        },
+        {
+          "word": "worried",
+          "group": "left"
+        },
+        {
+          "word": "tiring",
+          "group": "right"
+        },
+        {
+          "word": "exhausted",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "amazed",
+          "text_vi": "amazed (kinh ngạc): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "annoyed",
+          "text_vi": "annoyed (khó chịu): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "relaxed",
+          "text_vi": "relaxed (thấy thư giãn): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "shocked",
+          "text_vi": "shocked (bị sốc): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "worried",
+          "text_vi": "worried (lo lắng): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "satisfied",
+          "text_vi": "satisfied (hài lòng): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "inspired",
+          "text_vi": "inspired (được truyền cảm hứng): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "exhausted",
+          "text_vi": "exhausted (kiệt sức): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "tiring",
+          "text_vi": "tiring (làm cho mệt): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "moving",
+          "text_vi": "moving (gây xúc động): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        }
+      ],
+      "rule_vi": "Tính từ đuôi -ed nói cảm xúc bên trong người. Tính từ đuôi -ing nói đặc điểm của thứ gây ra cảm xúc đó."
+    },
+    {
+      "id": "P2.2-08",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Hướng vào trong",
+      "right_label_vi": "Hướng ra ngoài",
+      "chips": [
+        {
+          "word": "satisfying",
+          "group": "right"
+        },
+        {
+          "word": "annoying",
+          "group": "right"
+        },
+        {
+          "word": "inspiring",
+          "group": "right"
+        },
+        {
+          "word": "shocking",
+          "group": "right"
+        },
+        {
+          "word": "fascinated",
+          "group": "left"
+        },
+        {
+          "word": "pleased",
+          "group": "left"
+        },
+        {
+          "word": "amazing",
+          "group": "right"
+        },
+        {
+          "word": "relaxing",
+          "group": "right"
+        },
+        {
+          "word": "exhausting",
+          "group": "right"
+        },
+        {
+          "word": "worrying",
+          "group": "right"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "fascinated",
+          "text_vi": "fascinated (bị mê hoặc): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "pleased",
+          "text_vi": "pleased (hài lòng): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "amazing",
+          "text_vi": "amazing (đáng kinh ngạc): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "annoying",
+          "text_vi": "annoying (gây khó chịu): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "relaxing",
+          "text_vi": "relaxing (làm cho thư giãn): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "shocking",
+          "text_vi": "shocking (gây sốc): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "worrying",
+          "text_vi": "worrying (đáng lo): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "satisfying",
+          "text_vi": "satisfying (làm cho hài lòng): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "inspiring",
+          "text_vi": "inspiring (truyền cảm hứng cho người khác): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "exhausting",
+          "text_vi": "exhausting (làm cho kiệt sức): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        }
+      ],
+      "rule_vi": "Tính từ đuôi -ed nói cảm xúc bên trong người. Tính từ đuôi -ing nói đặc điểm của thứ gây ra cảm xúc đó."
+    },
+    {
+      "id": "P2.2-09",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Hướng vào trong",
+      "right_label_vi": "Hướng ra ngoài",
+      "chips": [
+        {
+          "word": "charmed",
+          "group": "left"
+        },
+        {
+          "word": "puzzling",
+          "group": "right"
+        },
+        {
+          "word": "surprised",
+          "group": "left"
+        },
+        {
+          "word": "depressed",
+          "group": "left"
+        },
+        {
+          "word": "terrifying",
+          "group": "right"
+        },
+        {
+          "word": "embarrassing",
+          "group": "right"
+        },
+        {
+          "word": "irritated",
+          "group": "left"
+        },
+        {
+          "word": "depressing",
+          "group": "right"
+        },
+        {
+          "word": "puzzled",
+          "group": "left"
+        },
+        {
+          "word": "thrilled",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "depressed",
+          "text_vi": "depressed (buồn nản): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "puzzled",
+          "text_vi": "puzzled (bối rối): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "irritated",
+          "text_vi": "irritated (bực mình): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "charmed",
+          "text_vi": "charmed (bị cuốn hút): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "surprised",
+          "text_vi": "surprised (ngạc nhiên): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "thrilled",
+          "text_vi": "thrilled (phấn khích): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "terrifying",
+          "text_vi": "terrifying (gây sợ hãi): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "embarrassing",
+          "text_vi": "embarrassing (gây ngượng): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "depressing",
+          "text_vi": "depressing (gây buồn nản): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "puzzling",
+          "text_vi": "puzzling (gây bối rối): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        }
+      ],
+      "rule_vi": "Tính từ đuôi -ed nói cảm xúc bên trong người. Tính từ đuôi -ing nói đặc điểm của thứ gây ra cảm xúc đó."
+    },
+    {
+      "id": "P2.2-10",
+      "type": "sort_two",
+      "prompt_vi": "Kéo mười từ sau vào đúng nhóm.",
+      "left_label_vi": "Hướng vào trong",
+      "right_label_vi": "Hướng ra ngoài",
+      "chips": [
+        {
+          "word": "moved",
+          "group": "left"
+        },
+        {
+          "word": "amazing",
+          "group": "right"
+        },
+        {
+          "word": "irritating",
+          "group": "right"
+        },
+        {
+          "word": "thrilling",
+          "group": "right"
+        },
+        {
+          "word": "charming",
+          "group": "right"
+        },
+        {
+          "word": "embarrassed",
+          "group": "left"
+        },
+        {
+          "word": "tired",
+          "group": "left"
+        },
+        {
+          "word": "terrified",
+          "group": "left"
+        },
+        {
+          "word": "surprising",
+          "group": "right"
+        },
+        {
+          "word": "fascinated",
+          "group": "left"
+        }
+      ],
+      "explanations": [
+        {
+          "word": "embarrassed",
+          "text_vi": "embarrassed (thấy ngượng): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "terrified",
+          "text_vi": "terrified (sợ hãi): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "fascinated",
+          "text_vi": "fascinated (bị mê hoặc): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "moved",
+          "text_vi": "moved (xúc động): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "tired",
+          "text_vi": "tired (mệt): đuôi -ed, nói cảm xúc bên trong người, nên hướng vào trong."
+        },
+        {
+          "word": "charming",
+          "text_vi": "charming (cuốn hút người khác): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "thrilling",
+          "text_vi": "thrilling (gây phấn khích): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "irritating",
+          "text_vi": "irritating (gây bực mình): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "surprising",
+          "text_vi": "surprising (gây ngạc nhiên): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        },
+        {
+          "word": "amazing",
+          "text_vi": "amazing (đáng kinh ngạc): đuôi -ing, nói đặc điểm của thứ gây ra cảm xúc, nên hướng ra ngoài."
+        }
+      ],
+      "rule_vi": "Tính từ đuôi -ed nói cảm xúc bên trong người. Tính từ đuôi -ing nói đặc điểm của thứ gây ra cảm xúc đó."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "practice_id": "9.2",
+  "stage": 9,
+  "title_vi": "Luyện tập: chọn câu hỏi đúng",
+  "type": "mcq",
+  "items": [
+    {
+      "id": "P9.2-01",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu hỏi đúng cho tình huống sau: Muốn hỏi Lan có thích cà phê không.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Does Lan like coffee?"
+        },
+        {
+          "key": "B",
+          "text": "Do Lan like coffee?"
+        },
+        {
+          "key": "C",
+          "text": "Does Lan likes coffee?"
+        },
+        {
+          "key": "D",
+          "text": "Is Lan like coffee?"
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Lan là ngôi thứ ba số ít nên dùng does, và động từ chính về nguyên thể."
+    },
+    {
+      "id": "P9.2-02",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu hỏi đúng cho tình huống sau: Muốn hỏi họ đã ăn tối chưa.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Have they eaten dinner?"
+        },
+        {
+          "key": "B",
+          "text": "Has they eaten dinner?"
+        },
+        {
+          "key": "C",
+          "text": "Do they eaten dinner?"
+        },
+        {
+          "key": "D",
+          "text": "Are they eaten dinner?"
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Thể hoàn thành với they thì dùng have, động từ chính ở V-3."
+    },
+    {
+      "id": "P9.2-03",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu hỏi đúng cho tình huống sau: Muốn hỏi hôm qua trời có mưa không.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Did it rain yesterday?"
+        },
+        {
+          "key": "B",
+          "text": "Does it rain yesterday?"
+        },
+        {
+          "key": "C",
+          "text": "Was it rain yesterday?"
+        },
+        {
+          "key": "D",
+          "text": "Did it rained yesterday?"
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Quá khứ đơn dùng did, động từ chính về nguyên thể."
+    },
+    {
+      "id": "P9.2-04",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu hỏi đúng cho tình huống sau: Ngạc nhiên vì Nam chưa đến.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Isn't Nam coming?"
+        },
+        {
+          "key": "B",
+          "text": "Is not Nam coming?"
+        },
+        {
+          "key": "C",
+          "text": "Doesn't Nam coming?"
+        },
+        {
+          "key": "D",
+          "text": "Not is Nam coming?"
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Câu hỏi phủ định dùng dạng rút gọn isn't ở đầu câu."
+    },
+    {
+      "id": "P9.2-05",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu hỏi đúng cho tình huống sau: Muốn hỏi chị ấy biết bơi không.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Can she swim?"
+        },
+        {
+          "key": "B",
+          "text": "Does she can swim?"
+        },
+        {
+          "key": "C",
+          "text": "Can she swims?"
+        },
+        {
+          "key": "D",
+          "text": "Is she can swim?"
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Động từ khuyết thiếu tự đảo lên đầu, không cần does."
+    },
+    {
+      "id": "P9.2-06",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu hỏi đúng cho tình huống sau: Ngạc nhiên vì họ không thích món này.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Don't they like this dish?"
+        },
+        {
+          "key": "B",
+          "text": "Do not they like this dish?"
+        },
+        {
+          "key": "C",
+          "text": "Doesn't they like this dish?"
+        },
+        {
+          "key": "D",
+          "text": "Aren't they like this dish?"
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Câu hỏi phủ định ở hiện tại đơn với they dùng don't."
+    },
+    {
+      "id": "P9.2-07",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu hỏi đúng cho tình huống sau: Muốn hỏi các em đang làm bài không.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Are the children doing the exercise?"
+        },
+        {
+          "key": "B",
+          "text": "Do the children doing the exercise?"
+        },
+        {
+          "key": "C",
+          "text": "Is the children doing the exercise?"
+        },
+        {
+          "key": "D",
+          "text": "Have the children doing the exercise?"
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Thể tiếp diễn dùng be, và children là số nhiều nên dùng are."
+    },
+    {
+      "id": "P9.2-08",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu hỏi đúng cho tình huống sau: Muốn hỏi bố đã về chưa.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Has your father come home?"
+        },
+        {
+          "key": "B",
+          "text": "Have your father come home?"
+        },
+        {
+          "key": "C",
+          "text": "Did your father came home?"
+        },
+        {
+          "key": "D",
+          "text": "Is your father come home?"
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Chủ ngữ số ít ở thể hoàn thành thì dùng has."
+    },
+    {
+      "id": "P9.2-09",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu hỏi đúng cho tình huống sau: Ngạc nhiên vì cô ấy chưa làm xong.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hasn't she finished?"
+        },
+        {
+          "key": "B",
+          "text": "Haven't she finished?"
+        },
+        {
+          "key": "C",
+          "text": "Doesn't she finished?"
+        },
+        {
+          "key": "D",
+          "text": "Isn't she finished yet?"
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Chủ ngữ số ít ở thể hoàn thành phủ định thì dùng hasn't."
+    },
+    {
+      "id": "P9.2-10",
+      "type": "mcq",
+      "prompt_vi": "Chọn câu hỏi đúng cho tình huống sau: Muốn hỏi tối qua họ có ở nhà không.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Were they at home last night?"
+        },
+        {
+          "key": "B",
+          "text": "Was they at home last night?"
+        },
+        {
+          "key": "C",
+          "text": "Did they at home last night?"
+        },
+        {
+          "key": "D",
+          "text": "Are they at home last night?"
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "be ở quá khứ với chủ ngữ số nhiều thì dùng were."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

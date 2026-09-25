@@ -1,0 +1,229 @@
+{
+  "practice_id": "5.1",
+  "stage": 5,
+  "title_vi": "Luyện tập: tìm đại từ",
+  "type": "select_words",
+  "items": [
+    {
+      "id": "P5.1-01",
+      "type": "select_words",
+      "prompt_vi": "Chọn 4 đại từ trong câu sau.",
+      "tokens": [
+        "She",
+        "tells",
+        "him",
+        "the",
+        "truth,",
+        "and",
+        "he",
+        "believes",
+        "her."
+      ],
+      "answer_indices": [
+        0,
+        2,
+        6,
+        8
+      ],
+      "count": 4,
+      "rule_vi": "Đại từ đứng thay cho một danh từ, nên sau nó không có danh từ. Tính từ sở hữu như my, her, their luôn có danh từ đi ngay sau, nên chúng không phải đại từ."
+    },
+    {
+      "id": "P5.1-02",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 đại từ trong câu sau.",
+      "tokens": [
+        "Nobody",
+        "answers,",
+        "so",
+        "we",
+        "wait",
+        "outside."
+      ],
+      "answer_indices": [
+        0,
+        3
+      ],
+      "count": 2,
+      "rule_vi": "Đại từ đứng thay cho một danh từ, nên sau nó không có danh từ. Tính từ sở hữu như my, her, their luôn có danh từ đi ngay sau, nên chúng không phải đại từ."
+    },
+    {
+      "id": "P5.1-03",
+      "type": "select_words",
+      "prompt_vi": "Chọn 4 đại từ trong câu sau.",
+      "tokens": [
+        "This",
+        "is",
+        "mine,",
+        "and",
+        "those",
+        "are",
+        "yours."
+      ],
+      "answer_indices": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "count": 4,
+      "rule_vi": "Đại từ đứng thay cho một danh từ, nên sau nó không có danh từ. Tính từ sở hữu như my, her, their luôn có danh từ đi ngay sau, nên chúng không phải đại từ."
+    },
+    {
+      "id": "P5.1-04",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 đại từ trong câu sau.",
+      "tokens": [
+        "They",
+        "help",
+        "themselves",
+        "to",
+        "the",
+        "fruit."
+      ],
+      "answer_indices": [
+        0,
+        2
+      ],
+      "count": 2,
+      "rule_vi": "Đại từ đứng thay cho một danh từ, nên sau nó không có danh từ. Tính từ sở hữu như my, her, their luôn có danh từ đi ngay sau, nên chúng không phải đại từ."
+    },
+    {
+      "id": "P5.1-05",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 đại từ trong câu sau.",
+      "tokens": [
+        "I",
+        "told",
+        "myself",
+        "to",
+        "stay",
+        "calm."
+      ],
+      "answer_indices": [
+        0,
+        2
+      ],
+      "count": 2,
+      "rule_vi": "Đại từ đứng thay cho một danh từ, nên sau nó không có danh từ. Tính từ sở hữu như my, her, their luôn có danh từ đi ngay sau, nên chúng không phải đại từ."
+    },
+    {
+      "id": "P5.1-06",
+      "type": "select_words",
+      "prompt_vi": "Chọn 2 đại từ trong câu sau.",
+      "tokens": [
+        "Everyone",
+        "knows",
+        "that",
+        "the",
+        "answer",
+        "is",
+        "ours."
+      ],
+      "answer_indices": [
+        0,
+        6
+      ],
+      "count": 2,
+      "rule_vi": "Đại từ đứng thay cho một danh từ, nên sau nó không có danh từ. Tính từ sở hữu như my, her, their luôn có danh từ đi ngay sau, nên chúng không phải đại từ."
+    },
+    {
+      "id": "P5.1-07",
+      "type": "select_words",
+      "prompt_vi": "Chọn 4 đại từ trong câu sau.",
+      "tokens": [
+        "He",
+        "hurt",
+        "himself,",
+        "so",
+        "someone",
+        "called",
+        "us."
+      ],
+      "answer_indices": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "count": 4,
+      "rule_vi": "Đại từ đứng thay cho một danh từ, nên sau nó không có danh từ. Tính từ sở hữu như my, her, their luôn có danh từ đi ngay sau, nên chúng không phải đại từ."
+    },
+    {
+      "id": "P5.1-08",
+      "type": "select_words",
+      "prompt_vi": "Chọn 4 đại từ trong câu sau.",
+      "tokens": [
+        "You",
+        "keep",
+        "it,",
+        "and",
+        "we",
+        "keep",
+        "ours."
+      ],
+      "answer_indices": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "count": 4,
+      "rule_vi": "Đại từ đứng thay cho một danh từ, nên sau nó không có danh từ. Tính từ sở hữu như my, her, their luôn có danh từ đi ngay sau, nên chúng không phải đại từ."
+    },
+    {
+      "id": "P5.1-09",
+      "type": "select_words",
+      "prompt_vi": "Chọn 3 đại từ trong câu sau.",
+      "tokens": [
+        "Someone",
+        "left",
+        "her",
+        "bag",
+        "here,",
+        "and",
+        "nobody",
+        "claims",
+        "it."
+      ],
+      "answer_indices": [
+        0,
+        6,
+        8
+      ],
+      "count": 3,
+      "rule_vi": "Đại từ đứng thay cho một danh từ, nên sau nó không có danh từ. Tính từ sở hữu như my, her, their luôn có danh từ đi ngay sau, nên chúng không phải đại từ."
+    },
+    {
+      "id": "P5.1-10",
+      "type": "select_words",
+      "prompt_vi": "Chọn 4 đại từ trong câu sau.",
+      "tokens": [
+        "We",
+        "meet",
+        "them",
+        "at",
+        "the",
+        "market,",
+        "and",
+        "they",
+        "greet",
+        "us",
+        "warmly."
+      ],
+      "answer_indices": [
+        0,
+        2,
+        7,
+        9
+      ],
+      "count": 4,
+      "rule_vi": "Đại từ đứng thay cho một danh từ, nên sau nó không có danh từ. Tính từ sở hữu như my, her, their luôn có danh từ đi ngay sau, nên chúng không phải đại từ."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

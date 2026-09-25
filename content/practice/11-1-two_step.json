@@ -1,0 +1,490 @@
+{
+  "practice_id": "11.1",
+  "stage": 11,
+  "title_vi": "Luyện tập: thì và thể",
+  "type": "two_step",
+  "part": "thì và thể",
+  "items": [
+    {
+      "id": "P11.1-01",
+      "type": "two_step",
+      "prompt_vi": "Nam đi bộ đến trường mỗi ngày.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "hiện tại",
+          "aspect": "đơn giản",
+          "voice": "chủ động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "is",
+          "to",
+          "walked",
+          "day",
+          "Nam",
+          "walks",
+          "school",
+          "every"
+        ],
+        "answer": "Nam walks to school every day.",
+        "decoys": [
+          "walked",
+          "is"
+        ]
+      },
+      "rule_vi": "Câu này ở thì hiện tại, thể đơn giản, dạng chủ động."
+    },
+    {
+      "id": "P11.1-02",
+      "type": "two_step",
+      "prompt_vi": "Bây giờ cô ấy đang viết thư.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "hiện tại",
+          "aspect": "tiếp diễn",
+          "voice": "chủ động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "now",
+          "a",
+          "written",
+          "writing",
+          "She",
+          "is",
+          "has",
+          "letter"
+        ],
+        "answer": "She is writing a letter now.",
+        "decoys": [
+          "has",
+          "written"
+        ]
+      },
+      "rule_vi": "Câu này ở thì hiện tại, thể tiếp diễn, dạng chủ động."
+    },
+    {
+      "id": "P11.1-03",
+      "type": "two_step",
+      "prompt_vi": "Họ đã dọn xong căn phòng.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "hiện tại",
+          "aspect": "hoàn thành",
+          "voice": "chủ động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "room",
+          "cleaning",
+          "They",
+          "the",
+          "cleaned",
+          "have",
+          "are"
+        ],
+        "answer": "They have cleaned the room.",
+        "decoys": [
+          "are",
+          "cleaning"
+        ]
+      },
+      "rule_vi": "Câu này ở thì hiện tại, thể hoàn thành, dạng chủ động."
+    },
+    {
+      "id": "P11.1-04",
+      "type": "two_step",
+      "prompt_vi": "Tối qua tôi xem một bộ phim.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "quá khứ",
+          "aspect": "đơn giản",
+          "voice": "chủ động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "I",
+          "have",
+          "watching",
+          "film",
+          "night",
+          "last",
+          "watched",
+          "a"
+        ],
+        "answer": "I watched a film last night.",
+        "decoys": [
+          "have",
+          "watching"
+        ]
+      },
+      "rule_vi": "Câu này ở thì quá khứ, thể đơn giản, dạng chủ động."
+    },
+    {
+      "id": "P11.1-05",
+      "type": "two_step",
+      "prompt_vi": "Lúc đó trời đang mưa.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "quá khứ",
+          "aspect": "tiếp diễn",
+          "voice": "chủ động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "raining",
+          "had",
+          "then",
+          "was",
+          "It",
+          "rained"
+        ],
+        "answer": "It was raining then.",
+        "decoys": [
+          "had",
+          "rained"
+        ]
+      },
+      "rule_vi": "Câu này ở thì quá khứ, thể tiếp diễn, dạng chủ động."
+    },
+    {
+      "id": "P11.1-06",
+      "type": "two_step",
+      "prompt_vi": "Trước khi tôi đến, họ đã rời đi.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "quá khứ",
+          "aspect": "hoàn thành",
+          "voice": "chủ động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "before",
+          "arrived",
+          "leaving",
+          "They",
+          "had",
+          "I",
+          "left",
+          "were"
+        ],
+        "answer": "They had left before I arrived.",
+        "decoys": [
+          "were",
+          "leaving"
+        ]
+      },
+      "rule_vi": "Câu này ở thì quá khứ, thể hoàn thành, dạng chủ động."
+    },
+    {
+      "id": "P11.1-07",
+      "type": "two_step",
+      "prompt_vi": "Ngày mai tôi sẽ gọi cho chị.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "tương lai",
+          "aspect": "đơn giản",
+          "voice": "chủ động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "am",
+          "tomorrow",
+          "calling",
+          "will",
+          "I",
+          "call",
+          "you"
+        ],
+        "answer": "I will call you tomorrow.",
+        "decoys": [
+          "am",
+          "calling"
+        ]
+      },
+      "rule_vi": "Câu này ở thì tương lai, thể đơn giản, dạng chủ động."
+    },
+    {
+      "id": "P11.1-08",
+      "type": "two_step",
+      "prompt_vi": "Tuần sau vào giờ này các em sẽ đang thi.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "tương lai",
+          "aspect": "tiếp diễn",
+          "voice": "chủ động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "have",
+          "this",
+          "the",
+          "next",
+          "week",
+          "taken",
+          "will",
+          "The",
+          "exam",
+          "be",
+          "students",
+          "taking",
+          "time",
+          "at"
+        ],
+        "answer": "The students will be taking the exam at this time next week.",
+        "decoys": [
+          "have",
+          "taken"
+        ]
+      },
+      "rule_vi": "Câu này ở thì tương lai, thể tiếp diễn, dạng chủ động."
+    },
+    {
+      "id": "P11.1-09",
+      "type": "two_step",
+      "prompt_vi": "Đến thứ Sáu tôi sẽ làm xong việc này.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "tương lai",
+          "aspect": "hoàn thành",
+          "voice": "chủ động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "am",
+          "by",
+          "Friday",
+          "finishing",
+          "have",
+          "will",
+          "work",
+          "I",
+          "finished",
+          "this"
+        ],
+        "answer": "I will have finished this work by Friday.",
+        "decoys": [
+          "am",
+          "finishing"
+        ]
+      },
+      "rule_vi": "Câu này ở thì tương lai, thể hoàn thành, dạng chủ động."
+    },
+    {
+      "id": "P11.1-10",
+      "type": "two_step",
+      "prompt_vi": "Tôi đợi ở đây một tiếng rồi.",
+      "step1": {
+        "prompt_vi": "Chọn thì, thể và dạng cho câu trên.",
+        "tense_options": [
+          "hiện tại",
+          "quá khứ",
+          "tương lai"
+        ],
+        "aspect_options": [
+          "đơn giản",
+          "tiếp diễn",
+          "hoàn thành",
+          "hoàn thành tiếp diễn"
+        ],
+        "voice_options": [
+          "chủ động",
+          "bị động"
+        ],
+        "answer": {
+          "tense": "hiện tại",
+          "aspect": "hoàn thành tiếp diễn",
+          "voice": "chủ động"
+        }
+      },
+      "step2": {
+        "prompt_vi": "Sắp xếp thành câu đúng. Chỉ dùng một trợ động từ và một dạng của động từ chính.",
+        "chips": [
+          "waiting",
+          "been",
+          "have",
+          "for",
+          "hour",
+          "was",
+          "waited",
+          "an",
+          "I",
+          "here"
+        ],
+        "answer": "I have been waiting here for an hour.",
+        "decoys": [
+          "was",
+          "waited"
+        ]
+      },
+      "rule_vi": "Câu này ở thì hiện tại, thể hoàn thành tiếp diễn, dạng chủ động."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "practice_id": "4.1",
+  "stage": 4,
+  "title_vi": "Luyện tập: ba mẫu câu đầu",
+  "type": "reorder",
+  "items": [
+    {
+      "id": "P4.1-01",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "kitten",
+        "The",
+        "sleeps"
+      ],
+      "answer": "The kitten sleeps.",
+      "rule_vi": "Mẫu S + V chỉ cần chủ ngữ và động từ.",
+      "pattern": "S + V"
+    },
+    {
+      "id": "P4.1-02",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "cousin",
+        "My",
+        "drinks",
+        "milk"
+      ],
+      "answer": "My cousin drinks milk.",
+      "rule_vi": "Tân ngữ là thứ bị hành động tác động lên, đứng ngay sau động từ.",
+      "pattern": "S + V + O"
+    },
+    {
+      "id": "P4.1-03",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "The",
+        "smells",
+        "soup",
+        "good"
+      ],
+      "answer": "The soup smells good.",
+      "rule_vi": "Bổ ngữ cho biết chủ ngữ như thế nào, đứng sau các động từ như be, smell, look.",
+      "pattern": "S + V + C"
+    },
+    {
+      "id": "P4.1-04",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "stops",
+        "The",
+        "engine"
+      ],
+      "answer": "The engine stops.",
+      "rule_vi": "Mẫu S + V chỉ cần chủ ngữ và động từ.",
+      "pattern": "S + V"
+    },
+    {
+      "id": "P4.1-05",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "grow",
+        "Farmers",
+        "corn"
+      ],
+      "answer": "Farmers grow corn.",
+      "rule_vi": "Tân ngữ đứng ngay sau động từ, không có giới từ ở giữa.",
+      "pattern": "S + V + O"
+    },
+    {
+      "id": "P4.1-06",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "sounds",
+        "voice",
+        "Her",
+        "strange"
+      ],
+      "answer": "Her voice sounds strange.",
+      "rule_vi": "Sau sound là một tính từ làm bổ ngữ, không phải trạng từ.",
+      "pattern": "S + V + C"
+    },
+    {
+      "id": "P4.1-07",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "mechanic",
+        "the",
+        "brakes",
+        "checks",
+        "The"
+      ],
+      "answer": "The mechanic checks the brakes.",
+      "rule_vi": "Tân ngữ là thứ bị hành động tác động lên.",
+      "pattern": "S + V + O"
+    },
+    {
+      "id": "P4.1-08",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "cold",
+        "This",
+        "is",
+        "juice"
+      ],
+      "answer": "This juice is cold.",
+      "rule_vi": "Sau be là bổ ngữ, cho biết chủ ngữ như thế nào.",
+      "pattern": "S + V + C"
+    },
+    {
+      "id": "P4.1-09",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "guests",
+        "The",
+        "wait"
+      ],
+      "answer": "The guests wait.",
+      "rule_vi": "Động từ nội động từ không cần tân ngữ.",
+      "pattern": "S + V"
+    },
+    {
+      "id": "P4.1-10",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "stickers",
+        "collect",
+        "Children"
+      ],
+      "answer": "Children collect stickers.",
+      "rule_vi": "Chủ ngữ số nhiều thì động từ không thêm -s.",
+      "pattern": "S + V + O"
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

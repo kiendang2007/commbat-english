@@ -1,0 +1,563 @@
+{
+  "practice_id": "6.2",
+  "stage": 6,
+  "title_vi": "Luyện tập: điền trợ động từ",
+  "type": "blank",
+  "items": [
+    {
+      "id": "P6.2-01",
+      "type": "blank",
+      "sentence_en": "It ___ raining now.",
+      "options": [
+        {
+          "key": "A",
+          "text": "am"
+        },
+        {
+          "key": "B",
+          "text": "is"
+        },
+        {
+          "key": "C",
+          "text": "are"
+        },
+        {
+          "key": "D",
+          "text": "was"
+        },
+        {
+          "key": "E",
+          "text": "were"
+        },
+        {
+          "key": "F",
+          "text": "do"
+        },
+        {
+          "key": "G",
+          "text": "does"
+        },
+        {
+          "key": "H",
+          "text": "did"
+        },
+        {
+          "key": "I",
+          "text": "have"
+        },
+        {
+          "key": "J",
+          "text": "has"
+        },
+        {
+          "key": "K",
+          "text": "had"
+        }
+      ],
+      "answer": "B",
+      "answer_text": "is",
+      "rule_vi": "Thể tiếp diễn dùng một dạng của be. Chủ ngữ it ở hiện tại thì dùng is.",
+      "prompt_vi": "Bây giờ trời đang mưa."
+    },
+    {
+      "id": "P6.2-02",
+      "type": "blank",
+      "sentence_en": "They ___ waiting at the station yesterday.",
+      "options": [
+        {
+          "key": "A",
+          "text": "am"
+        },
+        {
+          "key": "B",
+          "text": "is"
+        },
+        {
+          "key": "C",
+          "text": "are"
+        },
+        {
+          "key": "D",
+          "text": "was"
+        },
+        {
+          "key": "E",
+          "text": "were"
+        },
+        {
+          "key": "F",
+          "text": "do"
+        },
+        {
+          "key": "G",
+          "text": "does"
+        },
+        {
+          "key": "H",
+          "text": "did"
+        },
+        {
+          "key": "I",
+          "text": "have"
+        },
+        {
+          "key": "J",
+          "text": "has"
+        },
+        {
+          "key": "K",
+          "text": "had"
+        }
+      ],
+      "answer": "E",
+      "answer_text": "were",
+      "rule_vi": "Thể tiếp diễn ở quá khứ với chủ ngữ số nhiều thì dùng were.",
+      "prompt_vi": "Hôm qua họ đang đợi ở sân ga."
+    },
+    {
+      "id": "P6.2-03",
+      "type": "blank",
+      "sentence_en": "___ Nam like coffee?",
+      "options": [
+        {
+          "key": "A",
+          "text": "am"
+        },
+        {
+          "key": "B",
+          "text": "is"
+        },
+        {
+          "key": "C",
+          "text": "are"
+        },
+        {
+          "key": "D",
+          "text": "was"
+        },
+        {
+          "key": "E",
+          "text": "were"
+        },
+        {
+          "key": "F",
+          "text": "do"
+        },
+        {
+          "key": "G",
+          "text": "does"
+        },
+        {
+          "key": "H",
+          "text": "did"
+        },
+        {
+          "key": "I",
+          "text": "have"
+        },
+        {
+          "key": "J",
+          "text": "has"
+        },
+        {
+          "key": "K",
+          "text": "had"
+        }
+      ],
+      "answer": "G",
+      "answer_text": "Does",
+      "rule_vi": "Câu hỏi ở thì hiện tại đơn, chủ ngữ ngôi thứ ba số ít, nên dùng does và động từ chính về nguyên thể.",
+      "prompt_vi": "Nam có thích cà phê không?"
+    },
+    {
+      "id": "P6.2-04",
+      "type": "blank",
+      "sentence_en": "We ___ finished.",
+      "options": [
+        {
+          "key": "A",
+          "text": "am"
+        },
+        {
+          "key": "B",
+          "text": "is"
+        },
+        {
+          "key": "C",
+          "text": "are"
+        },
+        {
+          "key": "D",
+          "text": "was"
+        },
+        {
+          "key": "E",
+          "text": "were"
+        },
+        {
+          "key": "F",
+          "text": "do"
+        },
+        {
+          "key": "G",
+          "text": "does"
+        },
+        {
+          "key": "H",
+          "text": "did"
+        },
+        {
+          "key": "I",
+          "text": "have"
+        },
+        {
+          "key": "J",
+          "text": "has"
+        },
+        {
+          "key": "K",
+          "text": "had"
+        }
+      ],
+      "answer": "I",
+      "answer_text": "have",
+      "rule_vi": "Thể hoàn thành dùng have hoặc has. Chủ ngữ we thì dùng have.",
+      "prompt_vi": "Chúng tôi ăn xong rồi."
+    },
+    {
+      "id": "P6.2-05",
+      "type": "blank",
+      "sentence_en": "She ___ lived in Hue since 2020.",
+      "options": [
+        {
+          "key": "A",
+          "text": "am"
+        },
+        {
+          "key": "B",
+          "text": "is"
+        },
+        {
+          "key": "C",
+          "text": "are"
+        },
+        {
+          "key": "D",
+          "text": "was"
+        },
+        {
+          "key": "E",
+          "text": "were"
+        },
+        {
+          "key": "F",
+          "text": "do"
+        },
+        {
+          "key": "G",
+          "text": "does"
+        },
+        {
+          "key": "H",
+          "text": "did"
+        },
+        {
+          "key": "I",
+          "text": "have"
+        },
+        {
+          "key": "J",
+          "text": "has"
+        },
+        {
+          "key": "K",
+          "text": "had"
+        }
+      ],
+      "answer": "J",
+      "answer_text": "has",
+      "rule_vi": "Chủ ngữ ngôi thứ ba số ít ở thể hoàn thành thì dùng has.",
+      "prompt_vi": "Cô ấy sống ở Huế từ năm 2020."
+    },
+    {
+      "id": "P6.2-06",
+      "type": "blank",
+      "sentence_en": "I ___ meet him last year.",
+      "options": [
+        {
+          "key": "A",
+          "text": "am"
+        },
+        {
+          "key": "B",
+          "text": "is"
+        },
+        {
+          "key": "C",
+          "text": "are"
+        },
+        {
+          "key": "D",
+          "text": "was"
+        },
+        {
+          "key": "E",
+          "text": "were"
+        },
+        {
+          "key": "F",
+          "text": "do"
+        },
+        {
+          "key": "G",
+          "text": "does"
+        },
+        {
+          "key": "H",
+          "text": "did"
+        },
+        {
+          "key": "I",
+          "text": "have"
+        },
+        {
+          "key": "J",
+          "text": "has"
+        },
+        {
+          "key": "K",
+          "text": "had"
+        }
+      ],
+      "answer": "H",
+      "answer_text": "did",
+      "rule_vi": "Quá khứ đơn nhấn mạnh thì dùng did, và động từ chính giữ nguyên thể.",
+      "prompt_vi": "Năm ngoái tôi có gặp anh ấy."
+    },
+    {
+      "id": "P6.2-07",
+      "type": "blank",
+      "sentence_en": "The children ___ sleeping.",
+      "options": [
+        {
+          "key": "A",
+          "text": "am"
+        },
+        {
+          "key": "B",
+          "text": "is"
+        },
+        {
+          "key": "C",
+          "text": "are"
+        },
+        {
+          "key": "D",
+          "text": "was"
+        },
+        {
+          "key": "E",
+          "text": "were"
+        },
+        {
+          "key": "F",
+          "text": "do"
+        },
+        {
+          "key": "G",
+          "text": "does"
+        },
+        {
+          "key": "H",
+          "text": "did"
+        },
+        {
+          "key": "I",
+          "text": "have"
+        },
+        {
+          "key": "J",
+          "text": "has"
+        },
+        {
+          "key": "K",
+          "text": "had"
+        }
+      ],
+      "answer": "C",
+      "answer_text": "are",
+      "rule_vi": "children là số nhiều, thể tiếp diễn ở hiện tại thì dùng are.",
+      "prompt_vi": "Các em nhỏ đang ngủ."
+    },
+    {
+      "id": "P6.2-08",
+      "type": "blank",
+      "sentence_en": "I ___ cooking then.",
+      "options": [
+        {
+          "key": "A",
+          "text": "am"
+        },
+        {
+          "key": "B",
+          "text": "is"
+        },
+        {
+          "key": "C",
+          "text": "are"
+        },
+        {
+          "key": "D",
+          "text": "was"
+        },
+        {
+          "key": "E",
+          "text": "were"
+        },
+        {
+          "key": "F",
+          "text": "do"
+        },
+        {
+          "key": "G",
+          "text": "does"
+        },
+        {
+          "key": "H",
+          "text": "did"
+        },
+        {
+          "key": "I",
+          "text": "have"
+        },
+        {
+          "key": "J",
+          "text": "has"
+        },
+        {
+          "key": "K",
+          "text": "had"
+        }
+      ],
+      "answer": "D",
+      "answer_text": "was",
+      "rule_vi": "Chủ ngữ I ở quá khứ tiếp diễn thì dùng was.",
+      "prompt_vi": "Lúc đó tôi đang nấu ăn."
+    },
+    {
+      "id": "P6.2-09",
+      "type": "blank",
+      "sentence_en": "___ he play basketball?",
+      "options": [
+        {
+          "key": "A",
+          "text": "am"
+        },
+        {
+          "key": "B",
+          "text": "is"
+        },
+        {
+          "key": "C",
+          "text": "are"
+        },
+        {
+          "key": "D",
+          "text": "was"
+        },
+        {
+          "key": "E",
+          "text": "were"
+        },
+        {
+          "key": "F",
+          "text": "do"
+        },
+        {
+          "key": "G",
+          "text": "does"
+        },
+        {
+          "key": "H",
+          "text": "did"
+        },
+        {
+          "key": "I",
+          "text": "have"
+        },
+        {
+          "key": "J",
+          "text": "has"
+        },
+        {
+          "key": "K",
+          "text": "had"
+        }
+      ],
+      "answer": "G",
+      "answer_text": "Does",
+      "rule_vi": "Câu hỏi hiện tại đơn với he thì dùng does.",
+      "prompt_vi": "Anh ấy có chơi bóng rổ không?"
+    },
+    {
+      "id": "P6.2-10",
+      "type": "blank",
+      "sentence_en": "Before I arrived, they ___ left.",
+      "options": [
+        {
+          "key": "A",
+          "text": "am"
+        },
+        {
+          "key": "B",
+          "text": "is"
+        },
+        {
+          "key": "C",
+          "text": "are"
+        },
+        {
+          "key": "D",
+          "text": "was"
+        },
+        {
+          "key": "E",
+          "text": "were"
+        },
+        {
+          "key": "F",
+          "text": "do"
+        },
+        {
+          "key": "G",
+          "text": "does"
+        },
+        {
+          "key": "H",
+          "text": "did"
+        },
+        {
+          "key": "I",
+          "text": "have"
+        },
+        {
+          "key": "J",
+          "text": "has"
+        },
+        {
+          "key": "K",
+          "text": "had"
+        }
+      ],
+      "answer": "K",
+      "answer_text": "had",
+      "rule_vi": "Hành động xảy ra trước một mốc trong quá khứ thì dùng had cộng V-3.",
+      "prompt_vi": "Trước khi tôi đến, họ đã rời đi."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

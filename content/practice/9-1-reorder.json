@@ -1,0 +1,159 @@
+{
+  "practice_id": "9.1",
+  "stage": 9,
+  "title_vi": "Luyện tập: câu hỏi Yes/No",
+  "type": "reorder",
+  "items": [
+    {
+      "id": "P9.1-01",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "you",
+        "like",
+        "?",
+        "Do",
+        "tea"
+      ],
+      "answer": "Do you like tea?",
+      "rule_vi": "Câu hỏi Yes/No đảo trợ động từ lên trước chủ ngữ. Hiện tại đơn với you thì dùng do."
+    },
+    {
+      "id": "P9.1-02",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "?",
+        "a",
+        "book",
+        "she",
+        "Is",
+        "reading"
+      ],
+      "answer": "Is she reading a book?",
+      "rule_vi": "Trợ động từ is đảo lên trước chủ ngữ she."
+    },
+    {
+      "id": "P9.1-03",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "win",
+        "match",
+        "Did",
+        "the",
+        "?",
+        "they"
+      ],
+      "answer": "Did they win the match?",
+      "rule_vi": "Quá khứ đơn dùng did ở đầu câu, động từ chính về nguyên thể."
+    },
+    {
+      "id": "P9.1-04",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "report",
+        "?",
+        "finished",
+        "you",
+        "the",
+        "Have"
+      ],
+      "answer": "Have you finished the report?",
+      "rule_vi": "Thể hoàn thành đảo have lên trước chủ ngữ."
+    },
+    {
+      "id": "P9.1-05",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "guests",
+        "outside",
+        "the",
+        "Are",
+        "?",
+        "waiting"
+      ],
+      "answer": "Are the guests waiting outside?",
+      "rule_vi": "Trợ động từ are đảo lên trước cụm chủ ngữ the guests."
+    },
+    {
+      "id": "P9.1-06",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "work",
+        "on",
+        "Sunday",
+        "?",
+        "Nam",
+        "Does"
+      ],
+      "answer": "Does Nam work on Sunday?",
+      "rule_vi": "Ngôi thứ ba số ít dùng does, và động từ chính về nguyên thể."
+    },
+    {
+      "id": "P9.1-07",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "?",
+        "long",
+        "film",
+        "the",
+        "Was"
+      ],
+      "answer": "Was the film long?",
+      "rule_vi": "be là động từ chính, vẫn đảo lên đầu câu."
+    },
+    {
+      "id": "P9.1-08",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "Can",
+        "brother",
+        "?",
+        "swim",
+        "your"
+      ],
+      "answer": "Can your brother swim?",
+      "rule_vi": "Động từ khuyết thiếu đảo lên trước chủ ngữ."
+    },
+    {
+      "id": "P9.1-09",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "bus",
+        "Has",
+        "?",
+        "arrived",
+        "the"
+      ],
+      "answer": "Has the bus arrived?",
+      "rule_vi": "Thể hoàn thành với chủ ngữ số ít thì dùng has ở đầu câu."
+    },
+    {
+      "id": "P9.1-10",
+      "type": "reorder",
+      "prompt_vi": "Sắp xếp các từ sau thành một câu đúng.",
+      "chips": [
+        "school",
+        "Were",
+        "?",
+        "yesterday",
+        "they",
+        "at"
+      ],
+      "answer": "Were they at school yesterday?",
+      "rule_vi": "be ở quá khứ số nhiều đảo lên đầu câu."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}

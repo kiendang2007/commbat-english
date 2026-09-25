@@ -1,0 +1,263 @@
+{
+  "practice_id": "5.2",
+  "stage": 5,
+  "title_vi": "Luyện tập: điền đại từ",
+  "type": "blank",
+  "items": [
+    {
+      "id": "P5.2-01",
+      "type": "blank",
+      "sentence_en": "Lan lost her phone yesterday. A neighbour found ___ near the gate.",
+      "options": [
+        {
+          "key": "A",
+          "text": "it"
+        },
+        {
+          "key": "B",
+          "text": "its"
+        },
+        {
+          "key": "C",
+          "text": "them"
+        },
+        {
+          "key": "D",
+          "text": "he"
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Tân ngữ thay cho một vật số ít là it. its là tính từ sở hữu nên phải có danh từ đi sau."
+    },
+    {
+      "id": "P5.2-02",
+      "type": "blank",
+      "sentence_en": "My brothers are tall. ___ play football every Sunday.",
+      "options": [
+        {
+          "key": "A",
+          "text": "They"
+        },
+        {
+          "key": "B",
+          "text": "Them"
+        },
+        {
+          "key": "C",
+          "text": "Their"
+        },
+        {
+          "key": "D",
+          "text": "Theirs"
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Chủ ngữ số nhiều dùng they. them chỉ đứng ở vị trí tân ngữ."
+    },
+    {
+      "id": "P5.2-03",
+      "type": "blank",
+      "sentence_en": "This bag is not mine. I think it is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text": "her"
+        },
+        {
+          "key": "B",
+          "text": "hers"
+        },
+        {
+          "key": "C",
+          "text": "herself"
+        },
+        {
+          "key": "D",
+          "text": "she"
+        }
+      ],
+      "answer": "B",
+      "rule_vi": "Đại từ sở hữu đứng một mình, không có danh từ đi sau."
+    },
+    {
+      "id": "P5.2-04",
+      "type": "blank",
+      "sentence_en": "Nam cut ___ with a knife. The wound was small.",
+      "options": [
+        {
+          "key": "A",
+          "text": "him"
+        },
+        {
+          "key": "B",
+          "text": "his"
+        },
+        {
+          "key": "C",
+          "text": "himself"
+        },
+        {
+          "key": "D",
+          "text": "he"
+        }
+      ],
+      "answer": "C",
+      "rule_vi": "Khi người gây ra hành động và người bị tác động là một, dùng đại từ phản thân."
+    },
+    {
+      "id": "P5.2-05",
+      "type": "blank",
+      "sentence_en": "The children are hungry. Give ___ some bread.",
+      "options": [
+        {
+          "key": "A",
+          "text": "they"
+        },
+        {
+          "key": "B",
+          "text": "them"
+        },
+        {
+          "key": "C",
+          "text": "their"
+        },
+        {
+          "key": "D",
+          "text": "theirs"
+        }
+      ],
+      "answer": "B",
+      "rule_vi": "Sau động từ là vị trí tân ngữ, nên dùng them."
+    },
+    {
+      "id": "P5.2-06",
+      "type": "blank",
+      "sentence_en": "___ is at the door. I hear footsteps outside.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Someone"
+        },
+        {
+          "key": "B",
+          "text": "Anyone"
+        },
+        {
+          "key": "C",
+          "text": "Everything"
+        },
+        {
+          "key": "D",
+          "text": "Nobody"
+        }
+      ],
+      "answer": "A",
+      "rule_vi": "Có tiếng bước chân nên có một người nào đó, không phải không ai."
+    },
+    {
+      "id": "P5.2-07",
+      "type": "blank",
+      "sentence_en": "Our house is old. ___ is older than yours.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Our"
+        },
+        {
+          "key": "B",
+          "text": "Ours"
+        },
+        {
+          "key": "C",
+          "text": "Us"
+        },
+        {
+          "key": "D",
+          "text": "We"
+        }
+      ],
+      "answer": "B",
+      "rule_vi": "Đầu câu là chủ ngữ và không có danh từ đi sau, nên dùng đại từ sở hữu."
+    },
+    {
+      "id": "P5.2-08",
+      "type": "blank",
+      "sentence_en": "Minh and I share a room. ___ clean it every week.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Us"
+        },
+        {
+          "key": "B",
+          "text": "We"
+        },
+        {
+          "key": "C",
+          "text": "Our"
+        },
+        {
+          "key": "D",
+          "text": "Ours"
+        }
+      ],
+      "answer": "B",
+      "rule_vi": "Chủ ngữ gồm người khác và tôi thì dùng we."
+    },
+    {
+      "id": "P5.2-09",
+      "type": "blank",
+      "sentence_en": "The cat licks ___ after every meal.",
+      "options": [
+        {
+          "key": "A",
+          "text": "it"
+        },
+        {
+          "key": "B",
+          "text": "its"
+        },
+        {
+          "key": "C",
+          "text": "itself"
+        },
+        {
+          "key": "D",
+          "text": "himself"
+        }
+      ],
+      "answer": "C",
+      "rule_vi": "Con mèo tự liếm chính nó, nên dùng đại từ phản thân của it."
+    },
+    {
+      "id": "P5.2-10",
+      "type": "blank",
+      "sentence_en": "These shoes are too big for me. Try ___ on.",
+      "options": [
+        {
+          "key": "A",
+          "text": "it"
+        },
+        {
+          "key": "B",
+          "text": "they"
+        },
+        {
+          "key": "C",
+          "text": "them"
+        },
+        {
+          "key": "D",
+          "text": "their"
+        }
+      ],
+      "answer": "C",
+      "rule_vi": "Đôi giày là số nhiều và đứng ở vị trí tân ngữ."
+    }
+  ],
+  "video_url": null,
+  "_internal": {
+    "note": "Nội dung luyện tập. Website không đọc khoá bắt đầu bằng dấu gạch dưới.",
+    "made": "25/09/2026, Kiên duyệt nội dung ngày 25/09."
+  }
+}
